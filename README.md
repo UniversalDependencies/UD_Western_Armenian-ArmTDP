@@ -4,7 +4,7 @@ The Western Armenian UD treebank is based on the Western Armenian section of the
 
 # Introduction
 
-The UD_Western_Armenian-ArmTDP treebank is based on the Հայերէնի Ծառադարան dataset (version 1.0), a mix of random sentences sampled from different sources and representing different genres and domains, released in several formats (local on-line newspaper and journal articles, fiction dated between 1895 and 2020). The treebank consists 1780 sentences (~36K tokens).
+The UD_Western_Armenian-ArmTDP treebank is based on the Հայերէնի Ծառադարան dataset (version 1.0), a mix of texts sampled from different sources and representing different genres and domains, released in several formats (local on-line newspaper and journal articles, fiction dated between 1895 and 2020). The treebank consists 1780 sentences (~36K tokens).
 
 The annotation scheme was developed in according to the UD guidelines. The original data was manually annotated by the ArmTDP team. The tokenization and POS-tagging process was carried out through alternating steps of automatic scripting and manual revision in the YerevaNN research lab (led by Hrant H. Khachatrian). The treebank is so far the only manual verificated corpus of Western Armenian supplied with comprehensive morphological annotation and syntactic annotation in the form of a complete dependency tree provided for every sentence.
 
