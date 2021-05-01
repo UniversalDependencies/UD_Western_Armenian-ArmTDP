@@ -1320,7 +1320,7 @@
 3	ըլլային	ըլլալ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Imp|VerbForm=Fin|Voice=Mid	0	root	_	Translit=ëllayin|LTranslit=ëllal
 4	ուր	ուր	ADV	_	PronType=Rel	6	advmod	_	Translit=owr|LTranslit=owr
 5	կը	կը	AUX	_	Aspect=Imp|Mood=Ind	6	aux	_	Translit=kë|LTranslit=kë
-6	քալէին	քալել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Imp|VerbForm=Fin|Voice=Mid	1	advcl:relcl	_	Translit=k’alēin|LTranslit=k’alel
+6	քալէին	քալել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Imp|VerbForm=Fin|Voice=Mid	1	acl:relcl	_	Translit=k’alēin|LTranslit=k’alel
 7	անխօս	անխօս	ADJ	_	Degree=Pos	6	xcomp	_	Translit=anxòs|LTranslit=anxòs|SpaceAfter=No
 8	։	։	PUNCT	_	_	3	punct	_	Translit=.|LTranslit=.
 
@@ -3992,7 +3992,7 @@
 4	ի	ը	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Sing	3	dep	_	Translit=i|LTranslit=ë
 5	պատմական	պատմական	ADJ	_	_	6	amod	_	Translit=patmakan|LTranslit=patmakan
 6	կիրակիէն	կիրակի	NOUN	_	Animacy=Nhum|Case=Abl|Definite=Def|Number=Sing	12	obl	_	Translit=kirakiēn|LTranslit=kiraki
-7	սկսեալ	սկսեալ	ADP	_	AdpType=Comadp	6	case	_	Translit=skseal|LTranslit=skseal|SpaceAfter=No
+7	սկսեալ	սկսեալ	ADP	_	AdpType=Post	6	case	_	Translit=skseal|LTranslit=skseal|SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	Translit=,|LTranslit=,
 9	յանկարծ	յանկարծ	ADV	_	_	12	advmod	_	Translit=yankarç|LTranslit=yankarç
 10	Պոլսոյ	Պոլիս|Պօլիս	PROPN	_	Animacy=Nhum|Case=Dat|Definite=Ind|NameType=Geo|Number=Sing	11	nmod:poss	_	Translit=Polsoy|LTranslit=Polis|Pòlis
@@ -4221,7 +4221,7 @@
 11	,	,	PUNCT	_	_	14	punct	_	Translit=,|LTranslit=,
 12	կարգիս	կարգ	NOUN	_	Animacy=Nhum|Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=1	14	obj	_	Translit=kargis|LTranslit=karg
 13	կը	կը	AUX	_	Aspect=Imp|Mood=Ind	14	aux	_	Translit=kë|LTranslit=kë
-14	սպասեմ	սպասել	VERB	_	Aspect=Imp|Mood=Sub|Number=Sing|Person=1|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	Translit=spasem|LTranslit=spasel
+14	սպասեմ	սպասել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=1|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	Translit=spasem|LTranslit=spasel
 15	կոր	կոր	AUX	_	Aspect=Prog|Mood=Ind|Style=Coll	14	aux	_	Translit=kor|LTranslit=kor|SpaceAfter=No
 16	։	։	PUNCT	_	_	4	punct	_	Translit=.|LTranslit=.
 
@@ -4831,7 +4831,7 @@
 1	—	—	PUNCT	_	_	4	punct	_	Translit=—|LTranslit=—
 2	Տավուլին	տավուլ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	4	obj	_	Translit=Tavowlin|LTranslit=tavowl
 3	կը	կը	AUX	_	Aspect=Imp|Mood=Ind	4	aux	_	Translit=kë|LTranslit=kë
-4	սպասեմ	սպասել	VERB	_	Aspect=Imp|Mood=Sub|Number=Sing|Person=1|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=spasem|LTranslit=spasel
+4	սպասեմ	սպասել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=1|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=spasem|LTranslit=spasel
 5	կոր	կոր	AUX	_	Aspect=Prog|Mood=Ind|Style=Coll	4	aux	_	Translit=kor|LTranslit=kor
 6	որդիս	որդի	NOUN	_	Animacy=Hum|Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	7	obj	_	Translit=ordis|LTranslit=ordi
 7	առնել	առնել	VERB	_	Polarity=Pos|Subcat=Tran|VerbForm=Inf|Voice=Act	4	obl	_	Translit=aṙnel|LTranslit=aṙnel
@@ -5654,7 +5654,7 @@
 16	գիտէ	գիտեմ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	Translit=gitē|LTranslit=gitem
 17	թէ	թէ	SCONJ	_	_	19	mark	_	Translit=t’ē|LTranslit=t’ē
 18	Պոլիս	Պոլիս|Պօլիս	PROPN	_	Animacy=Nhum|Case=Nom|Definite=Ind|NameType=Geo|Number=Sing	19	obl	_	Translit=Polis|LTranslit=Polis|Pòlis
-19	ապաստանած	ապաստանիլ	VERB	_	Aspect=Prosp|Polarity=Pos|Subcat=Intr|VerbForm=Part|Voice=Mid	16	ccomp	_	Translit=apastanaç|LTranslit=apastanil
+19	ապաստանած	ապաստանիլ	VERB	_	Aspect=Perf|Polarity=Pos|Subcat=Intr|VerbForm=Part|Voice=Mid	16	ccomp	_	Translit=apastanaç|LTranslit=apastanil
 20	եմ	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	19	aux	_	Translit=em|LTranslit=em|SpaceAfter=No
 21	։	։	PUNCT	_	_	13	punct	_	Translit=.|LTranslit=.
 
@@ -6463,7 +6463,7 @@
 2	Պարապ	պարապ	ADJ	_	Degree=Pos	3	amod	_	Translit=Parap|LTranslit=parap
 3	տեղը	տեղ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	6	obl	_	Translit=teġë|LTranslit=teġ
 4-5	մի՛	_	_	_	_	_	_	_	Translit=mi՛
-4	մի	մի	PART	_	Mood=Imp|Polarity=Neg	6	advmod	_	Translit=mi|LTranslit=mi
+4	մի	մի	PART	_	Polarity=Neg	6	advmod	_	Translit=mi|LTranslit=mi
 5	՛	՛	PUNCT	_	_	4	punct	_	Translit=՛|LTranslit=՛
 6	սպասէք	սպասել	VERB	_	Aspect=Prosp|Mood=Imp|Number=Plur|Person=2|Subcat=Tran|VerbForm=Fin|Voice=Act	0	root	_	Translit=spasēk’|LTranslit=spasel|SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	Translit=,|LTranslit=,
@@ -6627,7 +6627,7 @@
 4	է	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	Translit=ē|LTranslit=em
 5	որ	որ	PART	_	_	7	discourse	_	Translit=or|LTranslit=or
 6	անպատճառ	անպատճառ	PART	_	_	7	discourse	_	Translit=anpatč̣aṙ|LTranslit=anpatč̣aṙ
-7	տեսնենք	տեսնել	VERB	_	Aspect=Prog|Mood=Sub|Number=Plur|Person=1|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=tesnenk’|LTranslit=tesnel
+7	տեսնենք	տեսնել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=1|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=tesnenk’|LTranslit=tesnel
 8	Զօհրապը	Զօհրապ	PROPN	_	Animacy=Hum|Case=Nom|Definite=Def|NameType=Giv|Number=Sing	7	obj	_	Translit=Zòhrapë|LTranslit=Zòhrap|SpaceAfter=No
 9	...	...	PUNCT	_	_	7	punct	_	Translit=...|LTranslit=...
 
@@ -14044,7 +14044,7 @@
 # translit = «Dē mi vaṙi՛r, ē՛...».
 1	«	«	PUNCT	_	_	4	punct	_	Translit=«|LTranslit=«|SpaceAfter=No
 2	Դէ	դէ	INTJ	_	_	4	discourse	_	Translit=Dē|LTranslit=dē
-3	մի	մի	PART	_	Mood=Imp|Polarity=Neg	4	advmod	_	Translit=mi|LTranslit=mi
+3	մի	մի	PART	_	Polarity=Neg	4	advmod	_	Translit=mi|LTranslit=mi
 4-5	վառի՛ր	_	_	_	_	_	_	_	Translit=vaṙi՛r|SpaceAfter=No
 4	վառիր	վառել	VERB	_	Aspect=Prosp|LangId=Hy|Mood=Imp|Number=Sing|Person=2|Subcat=Tran|VerbForm=Fin|Voice=Act	0	root	_	Translit=vaṙir|LTranslit=vaṙel
 5	՛	՛	PUNCT	_	_	4	punct	_	Translit=՛|LTranslit=՛
@@ -16438,7 +16438,7 @@
 # text = Եւ մի խորհիք որ ձեզի... այնքան ալ բարեկամ է։
 # translit = EW mi xorhik’ or jezi... aynk’an al barekam ē.
 1	Եւ	եւ	CCONJ	_	_	3	cc	_	Translit=EW|LTranslit=ew
-2	մի	մի	PART	_	Mood=Imp|Polarity=Neg	3	advmod	_	Translit=mi|LTranslit=mi
+2	մի	մի	PART	_	Polarity=Neg	3	advmod	_	Translit=mi|LTranslit=mi
 3	խորհիք	խորհիլ	VERB	_	Aspect=Prosp|Mood=Imp|Number=Plur|Person=2|Subcat=Tran|VerbForm=Fin|Voice=Act	0	root	_	Translit=xorhik’|LTranslit=xorhil
 4	որ	որ	SCONJ	_	_	9	mark	_	Translit=or|LTranslit=or
 5	ձեզի	դուք	PRON	_	Animacy=Hum|Case=Dat|Number=Plur|Person=2|PronType=Prs	9	obl	_	Translit=jezi|LTranslit=dowk’|SpaceAfter=No
@@ -18201,7 +18201,7 @@
 3	իրարանցումը	իրարանցում	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Coll	8	obj	_	Translit=iraranc’owmë|LTranslit=iraranc’owm
 4	առաջին	առաջին	ADJ	_	NumForm=Word|NumType=Ord	5	amod	_	Translit=aṙaǰin|LTranslit=aṙaǰin
 5	անգամ	անգամ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	8	obl	_	Translit=angam|LTranslit=angam
-6	Պեկիշենց	Պեկիշ	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Assoc	8	nsubj	_	Translit=Pekišenc’|LTranslit=Pekiš
+6	Պեկիշենց	Պեկիշենք	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Ptan	8	nsubj	_	Translit=Pekišenc’|LTranslit=Pekišenk’
 7	Մանուկը	Մանուկ	PROPN	_	Animacy=Hum|Case=Nom|Definite=Def|NameType=Giv|Number=Sing	6	flat:name	_	Translit=Manowkë|LTranslit=Manowk
 8	տեսաւ	տեսնել	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=tesaw|LTranslit=tesnel|SpaceAfter=No
 9	։	։	PUNCT	_	_	8	punct	_	Translit=.|LTranslit=.
@@ -18209,7 +18209,7 @@
 # sent_id = fiction-000B-000100H6
 # text = Մաղիկանց Արութին, կամ ինչպէս կը կանչէին՝ Մաղաքեանին, հետ երկուքը միասին գիւղ կու գային:
 # translit = Maġikanc’ Arowt’in, kam inčpēs kë kančēin, Maġak’eanin, het erkowk’ë miasin giwġ kow gayin.
-1	Մաղիկանց	Մաղիկ	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Assoc	16	dislocated	_	Translit=Maġikanc’|LTranslit=Maġik
+1	Մաղիկանց	Մաղիկանք	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Ptan	16	dislocated	_	Translit=Maġikanc’|LTranslit=Maġikank’
 2	Արութին	Արութ	PROPN	_	Animacy=Hum|Case=Dat|Definite=Def|NameType=Giv|Number=Sing	1	flat:name	_	Translit=Arowt’in|LTranslit=Arowt’|SpaceAfter=No
 3	,	,	PUNCT	_	_	9	punct	_	Translit=,|LTranslit=,
 4	կամ	կամ	CCONJ	_	_	9	cc	_	Translit=kam|LTranslit=kam
@@ -18641,10 +18641,10 @@
 # sent_id = fiction-000B-000900HR
 # text = Դպրենց Զաքարն ու Մանուկանց Նշանը, եզնիքը առաջքնին, կը հերկէին Դպրենց աղբիւրին արտը:
 # translit = Dprenc’ Zak’arn ow Manowkanc’ Nšanë, eznik’ë aṙaǰk’nin, kë herkēin Dprenc’ aġbiwrin artë.
-1	Դպրենց	Դպիր	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Assoc	11	nsubj	_	Translit=Dprenc’|LTranslit=Dpir
+1	Դպրենց	Դպրենք	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Ptan	11	nsubj	_	Translit=Dprenc’|LTranslit=Dprenk’
 2	Զաքարն	Զաքար	PROPN	_	Animacy=Hum|Case=Nom|Definite=Def|NameType=Giv|Number=Sing	1	flat:name	_	Translit=Zak’arn|LTranslit=Zak’ar
 3	ու	ու	CCONJ	_	_	4	cc	_	Translit=ow|LTranslit=ow
-4	Մանուկանց	Մանուկ	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Giv|Number=Assoc	1	conj	_	Translit=Manowkanc’|LTranslit=Manowk
+4	Մանուկանց	Մանուկանք	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Ptan	1	conj	_	Translit=Manowkanc’|LTranslit=Manowkank’
 5	Նշանը	Նշան	PROPN	_	Animacy=Hum|Case=Nom|Definite=Def|NameType=Giv|Number=Sing	4	flat:name	_	Translit=Nšanë|LTranslit=Nšan|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	Translit=,|LTranslit=,
 7	եզնիքը	եզ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Plur|Style=Vrnc	11	obl	_	Translit=eznik’ë|LTranslit=ez
@@ -18652,7 +18652,7 @@
 9	,	,	PUNCT	_	_	11	punct	_	Translit=,|LTranslit=,
 10	կը	կը	AUX	_	Aspect=Imp|Mood=Ind	11	aux	_	Translit=kë|LTranslit=kë
 11	հերկէին	հերկել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	Translit=herkēin|LTranslit=herkel
-12	Դպրենց	Դպիր	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Assoc	13	nmod:poss	_	Translit=Dprenc’|LTranslit=Dpir
+12	Դպրենց	Դպրենք	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Ptan	13	nmod:poss	_	Translit=Dprenc’|LTranslit=Dprenk’
 13	աղբիւրին	աղբիւր	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	14	nmod:poss	_	Translit=aġbiwrin|LTranslit=aġbiwr
 14	արտը	արտ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	11	obj	_	Translit=artë|LTranslit=art|SpaceAfter=No
 15	:	:	PUNCT	_	Foreign=Yes	11	punct	_	Translit=.|LTranslit=.
@@ -18684,7 +18684,7 @@
 5	իրենց	ինք	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Emp|Reflex=Yes	6	obl	_	Translit=irenc’|LTranslit=ink’
 6	դիմացի	դիմացի	ADJ	_	_	7	amod	_	Translit=dimac’i|LTranslit=dimac’i
 7	ճախինը	ճախին	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Plur	13	obl	_	Translit=č̣axinë|LTranslit=č̣axin
-8	Կոչենց	Կոչ	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Assoc	10	nmod:poss	_	Translit=Kočenc’|LTranslit=Koč
+8	Կոչենց	Կոչենք	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Ptan	10	nmod:poss	_	Translit=Kočenc’|LTranslit=Kočenk’
 9	վիկին	վիկ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Coll	10	nmod:poss	_	Translit=vikin|LTranslit=vik
 10	արտը	արտ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	7	appos	_	Translit=artë|LTranslit=art
 11	վիկ	վիկ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Coll	12	nmod:npmod	_	Translit=vik|LTranslit=vik
@@ -18771,7 +18771,7 @@
 # text = — Տեմուրճենց հարսը մեռեր է… Կաւին լեռը վար իջեր է, տակը մնացեր է, հասկցա՞ր:
 # translit = — Temowrč̣enc’ harsë meṙer ē… Kawin leṙë var iǰer ē, takë mnac’er ē, haskc’a?r.
 1	—	—	PUNCT	_	_	4	punct	_	Translit=—|LTranslit=—
-2	Տեմուրճենց	Տեմուրճի	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Assoc	3	nmod:poss	_	Translit=Temowrč̣enc’|LTranslit=Temowrč̣i
+2	Տեմուրճենց	Տեմուրճենք	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Ptan	3	nmod:poss	_	Translit=Temowrč̣enc’|LTranslit=Temowrč̣enk’
 3	հարսը	հարս	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Number=Sing	4	nsubj	_	Translit=harsë|LTranslit=hars
 4	մեռեր	մեռնիլ	VERB	_	Aspect=Perf|Subcat=Intr|VerbForm=Part|Voice=Mid	0	root	_	Translit=meṙer|LTranslit=meṙnil
 5	է	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	Translit=ē|LTranslit=em|SpaceAfter=No
@@ -18886,22 +18886,22 @@
 11	վրայէն	վրայ	ADP	_	AdpType=Post|Case=Abl|Definite=Def	10	case:loc	_	Translit=vrayēn|LTranslit=vray
 12	ցատկեց	ցատկել	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	Translit=c’atkec’|LTranslit=c’atkel|SpaceAfter=No
 13	,	,	PUNCT	_	_	35	punct	_	Translit=,|LTranslit=,
-14	Մանուկանց	Մանուկ	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Giv|Number=Assoc	17	nmod:poss	_	Translit=Manowkanc’|LTranslit=Manowk|SpaceAfter=No
+14	Մանուկանց	Մանուկանք	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Ptan	17	nmod:poss	_	Translit=Manowkanc’|LTranslit=Manowkank’|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	Translit=,|LTranslit=,
-16	Բարիկանց	Բարիկ	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Assoc	14	conj	_	Translit=Barikanc’|LTranslit=Barik
+16	Բարիկանց	Բարիկանք	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Ptan	14	conj	_	Translit=Barikanc’|LTranslit=Barikank’
 17	պարտէզներուն	պարտէզ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Plur	19	nmod:npmod	_	Translit=partēznerown|LTranslit=partēz
 18	վրայի	վրայ	ADP	_	AdpType=Post|Case=Dat|Definite=Ind	17	case:loc	_	Translit=vrayi|LTranslit=vray
 19	ճամբէն	ճամբայ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing|Style=Coll	35	obl	_	Translit=č̣ambēn|LTranslit=č̣ambay|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	Translit=,|LTranslit=,
 21	հոնկէ	հոնկէ	ADV	_	Deixis=Remt|PronType=Dem	19	conj	_	Translit=honkē|LTranslit=honkē
-22	Արխնենց	Արխըն	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Assoc	23	nmod:poss	_	Translit=Arxnenc’|LTranslit=Arxën
+22	Արխնենց	Արխնենք	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Ptan	23	nmod:poss	_	Translit=Arxnenc’|LTranslit=Arxnenk’
 23	արտին	արտ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	21	obl	_	Translit=artin|LTranslit=art
 24	տակէն	տակ	ADP	_	AdpType=Post|Case=Abl|Definite=Def	23	case:loc	_	Translit=takēn|LTranslit=tak|SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	Translit=,|LTranslit=,
 26	հոնկէ	հոնկէ	ADV	_	Deixis=Remt|PronType=Dem	23	conj	_	Translit=honkē|LTranslit=honkē
 27	Լեղաղբիւրէն	Լեղաղբիւր	PROPN	_	Animacy=Nhum|Case=Abl|Definite=Def|NameType=Geo|Number=Sing	26	obl	_	Translit=Leġaġbiwrēn|LTranslit=Leġaġbiwr|SpaceAfter=No
 28	,	,	PUNCT	_	_	30	punct	_	Translit=,|LTranslit=,
-29	Քնարենց	Քնար	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Giv|Number=Assoc	30	nmod:poss	_	Translit=K’narenc’|LTranslit=K’nar
+29	Քնարենց	Քնարենք	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Giv|Number=Ptan	30	nmod:poss	_	Translit=K’narenc’|LTranslit=K’narenk’
 30	դռնէն	դուռ	NOUN	_	Animacy=Nhum|Case=Abl|Definite=Def|Number=Sing	27	conj	_	Translit=dṙnēn|LTranslit=dowṙ|SpaceAfter=No
 31	,	,	PUNCT	_	_	33	punct	_	Translit=,|LTranslit=,
 32	Գալուստին	Գալուստ	PROPN	_	Animacy=Hum|Case=Dat|Definite=Def|NameType=Giv|Number=Sing	33	nmod:poss	_	Translit=Galowstin|LTranslit=Galowst
@@ -18909,7 +18909,7 @@
 34	առաջքէն	առաջք	ADP	_	AdpType=Post|Case=Abl|Definite=Def	33	case:loc	_	Translit=aṙaǰk’ēn|LTranslit=aṙaǰk’
 35	դառնալով	դառնալ	VERB	_	Case=Ins|Definite=Ind|Polarity=Pos|Subcat=Intr|VerbForm=Inf|Voice=Mid	40	advcl	_	Translit=daṙnalov|LTranslit=daṙnal|SpaceAfter=No
 36	,	,	PUNCT	_	_	40	punct	_	Translit=,|LTranslit=,
-37	Շեխենց	Շեխ	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Assoc	38	nmod:poss	_	Translit=Šexenc’|LTranslit=Šex
+37	Շեխենց	Շեխենք	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Ptan	38	nmod:poss	_	Translit=Šexenc’|LTranslit=Šexenk’
 38	տան	տուն	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Sing	40	obl	_	Translit=tan|LTranslit=town
 39	առջեւը	առջեւ	ADP	_	AdpType=Post|Case=Nom|Definite=Def	38	case:loc	_	Translit=aṙǰewë|LTranslit=aṙǰew
 40	հասաւ	հասնիլ	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Past|VerbForm=Fin|Voice=Mid	12	conj	_	Translit=hasaw|LTranslit=hasnil|SpaceAfter=No
@@ -18972,7 +18972,7 @@
 20	կերպարանքը	կերպարանք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	21	obj	_	Translit=kerparank’ë|LTranslit=kerparank’
 21	տեսնելով	տեսնել	VERB	_	Case=Ins|Definite=Ind|Polarity=Pos|Subcat=Tran|VerbForm=Inf|Voice=Act	26	advcl	_	Translit=tesnelov|LTranslit=tesnel|SpaceAfter=No
 22	՝	՝	PUNCT	_	_	26	punct	_	Translit=,|LTranslit=,
-23	Հայնենց	Հայնու	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Assoc	26	nsubj	_	Translit=Haynenc’|LTranslit=Haynow
+23	Հայնենց	Հայնենք	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Ptan	26	nsubj	_	Translit=Haynenc’|LTranslit=Haynenk’
 24	Կարապետ	Կարապետ	PROPN	_	Animacy=Hum|Case=Nom|Definite=Ind|NameType=Giv|Number=Sing	23	flat:name	_	Translit=Karapet|LTranslit=Karapet
 25	աղան	աղա	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Number=Sing	23	flat:name	_	Translit=aġan|LTranslit=aġa
 26	յանդիմանեց	յանդիմանել	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=yandimanec’|LTranslit=yandimanel
@@ -19033,7 +19033,7 @@
 # text = — Տեմուրճենց հարսը, Կաւին Դարը մեռեր է, լեռը վրան փլեր է, տակը մնացեր է,— ըսաւ:
 # translit = — Temowrč̣enc’ harsë, Kawin Darë meṙer ē, leṙë vran p’ler ē, takë mnac’er ē,— ësaw.
 1	—	—	PUNCT	_	_	7	punct	_	Translit=—|LTranslit=—
-2	Տեմուրճենց	Տեմուրճի	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Assoc	3	nmod:poss	_	Translit=Temowrč̣enc’|LTranslit=Temowrč̣i
+2	Տեմուրճենց	Տեմուրճենք	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Ptan	3	nmod:poss	_	Translit=Temowrč̣enc’|LTranslit=Temowrč̣enk’
 3	հարսը	հարս	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Number=Sing	7	dislocated	_	Translit=harsë|LTranslit=hars|SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	Translit=,|LTranslit=,
 5	Կաւին	կաւ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	6	nmod:poss	_	Translit=Kawin|LTranslit=kaw
@@ -19096,7 +19096,7 @@
 16	,	,	PUNCT	_	_	21	punct	_	Translit=,|LTranslit=,|SpaceAfter=No
 17	—	—	PUNCT	_	_	21	punct	_	Translit=—|LTranslit=—
 18	Հիմա	հիմա	ADV	_	_	21	advmod	_	Translit=Hima|LTranslit=hima
-19	Տեմուրճենց	Տեմուրճի	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Assoc	20	nmod:poss	_	Translit=Temowrč̣enc’|LTranslit=Temowrč̣i
+19	Տեմուրճենց	Տեմուրճենք	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Ptan	20	nmod:poss	_	Translit=Temowrč̣enc’|LTranslit=Temowrč̣enk’
 20	տունը	տուն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	21	nsubj	_	Translit=townë|LTranslit=town
 21	տակնուվրայ	տակնուվրայ	ADJ	_	_	6	conj	_	Translit=taknowvray|LTranslit=taknowvray
 22	պիտի	պիտի	AUX	_	Aspect=Prosp|Mood=Ind|Polarity=Pos	21	aux	_	Translit=piti|LTranslit=piti
@@ -19471,7 +19471,7 @@
 9	աղբիւրը	աղբիւր	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	10	obl	_	Translit=aġbiwrë|LTranslit=aġbiwr
 10	չհասած	հասնիլ	VERB	_	Aspect=Perf|Polarity=Neg|Subcat=Intr|VerbForm=Part|Voice=Mid	2	dislocated	_	Translit=čhasaç|LTranslit=hasnil|SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	Translit=,|LTranslit=,
-12	Քորճայենց	Քորճա	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Assoc	14	nsubj	_	Translit=K’orč̣ayenc’|LTranslit=K’orč̣a
+12	Քորճայենց	Քորճայենք	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Ptan	14	nsubj	_	Translit=K’orč̣ayenc’|LTranslit=K’orč̣ayenk’
 13	Առաքելը	Առաքել	PROPN	_	Animacy=Hum|Case=Nom|Definite=Def|NameType=Giv|Number=Sing	12	flat:name	_	Translit=Aṙak’elë|LTranslit=Aṙak’el
 14	եկաւ	գալ	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Past|VerbForm=Fin|Voice=Mid	10	advcl	_	Translit=ekaw|LTranslit=gal
 15	հերկին	հերկ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Coll	16	nmod:poss	_	Translit=herkin|LTranslit=herk
@@ -19508,7 +19508,7 @@
 # sent_id = fiction-000B-000M00J8
 # text = Տեմուրճենց հարսը Կաւին լեռը հողերուն տակէն ազատեցինք, ջորիով տուն, բերինք, եկայ ձեզի լուր տալու:
 # translit = Temowrč̣enc’ harsë Kawin leṙë hoġerown takēn azatec’ink’, ǰoriov town, berink’, ekay jezi lowr talow.
-1	Տեմուրճենց	Տեմուրճի	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Assoc	2	nmod:poss	_	Translit=Temowrč̣enc’|LTranslit=Temowrč̣i
+1	Տեմուրճենց	Տեմուրճենք	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Ptan	2	nmod:poss	_	Translit=Temowrč̣enc’|LTranslit=Temowrč̣enk’
 2	հարսը	հարս	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Number=Sing	7	obj	_	Translit=harsë|LTranslit=hars
 3	Կաւին	կաւ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	4	nmod:poss	_	Translit=Kawin|LTranslit=kaw
 4	լեռը	լեռ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	7	obl	_	Translit=leṙë|LTranslit=leṙ
@@ -19552,7 +19552,7 @@
 17	ըսածին	ըսած	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	18	obj	_	Translit=ësaçin|LTranslit=ësaç
 18	հաւտանք	հաւտալ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=1|Polarity=Pos|Style=Coll|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	Translit=hawtank’|LTranslit=hawtal|SpaceAfter=No
 19	,	,	PUNCT	_	_	22	punct	_	Translit=,|LTranslit=,
-20	Պեկիշենց	Պեկիշ	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Assoc	22	nsubj	_	Translit=Pekišenc’|LTranslit=Pekiš
+20	Պեկիշենց	Պեկիշենք	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Ptan	22	nsubj	_	Translit=Pekišenc’|LTranslit=Pekišenk’
 21	Մանուկը	Մանուկ	PROPN	_	Animacy=Hum|Case=Nom|Definite=Def|NameType=Giv|Number=Sing	20	flat:name	_	Translit=Manowkë|LTranslit=Manowk
 22	եկաւ	գալ	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Past|VerbForm=Fin|Voice=Mid	5	conj	_	Translit=ekaw|LTranslit=gal
 23	ըսաւ	ըսել	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|VerbForm=Fin|Voice=Act	22	xcomp	_	Translit=ësaw|LTranslit=ësel|SpaceAfter=No
@@ -19624,7 +19624,7 @@
 4	նէ	նէ	SCONJ	_	_	3	mark	_	Translit=nē|LTranslit=nē|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	Translit=,|LTranslit=,
 6	գացէք	երթալ	VERB	_	Aspect=Prosp|Mood=Imp|Number=Plur|Person=2|Subcat=Intr|VerbForm=Fin|Voice=Mid	0	root	_	Translit=gac’ēk’|LTranslit=ert’al
-7	Տեմուրճենցը	Տեմուրճի	PROPN	_	Animacy=Hum|Case=Dat|Definite=Def|NameType=Prs|Number=Assoc	6	obl	_	Translit=Temowrč̣enc’ë|LTranslit=Temowrč̣i|SpaceAfter=No
+7	Տեմուրճենցը	Տեմուրճենք	PROPN	_	Animacy=Hum|Case=Dat|Definite=Def|NameType=Prs|Number=Ptan	6	obl	_	Translit=Temowrč̣enc’ë|LTranslit=Temowrč̣enk’|SpaceAfter=No
 8	՝	՝	PUNCT	_	_	10	punct	_	Translit=,|LTranslit=,
 9	աչքովնիդ	աչք	NOUN	_	Animacy=Nhum|Case=Ins|Number[psor]=Plur|Person[psor]=2	10	obl	_	Translit=ačk’ovnid|LTranslit=ačk’
 10	տեսէք	տեսնել	VERB	_	Aspect=Prosp|Mood=Imp|Number=Plur|Person=2|Subcat=Tran|VerbForm=Fin|Voice=Act	6	conj	_	Translit=tesēk’|LTranslit=tesnel|SpaceAfter=No
@@ -19719,7 +19719,7 @@
 4	տակը	տակ	ADP	_	AdpType=Post|Case=Nom|Definite=Def	3	case	_	Translit=takë|LTranslit=tak
 5	մնացողը	մնացող	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Number=Sing	11	nsubj	_	Translit=mnac’oġë|LTranslit=mnac’oġ|SpaceAfter=No
 6	՝	՝	PUNCT	_	_	8	punct	_	Translit=,|LTranslit=,
-7	Տեմուրճենց	Տեմուրճի	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Assoc	8	nmod:poss	_	Translit=Temowrč̣enc’|LTranslit=Temowrč̣i
+7	Տեմուրճենց	Տեմուրճենք	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Prs|Number=Ptan	8	nmod:poss	_	Translit=Temowrč̣enc’|LTranslit=Temowrč̣enk’
 8	հարսը	հարս	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Number=Sing	5	appos	_	Translit=harsë|LTranslit=hars|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	Translit=,|LTranslit=,
 10	իմ	ես	DET	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	det:poss	_	Translit=im|LTranslit=es

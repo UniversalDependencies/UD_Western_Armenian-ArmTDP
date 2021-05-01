@@ -342,7 +342,7 @@
 27	մէջ	մէջ	ADP	_	AdpType=Post	26	case	_	Translit=mēǰ|LTranslit=mēǰ
 28	խբուի	խբուիլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	15	advcl	_	Translit=xbowi|LTranslit=xbowil
 29	ու	ու	CCONJ	_	_	31	cc	_	Translit=ow|LTranslit=ow
-30	ճանբայ	ճանբայ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing|Style=Dvrs	31	compound:lvc	_	Translit=č̣anbay|LTranslit=č̣anbay
+30	ճանբայ	ճանբայ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	31	compound:lvc	_	Translit=č̣anbay|LTranslit=č̣anbay
 31	իյնայ	իյնալ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	28	conj	_	Translit=iynay|LTranslit=iynal|SpaceAfter=No
 32	։	։	PUNCT	_	_	3	punct	_	Translit=.|LTranslit=.
 
@@ -866,7 +866,7 @@
 48	տեղի	տեղ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Sing	49	nmod:poss	_	Translit=teġi|LTranslit=teġ
 49	հովերը	հով	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Plur	51	obj	_	Translit=hoverë|LTranslit=hov
 50	կը	կը	AUX	_	Aspect=Imp|Mood=Ind	51	aux	_	Translit=kë|LTranslit=kë
-51	ծնցնեն	ծնցնել	VERB	_	Aspect=Prog,Prosp|Mood=Sub|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	26	acl:relcl	_	Translit=çnc’nen|LTranslit=çnc’nel
+51	ծնցնեն	ծնցնել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	26	acl:relcl	_	Translit=çnc’nen|LTranslit=çnc’nel
 52	ու	ու	CCONJ	_	_	60	cc	_	Translit=ow|LTranslit=ow
 53	կամ	կամ	CCONJ	_	_	60	cc	_	Translit=kam|LTranslit=kam
 54	ատեն	ատեն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	60	obl	_	Translit=aten|LTranslit=aten
@@ -883,7 +883,7 @@
 65	.	.	PUNCT	_	_	69	punct	_	Translit=.|LTranslit=.
 66	—	—	PUNCT	_	_	69	punct	_	Translit=—|LTranslit=—
 67-68	Մի՛	_	_	_	_	_	_	_	Translit=Mi՛
-67	Մի	մի	PART	_	Mood=Imp|Polarity=Neg	69	advmod	_	Translit=Mi|LTranslit=mi
+67	Մի	մի	PART	_	Polarity=Neg	69	advmod	_	Translit=Mi|LTranslit=mi
 68	՛	՛	PUNCT	_	_	67	punct	_	Translit=՛|LTranslit=՛
 69	կենաք	կենալ	VERB	_	Aspect=Prosp|Mood=Imp|Number=Plur|Person=2|Subcat=Intr|VerbForm=Fin|Voice=Mid	14	parataxis	_	Translit=kenak’|LTranslit=kenal|SpaceAfter=No
 70	,	,	PUNCT	_	_	71	punct	_	Translit=,|LTranslit=,
@@ -891,7 +891,7 @@
 72	,	,	PUNCT	_	_	76	punct	_	Translit=,|LTranslit=,
 73	կամ	կամ	CCONJ	_	_	76	cc	_	Translit=kam|LTranslit=kam
 74-75	մի՛	_	_	_	_	_	_	_	Translit=mi՛
-74	մի	մի	PART	_	Mood=Imp|Polarity=Neg	76	advmod	_	Translit=mi|LTranslit=mi
+74	մի	մի	PART	_	Polarity=Neg	76	advmod	_	Translit=mi|LTranslit=mi
 75	՛	՛	PUNCT	_	_	74	punct	_	Translit=՛|LTranslit=՛
 76	խաբուիք	խաբուիլ	VERB	_	Aspect=Prosp|Mood=Imp|Number=Plur|Person=2|Subcat=Intr|VerbForm=Fin|Voice=Mid	69	conj	_	Translit=xabowik’|LTranslit=xabowil
 77	եղածներէն	եղած	NOUN	_	Animacy=Nhum|Case=Abl|Definite=Def|Number=Plur	76	obl	_	Translit=eġaçnerēn|LTranslit=eġaç|SpaceAfter=No
@@ -2298,7 +2298,7 @@
 39-40	չէ՞	_	_	_	_	_	_	_	Translit=čē?
 39	չէ	չէ	PART	_	_	46	discourse	_	Translit=čē|LTranslit=čē
 40	՞	՞	PUNCT	_	_	39	punct	_	Translit=?|LTranslit=?
-41	մի	մի	PART	_	Mood=Imp|Polarity=Neg	39	fixed	_	Translit=mi|LTranslit=mi
+41	մի	մի	PART	_	Polarity=Neg	39	fixed	_	Translit=mi|LTranslit=mi
 42	որ	որ	PART	_	_	39	fixed	_	Translit=or|LTranslit=or
 43	առաջուան	առաջ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Sing	46	obl	_	Translit=aṙaǰowan|LTranslit=aṙaǰ
 44	պէս	պէս	ADP	_	AdpType=Post	43	case	_	Translit=pēs|LTranslit=pēs
@@ -2991,7 +2991,7 @@
 4	կրկնեց	կրկնել	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|VerbForm=Fin|Voice=Act	8	parataxis	_	Translit=krknec’|LTranslit=krknel|SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	Translit=,|LTranslit=,
 6-7	մի՛	_	_	_	_	_	_	_	Translit=mi՛
-6	մի	մի	PART	_	Mood=Imp|Polarity=Neg	8	advmod	_	Translit=mi|LTranslit=mi
+6	մի	մի	PART	_	Polarity=Neg	8	advmod	_	Translit=mi|LTranslit=mi
 7	՛	՛	PUNCT	_	_	6	punct	_	Translit=՛|LTranslit=՛
 8	մոռնաք	մոռնալ	VERB	_	Aspect=Prosp|Mood=Imp|Number=Sing|Person=2|Polite=Form|Subcat=Tran|VerbForm=Fin|Voice=Act	0	root	_	Translit=moṙnak’|LTranslit=moṙnal|SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	Translit=,|LTranslit=,
@@ -5413,7 +5413,7 @@
 5	Փրկիչ	փրկիչ	NOUN	_	Animacy=Hum|Case=Nom|Definite=Ind|Number=Sing	2	appos	_	Translit=P’rkič|LTranslit=p’rkič|SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	Translit=,|LTranslit=,
 7	կը	կը	AUX	_	Aspect=Imp|Mood=Ind	8	aux	_	Translit=kë|LTranslit=kë
-8	գոչեն	գոչել	VERB	_	Aspect=Prog|Mood=Sub|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	16	parataxis	_	Translit=gočen|LTranslit=gočel
+8	գոչեն	գոչել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	16	parataxis	_	Translit=gočen|LTranslit=gočel
 9	եկեղեցականները	եկեղեցական	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Number=Plur	8	nsubj	_	Translit=ekeġec’akannerë|LTranslit=ekeġec’akan
 10	եւ	եւ	CCONJ	_	_	12	cc	_	Translit=ew|LTranslit=ew
 11	ներկայ	ներկայ	ADJ	_	_	12	amod	_	Translit=nerkay|LTranslit=nerkay
@@ -7284,7 +7284,7 @@
 8	ութսունըչորս	ութսունըչորս	NUM	_	NumForm=Word|NumType=Card	9	nummod	_	Translit=owt’sownëčors|LTranslit=owt’sownëčors
 9	տարեկան	տարեկան	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	6	obl	_	Translit=tarekan|LTranslit=tarekan|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	Translit=,|LTranslit=,
-11	թողելով	թողել|թողուլ	VERB	_	Case=Ins|Definite=Ind|Polarity=Pos|Style=Dvrs|Subcat=Tran|VerbForm=Inf|Voice=Act	6	advcl	_	Translit=t’oġelov|LTranslit=t’oġel|t’oġowl
+11	թողելով	թողել|թողուլ	VERB	_	Case=Ins|Definite=Ind|Polarity=Pos|Subcat=Tran|VerbForm=Inf|Voice=Act	6	advcl	_	Translit=t’oġelov|LTranslit=t’oġel|t’oġowl
 12	վիճելի	վիճելի	ADJ	_	Degree=Pos	13	amod	_	Translit=vič̣eli|LTranslit=vič̣eli
 13	ժառանգութիւն	ժառանգութիւն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	11	obj	_	Translit=žaṙangowt’iwn|LTranslit=žaṙangowt’iwn
 14	մը	մը	DET	_	PronType=Art	13	det	_	Translit=më|LTranslit=më|SpaceAfter=No
@@ -8753,7 +8753,7 @@
 8	անկեղծ	անկեղծ	ADJ	_	Degree=Pos	11	xcomp	_	Translit=ankeġç|LTranslit=ankeġç
 9	եւ	եւ	CCONJ	_	_	10	cc	_	Translit=ew|LTranslit=ew
 10	առարկայական	առարկայական	ADJ	_	Degree=Pos	8	conj	_	Translit=aṙarkayakan|LTranslit=aṙarkayakan
-11	ըլլանք	ըլլալ	VERB	_	Aspect=Prog|Mood=Sub|Number=Plur|Person=1|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Translit=ëllank’|LTranslit=ëllal
+11	ըլլանք	ըլլալ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=1|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Translit=ëllank’|LTranslit=ëllal
 12	ըսելու	ըսել	VERB	_	Case=Dat|Definite=Ind|Polarity=Pos|Subcat=Tran|VerbForm=Inf|Voice=Act	11	obl	_	Translit=ëselow|LTranslit=ësel|SpaceAfter=No
 13	,	,	PUNCT	_	_	21	punct	_	Translit=,|LTranslit=,
 14	թէ	թէ	SCONJ	_	_	21	mark	_	Translit=t’ē|LTranslit=t’ē
@@ -10124,7 +10124,7 @@
 3	սիրելիս	սիրելի	NOUN	_	Animacy=Hum|Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	7	vocative	_	Translit=sirelis|LTranslit=sireli|SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	Translit=,|LTranslit=,
 5-6	մի՛	_	_	_	_	_	_	_	Translit=mi՛
-5	մի	մի	PART	_	Mood=Imp|Polarity=Neg	7	advmod	_	Translit=mi|LTranslit=mi
+5	մի	մի	PART	_	Polarity=Neg	7	advmod	_	Translit=mi|LTranslit=mi
 6	՛	՛	PUNCT	_	_	5	punct	_	Translit=՛|LTranslit=՛
 7	խնդար	խնդալ	VERB	_	Aspect=Imp|Connegative=Yes|Subcat=Intr|VerbForm=Part|Voice=Mid	0	root	_	Translit=xndar|LTranslit=xndal|SpaceAfter=No
 8	,	,	PUNCT	_	_	14	punct	_	Translit=,|LTranslit=,
@@ -11285,7 +11285,7 @@
 34	չեղաւ	ըլլալ	AUX	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	33	cop	_	Translit=čeġaw|LTranslit=ëllal|SpaceAfter=No
 35	.	.	PUNCT	_	_	38	punct	_	Translit=.|LTranslit=.
 36-37	մի՛	_	_	_	_	_	_	_	Translit=mi՛
-36	մի	մի	PART	_	Mood=Imp|Polarity=Neg	38	advmod	_	Translit=mi|LTranslit=mi
+36	մի	մի	PART	_	Polarity=Neg	38	advmod	_	Translit=mi|LTranslit=mi
 37	՛	՛	PUNCT	_	_	36	punct	_	Translit=՛|LTranslit=՛
 38	մեղադրէք	մեղադրել	VERB	_	Aspect=Prosp|Mood=Imp|Number=Sing|Person=2|Polite=Form|Subcat=Tran|VerbForm=Fin|Voice=Act	8	conj	_	Translit=meġadrēk’|LTranslit=meġadrel
 39	զիս	ես	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	38	obj	_	Translit=zis|LTranslit=es|SpaceAfter=No
@@ -12258,7 +12258,7 @@
 2	,	,	PUNCT	_	_	6	punct	_	Translit=,|LTranslit=,
 3	ատանկ	ատանկ	DET	_	Deixis=Med|PronType=Dem|Style=Coll	4	det	_	Translit=atank|LTranslit=atank
 4	արտայայտութիւն	արտայայտութիւն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	6	obj	_	Translit=artayaytowt’iwn|LTranslit=artayaytowt’iwn
-5	մի	մի	PART	_	Mood=Imp|Polarity=Neg	6	advmod	_	Translit=mi|LTranslit=mi
+5	մի	մի	PART	_	Polarity=Neg	6	advmod	_	Translit=mi|LTranslit=mi
 6	առներ	առնել	VERB	_	Aspect=Imp|Connegative=Yes|Subcat=Tran|VerbForm=Part|Voice=Act	0	root	_	Translit=aṙner|LTranslit=aṙnel|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	Translit=,|LTranslit=,
 8	գիտեմ	գիտեմ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	Translit=gitem|LTranslit=gitem
@@ -12415,7 +12415,7 @@
 60	,	,	PUNCT	_	_	63	punct	_	Translit=,|LTranslit=,
 61	հոս	հոս	ADV	_	Deixis=Prox|PronType=Dem	63	advmod	_	Translit=hos|LTranslit=hos
 62	կը	կը	AUX	_	Aspect=Imp|Mood=Ind	63	aux	_	Translit=kë|LTranslit=kë
-63	սպասեմ	սպասել	VERB	_	Aspect=Imp|Mood=Sub|Number=Sing|Person=1|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	44	conj	_	Translit=spasem|LTranslit=spasel
+63	սպասեմ	սպասել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=1|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	44	conj	_	Translit=spasem|LTranslit=spasel
 64	քեզի	դուն	PRON	_	Animacy=Hum|Case=Dat|Number=Sing|Person=2|PronType=Prs	63	obj	_	Translit=k’ezi|LTranslit=down|SpaceAfter=No
 65	...	...	PUNCT	_	_	66	punct	_	Translit=...|LTranslit=...
 66	անպայման	անպայման	PART	_	_	44	conj	_	Translit=anpayman|LTranslit=anpayman|SpaceAfter=No

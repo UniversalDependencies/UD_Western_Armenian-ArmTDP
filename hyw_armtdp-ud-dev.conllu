@@ -1905,7 +1905,7 @@
 7	հօրը	հայր	NOUN	_	Animacy=Hum|Case=Dat|Definite=Def|Number=Sing	5	iobj	_	Translit=hòrë|LTranslit=hayr
 8	եւ	եւ	CCONJ	_	_	11	cc	_	Translit=ew|LTranslit=ew
 9	մէկ	մէկ	DET	_	PronType=Ind	10	det	_	Translit=mēk|LTranslit=mēk
-10	փարա	փարա	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing|Style=Dvrs	11	obj	_	Translit=p’ara|LTranslit=p’ara
+10	փարա	փարա	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	11	obj	_	Translit=p’ara|LTranslit=p’ara
 11	չուզեց	ուզել	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Subcat=Tran|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	Translit=čowzec’|LTranslit=owzel
 12	անկէ	անիկա	PRON	_	Case=Abl|Deixis=Remt|Number=Sing|PronType=Dem	11	obl	_	Translit=ankē|LTranslit=anika
 13	իր	ինք	DET	_	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Emp|Reflex=Yes	14	det:poss	_	Translit=ir|LTranslit=ink’
@@ -5188,7 +5188,7 @@
 6	մը	մը	DET	_	PronType=Art	5	det	_	Translit=më|LTranslit=më|SpaceAfter=No
 7	,	,	PUNCT	_	_	12	punct	_	Translit=,|LTranslit=,
 8	կապոյտ	կապոյտ	ADJ	_	Degree=Pos	9	amod	_	Translit=kapoyt|LTranslit=kapoyt
-9	լօթիկին	լօթիկ|լոդիկ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing|Style=Dvrs	12	obl	_	Translit=lòt’ikin|LTranslit=lòt’ik|lodik
+9	լօթիկին	լօթիկ|լոդիկ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	12	obl	_	Translit=lòt’ikin|LTranslit=lòt’ik|lodik
 10	մէջէն	մէջ	ADP	_	AdpType=Post|Case=Abl|Definite=Def	9	case:loc	_	Translit=mēǰēn|LTranslit=mēǰ
 11	ցոյց	ցոյց	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	12	compound:lvc	_	Translit=c’oyc’|LTranslit=c’oyc’
 12	տալով	տալ	VERB	_	Case=Ins|Definite=Ind|Polarity=Pos|Subcat=Tran|VerbForm=Inf|Voice=Act	5	acl	_	Translit=talov|LTranslit=tal
@@ -7955,7 +7955,7 @@
 11	ժողովուրդը	ժողովուրդ	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Number=Sing	23	nsubj	_	Translit=žoġovowrdë|LTranslit=žoġovowrd
 12	որ	որ	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Rel	14	obj	_	Translit=or|LTranslit=or
 13	կը	կը	AUX	_	Aspect=Imp|Mood=Ind	14	aux	_	Translit=kë|LTranslit=kë
-14	տեսնենք	տեսնել	VERB	_	Aspect=Prog|Mood=Sub|Number=Plur|Person=1|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	Translit=tesnenk’|LTranslit=tesnel
+14	տեսնենք	տեսնել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=1|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	Translit=tesnenk’|LTranslit=tesnel
 15	մեծ	մեծ	ADJ	_	Degree=Pos	16	amod	_	Translit=meç|LTranslit=meç
 16	քաղաքի	քաղաք	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Sing	18	nmod:poss	_	Translit=k’aġak’i|LTranslit=k’aġak’
 17	մը	մը	DET	_	PronType=Art	16	det	_	Translit=më|LTranslit=më
@@ -10128,7 +10128,7 @@
 16	դագաղ	դագաղ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	17	obj	_	Translit=dagaġ|LTranslit=dagaġ
 17	շինել	շինել	VERB	_	Polarity=Pos|Subcat=Tran|VerbForm=Inf|Voice=Act	5	conj	_	Translit=šinel|LTranslit=šinel
 18-19	մի՛	_	_	_	_	_	_	_	Translit=mi՛
-18	մի	մի	PART	_	Mood=Imp|Polarity=Neg	20	advmod	_	Translit=mi|LTranslit=mi
+18	մի	մի	PART	_	Polarity=Neg	20	advmod	_	Translit=mi|LTranslit=mi
 19	՛	՛	PUNCT	_	_	18	punct	_	Translit=՛|LTranslit=՛
 20	տաք	տալ	AUX	_	Aspect=Prosp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Cau	17	aux:caus	_	Translit=tak’|LTranslit=tal|SpaceAfter=No
 21	,	,	PUNCT	_	_	26	punct	_	Translit=,|LTranslit=,
