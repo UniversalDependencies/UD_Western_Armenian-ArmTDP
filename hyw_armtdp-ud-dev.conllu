@@ -5264,7 +5264,7 @@
 # text = — Օլմազ, կ՚ըսէր սպիտակ ժապաւէններով զարդարուած ու մէջքը սուր կապած կէս-լեզու յոյն պաշտօնեայ մը, որ անոնց մեծը կը թուէր:
 # translit = — Òlmaz, k,ësēr spitak žapawēnnerov zardarowaç ow mēǰk’ë sowr kapaç kēs-lezow yoyn paštòneay më, or anonc’ meçë kë t’owēr.
 1	—	—	PUNCT	_	_	5	punct	_	Translit=—|LTranslit=—
-2	Օլմազ	օլմազ	X	_	_	5	parataxis	_	Translit=Òlmaz|LTranslit=òlmaz|SpaceAfter=No
+2	Օլմազ	օլմազ	X	_	Foreign=Yes	5	parataxis	_	Translit=Òlmaz|LTranslit=òlmaz|SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	Translit=,|LTranslit=,
 4	կ՚	կը	AUX	_	Aspect=Imp|Mood=Ind	5	aux	_	Translit=k,|LTranslit=kë|SpaceAfter=No
 5	ըսէր	ըսել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	Translit=ësēr|LTranslit=ësel
@@ -6119,7 +6119,7 @@
 22	հայրենիք	հայրենիք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	21	obl	_	Translit=hayrenik’|LTranslit=hayrenik’|SpaceAfter=No
 23	,	,	PUNCT	_	_	26	punct	_	Translit=,|LTranslit=,
 24	սիլանուն	սիլա	NOUN	_	Animacy=Nhum|Case=Dat|Number[psor]=Plur|Person[psor]=3|Style=Coll	26	obj	_	Translit=silanown|LTranslit=sila
-25	խաւուշմիշ	խաւուշմիշ	X	_	_	26	compound:lvc	_	Translit=xawowšmiš|LTranslit=xawowšmiš
+25	խաւուշմիշ	խաւուշմիշ	X	_	Foreign=Yes	26	compound:lvc	_	Translit=xawowšmiš|LTranslit=xawowšmiš
 26	ըլլալու	ըլլալ	VERB	_	Case=Dat|Definite=Ind|Polarity=Pos|Subcat=Intr|VerbForm=Inf|Voice=Mid	21	advcl	_	Translit=ëllalow|LTranslit=ëllal|SpaceAfter=No
 27	:	:	PUNCT	_	Foreign=Yes	21	punct	_	Translit=.|LTranslit=.
 

@@ -13868,16 +13868,16 @@
 1	Երբ	երբ	ADV	_	PronType=Rel	4	advmod	_	Translit=Erb|LTranslit=erb
 2	դրան	դուռ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Sing	3	nmod:poss	_	Translit=dran|LTranslit=dowṙ
 3	զանգը	զանգ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	4	nsubj	_	Translit=zangë|LTranslit=zang
-4	հնչեց	հնչել	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Past|VerbForm=Fin|Voice=Mid	8	advcl:relcl	_	Translit=hnčec’|LTranslit=hnčel|SpaceAfter=No
-5	՝	՝	PUNCT	_	_	8	punct	_	Translit=,|LTranslit=,
+4	հնչեց	հնչել	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Past|VerbForm=Fin|Voice=Mid	9	advcl:relcl	_	Translit=hnčec’|LTranslit=hnčel|SpaceAfter=No
+5	՝	՝	PUNCT	_	_	9	punct	_	Translit=,|LTranslit=,
 6	հազիւ	հազիւ	ADV	_	_	8	advmod:emph	_	Translit=haziw|LTranslit=haziw
 7	ժամը	ժամ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	8	nmod	_	Translit=žamë|LTranslit=žam
-8	երկուքը	երկուք	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Number=Sing	0	root	_	Translit=erkowk’ë|LTranslit=erkowk’
-9	կար	կամ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Imp|VerbForm=Fin	8	cop	_	Translit=kar|LTranslit=kam|SpaceAfter=No
+8	երկուքը	երկուք	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Number=Sing	9	xcomp	_	Translit=erkowk’ë|LTranslit=erkowk’
+9	կար	կամ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Imp|VerbForm=Fin|Voice=Mid	0	root	_	Translit=kar|LTranslit=kam|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	Translit=,|LTranslit=,
 11	կէսօրէ	կէսօր	NOUN	_	Animacy=Nhum|Case=Abl|Definite=Ind|Number=Sing	8	nmod:npmod	_	Translit=kēsòrē|LTranslit=kēsòr
 12	վերջ	վերջ	ADP	_	AdpType=Post	11	case	_	Translit=verǰ|LTranslit=verǰ|SpaceAfter=No
-13	։	։	PUNCT	_	_	8	punct	_	Translit=.|LTranslit=.
+13	։	։	PUNCT	_	_	9	punct	_	Translit=.|LTranslit=.
 
 # sent_id = fiction-000E-000100UO
 # text = Տիկին Վարդանեան դժկամացեկաւ։
@@ -15766,7 +15766,7 @@
 40-41	ի՞նչ	_	_	_	_	_	_	_	Translit=i?nč
 40	ինչ	ինչ	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Int	43	obj	_	Translit=inč|LTranslit=inč
 41	՞	՞	PUNCT	_	_	40	punct	_	Translit=?|LTranslit=?
-42	էիր	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Imp|VerbForm=Fin|Voice=Mid	43	aux	_	Translit=ēir|LTranslit=em
+42	էիր	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Imp|VerbForm=Fin	43	aux	_	Translit=ēir|LTranslit=em
 43	անում	անել	VERB	_	Aspect=Imp|LangId=Hy|Subcat=Tran|VerbForm=Part|Voice=Act	10	conj	_	Translit=anowm|LTranslit=anel
 44	էն	էն	DET	_	Deixis=Remt|PronType=Dem|Style=Coll	45	det	_	Translit=ēn|LTranslit=ēn
 45	ժամանակ	ժամանակ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	43	obl	_	Translit=žamanak|LTranslit=žamanak|SpaceAfter=No
@@ -15906,7 +15906,7 @@
 48	դուրս	դուրս	ADV	_	_	49	compound:lvc	_	Translit=dowrs|LTranslit=dowrs
 49	ելլելուց	ելլել	VERB	_	Case=Abl|Definite=Ind|Polarity=Pos|Style=Coll|Subcat=Intr|VerbForm=Inf|Voice=Mid	59	advcl	_	Translit=ellelowc’|LTranslit=ellel
 50	Փալէ	Փալէ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	59	obl	_	Translit=P’alē|LTranslit=P’alē
-51	տը	տը	X	_	_	50	flat:name	_	Translit=të|LTranslit=të
+51	տը	տը	X	_	Foreign=Yes	50	flat:name	_	Translit=të|LTranslit=të
 52	Ժիւսթիսից	Ժիւսթիս	NOUN	_	Animacy=Nhum|Case=Abl|Definite=Ind|LangId=Hy|Number=Coll	50	flat:name	_	Translit=Žiwst’isic’|LTranslit=Žiwst’is|SpaceAfter=No
 53	,	,	PUNCT	_	_	55	punct	_	Translit=,|LTranslit=,
 54	մինչեւ	մինչեւ	ADP	_	AdpType=Prep	55	case	_	Translit=minčew|LTranslit=minčew
@@ -16064,7 +16064,7 @@
 24	էլ	էլ	ADV	_	LangId=Hy	23	advmod:emph	_	Translit=ēl|LTranslit=ēl
 25	փոխարէն	փոխարէն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Coll	28	obl	_	Translit=p’oxarēn|LTranslit=p’oxarēn
 26	թուղթ	թուղթ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	28	obj	_	Translit=t’owġt’|LTranslit=t’owġt’
-27	էիր	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Imp|VerbForm=Fin|Voice=Mid	28	aux	_	Translit=ēir|LTranslit=em
+27	էիր	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Imp|VerbForm=Fin	28	aux	_	Translit=ēir|LTranslit=em
 28	ստորագրելու	ստորագրել	VERB	_	Aspect=Prosp|Subcat=Tran|VerbForm=Part|Voice=Act	6	conj	_	Translit=storagrelow|LTranslit=storagrel
 29	որ	որ	SCONJ	_	_	33	mark	_	Translit=or|LTranslit=or
 30	պարկեշտ	պարկեշտ	ADJ	_	Degree=Pos	31	amod	_	Translit=parkešt|LTranslit=parkešt

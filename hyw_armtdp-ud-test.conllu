@@ -3945,7 +3945,7 @@
 5	տարօրինակ	տարօրինակ	ADJ	_	Degree=Pos	6	amod	_	Translit=taròrinak|LTranslit=taròrinak
 6	երեւոյթ	երեւոյթ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	0	root	_	Translit=erewoyt’|LTranslit=erewoyt’
 7	չէր	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Imp|VerbForm=Fin	6	cop	_	Translit=čēr|LTranslit=em
-8	Կ	Կ.	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|Hyph=Yes|NameType=Giv|Number=Sing	6	obl	_	Translit=K|LTranslit=K.|SpaceAfter=No
+8	Կ	Կ.	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Giv|Number=Sing	6	obl	_	Translit=K|LTranslit=K.|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	Translit=.|LTranslit=.
 10	Պոլսոյ	Պոլիս|Պօլիս	PROPN	_	Animacy=Nhum|Case=Dat|Definite=Ind|NameType=Geo|Number=Sing	8	flat	_	Translit=Polsoy|LTranslit=Polis|Pòlis
 11	մէջ	մէջ	ADP	_	AdpType=Post	8	case	_	Translit=mēǰ|LTranslit=mēǰ|SpaceAfter=No
@@ -5747,7 +5747,7 @@
 # translit = Ayn aten K. Polis k’ristoneay kiner čēin krer ewropakan taraz, t’owrk’ kinerow nman anonk’ kë hagnēin ferač̣ē kam ēnt’ari ew k’oġarkowaç ēin eašmagov kam parz k’oġov, ëst irenc’ patkanaç dasakargin.
 1	Այն	այն	DET	_	Deixis=Remt|PronType=Dem	2	det	_	Translit=Ayn|LTranslit=ayn
 2	ատեն	ատեն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	9	obl	_	Translit=aten|LTranslit=aten
-3	Կ	Կ.	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|Hyph=Yes|NameType=Giv|Number=Sing	9	obl	_	Translit=K|LTranslit=K.|SpaceAfter=No
+3	Կ	Կ.	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Giv|Number=Sing	9	obl	_	Translit=K|LTranslit=K.|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	Translit=.|LTranslit=.
 5	Պոլիս	Պոլիս|Պօլիս	PROPN	_	Animacy=Nhum|Case=Nom|Definite=Ind|NameType=Geo|Number=Sing	3	flat	_	Translit=Polis|LTranslit=Polis|Pòlis
 6	քրիստոնեայ	քրիստոնեայ	NOUN	_	Animacy=Hum|Case=Nom|Definite=Ind|Number=Sing	7	nmod	_	Translit=k’ristoneay|LTranslit=k’ristoneay
@@ -7098,7 +7098,7 @@
 13	չէ	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	14	aux	_	Translit=čē|LTranslit=em
 14	կրցած	կրնալ	VERB	_	Aspect=Perf|Polarity=Pos|Subcat=Intr|VerbForm=Part|Voice=Mid	6	conj	_	Translit=krc’aç|LTranslit=krnal
 15	հեռանալ	հեռանալ	VERB	_	Polarity=Pos|Subcat=Intr|VerbForm=Inf|Voice=Mid	14	ccomp	_	Translit=heṙanal|LTranslit=heṙanal
-16	Կ	Կ.	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|Hyph=Yes|NameType=Giv|Number=Sing	15	obl	_	Translit=K|LTranslit=K.|SpaceAfter=No
+16	Կ	Կ.	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Giv|Number=Sing	15	obl	_	Translit=K|LTranslit=K.|SpaceAfter=No
 17	.	.	PUNCT	_	_	16	punct	_	Translit=.|LTranslit=.
 18	Պոլսէն	Պոլիս|Պօլիս	PROPN	_	Animacy=Nhum|Case=Abl|Definite=Def|NameType=Geo|Number=Sing	16	flat	_	Translit=Polsēn|LTranslit=Polis|Pòlis|SpaceAfter=No
 19	։	։	PUNCT	_	_	6	punct	_	Translit=.|LTranslit=.
@@ -7760,7 +7760,7 @@
 2	էին	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Imp|VerbForm=Fin	1	cop	_	Translit=ēin|LTranslit=em
 3	բարքերը	բարք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Plur	1	nsubj	_	Translit=bark’erë|LTranslit=bark’
 4	մայրաքաղաք	մայրաքաղաք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	5	nmod	_	Translit=mayrak’aġak’|LTranslit=mayrak’aġak’
-5	Կ	Կ.	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|Hyph=Yes|NameType=Giv|Number=Sing	1	obl	_	Translit=K|LTranslit=K.|SpaceAfter=No
+5	Կ	Կ.	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Giv|Number=Sing	1	obl	_	Translit=K|LTranslit=K.|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	Translit=.|LTranslit=.
 7	Պոլսոյ	Պոլիս|Պօլիս	PROPN	_	Animacy=Nhum|Case=Dat|Definite=Ind|NameType=Geo|Number=Sing	5	flat	_	Translit=Polsoy|LTranslit=Polis|Pòlis
 8	մէջ	մէջ	ADP	_	AdpType=Post	5	case	_	Translit=mēǰ|LTranslit=mēǰ|SpaceAfter=No
@@ -7982,7 +7982,7 @@
 4	յաճախ	յաճախ	ADV	_	_	6	advmod	_	Translit=yač̣ax|LTranslit=yač̣ax
 5	կը	կը	AUX	_	Aspect=Imp|Mood=Ind	6	aux	_	Translit=kë|LTranslit=kë
 6	պատահէին	պատահիլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Imp|VerbForm=Fin|Voice=Mid	0	root	_	Translit=patahēin|LTranslit=patahil
-7	Կ	Կ.	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|Hyph=Yes|NameType=Giv|Number=Sing	6	obl	_	Translit=K|LTranslit=K.|SpaceAfter=No
+7	Կ	Կ.	PROPN	_	Animacy=Hum|Case=Dat|Definite=Ind|NameType=Giv|Number=Sing	6	obl	_	Translit=K|LTranslit=K.|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	Translit=.|LTranslit=.
 9	Պոլսոյ	Պոլիս|Պօլիս	PROPN	_	Animacy=Nhum|Case=Dat|Definite=Ind|NameType=Geo|Number=Sing	7	flat	_	Translit=Polsoy|LTranslit=Polis|Pòlis
 10	մէջ	մէջ	ADP	_	AdpType=Post	7	case	_	Translit=mēǰ|LTranslit=mēǰ|SpaceAfter=No
@@ -10737,7 +10737,7 @@
 1	Հակառակ	հակառակ	ADP	_	AdpType=Ambi	9	case	_	Translit=Hakaṙak|LTranslit=hakaṙak
 2	Սէն	սէն	ADJ	_	Foreign=Yes	6	nmod:poss	_	Translit=Sēn|LTranslit=sēn
 3	Ժէռմէն	Ժէռմէն	PROPN	_	Animacy=Hum|Case=Nom|Definite=Ind|NameType=Giv|Number=Sing	2	flat:name	_	Translit=Žēṙmēn|LTranslit=Žēṙmēn
-4	տէ	տէ	X	_	_	2	flat:name	_	Translit=tē|LTranslit=tē
+4	տէ	տէ	X	_	Foreign=Yes	2	flat:name	_	Translit=tē|LTranslit=tē
 5	Փռէի	Փռէ	PROPN	_	Animacy=Nhum|Case=Dat|Definite=Ind|NameType=Geo|Number=Sing	2	flat:name	_	Translit=P’ṙēi|LTranslit=P’ṙē
 6	եկեղեցիին	եկեղեցի	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	8	nmod:poss	_	Translit=ekeġec’iin|LTranslit=ekeġec’i
 7	ճիշդ	ճիշդ	ADV	_	_	8	advmod:emph	_	Translit=č̣išd|LTranslit=č̣išd
@@ -12390,7 +12390,7 @@
 36-37	առանձի՞ն	_	_	_	_	_	_	_	Translit=aṙanji?n
 36	առանձին	առանձին	ADJ	_	_	26	conj	_	Translit=aṙanjin|LTranslit=aṙanjin
 37	՞	՞	PUNCT	_	_	36	punct	_	Translit=?|LTranslit=?
-38	էիր	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Imp|VerbForm=Fin|Voice=Mid	36	cop	_	Translit=ēir|LTranslit=em
+38	էիր	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Imp|VerbForm=Fin	36	cop	_	Translit=ēir|LTranslit=em
 39	անպիտան	անպիտան	NOUN	_	Animacy=Hum|Case=Nom|Definite=Ind|Number=Sing	36	vocative	_	Translit=anpitan|LTranslit=anpitan|SpaceAfter=No
 40	...	...	PUNCT	_	_	44	punct	_	Translit=...|LTranslit=...
 41	ես	ես	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	44	nsubj	_	Translit=es|LTranslit=es
