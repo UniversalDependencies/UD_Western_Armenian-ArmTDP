@@ -11100,7 +11100,7 @@
 4	պատճառը	պատճառ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	1	nsubj	_	Translit=patč̣aṙë|LTranslit=patč̣aṙ|SpaceAfter=No
 5	՝	՝	PUNCT	_	_	22	punct	_	Translit=,|LTranslit=,
 6	որ	որ	SCONJ	_	_	22	mark	_	Translit=or|LTranslit=or
-7	Համիտիյէ	Համիտիյէ	PROPN	_	Animacy=Hum|Case=Nom|Definite=Ind|NameType=Com|Number=Coll	11	nmod	_	Translit=Hamitiyē|LTranslit=Hamitiyē
+7	Համիտիյէ	Համիտիյէ	PROPN	_	Animacy=Hum|Case=Nom|Definite=Ind|NameType=Com|Number=Sing	11	nmod	_	Translit=Hamitiyē|LTranslit=Hamitiyē
 8	կեղծ	կեղծ	ADJ	_	Degree=Pos	11	amod	_	Translit=keġç|LTranslit=keġç
 9	ու	ու	CCONJ	_	_	10	cc	_	Translit=ow|LTranslit=ow
 10	շնական	շնական	ADJ	_	Degree=Pos	8	conj	_	Translit=šnakan|LTranslit=šnakan
