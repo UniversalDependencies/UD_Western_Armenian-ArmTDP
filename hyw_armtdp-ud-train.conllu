@@ -8271,7 +8271,7 @@
 5	սնտուկներ	սնտուկ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Plur	6	obj	_	Translit=sntowkner|LTranslit=sntowk
 6	պատրաստել	պատրաստել	VERB	_	Polarity=Pos|Subcat=Tran|VerbForm=Inf|Voice=Act	0	root	_	Translit=patrastel|LTranslit=patrastel
 7	կու	կը	AUX	_	Aspect=Imp|Mood=Ind	6	aux	_	Translit=kow|LTranslit=kë
-8	տայ	տալ	AUX	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Cau	6	aux	_	Translit=tay|LTranslit=tal
+8	տայ	տալ	AUX	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Cau	6	aux:caus	_	Translit=tay|LTranslit=tal
 9	կոր	կոր	AUX	_	Aspect=Prog|Mood=Ind|Style=Coll	6	aux	_	Translit=kor|LTranslit=kor
 10	տետրակները	տետրակ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Plur	11	obj	_	Translit=tetraknerë|LTranslit=tetrak
 11	փոխադրելու	փոխադրել	VERB	_	Case=Dat|Definite=Ind|Polarity=Pos|Subcat=Tran|VerbForm=Inf|Voice=Act	6	obl	_	Translit=p’oxadrelow|LTranslit=p’oxadrel
@@ -9548,7 +9548,7 @@
 # translit = Menk’ hamajayn enk’ ir het.
 1	Մենք	մենք	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	Translit=Menk’|LTranslit=menk’
 2	համաձայն	համաձայն	ADJ	_	_	0	root	_	Translit=hamajayn|LTranslit=hamajayn
-3	ենք	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	2	cop	_	Translit=enk’|LTranslit=em
+3	ենք	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	Translit=enk’|LTranslit=em
 4	իր	ինք	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Emp	2	obl	_	Translit=ir|LTranslit=ink’
 5	հետ	հետ	ADP	_	AdpType=Post	4	case	_	Translit=het|LTranslit=het|SpaceAfter=No
 6	։	։	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.
@@ -9562,7 +9562,7 @@
 4	անգամ	անգամ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	6	obl	_	Translit=angam|LTranslit=angam
 5	մը	մը	DET	_	PronType=Art	4	det	_	Translit=më|LTranslit=më
 6	ընդունած	ընդունիլ	VERB	_	Aspect=Perf|Polarity=Pos|Subcat=Tran|VerbForm=Part|Voice=Act	21	advcl:relcl	_	Translit=ëndownaç|LTranslit=ëndownil
-7	ենք	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	6	aux	_	Translit=enk’|LTranslit=em
+7	ենք	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	Translit=enk’|LTranslit=em
 8	այս	այս	DET	_	Deixis=Prox|PronType=Dem	9	det	_	Translit=ays|LTranslit=ays
 9	գաղափարը	գաղափար	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	6	obj	_	Translit=gaġap’arë|LTranslit=gaġap’ar|SpaceAfter=No
 10	,	,	PUNCT	_	_	21	punct	_	Translit=,|LTranslit=,
@@ -10357,7 +10357,7 @@
 6	էջերուն	էջ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Plur	8	obl	_	Translit=ēǰerown|LTranslit=ēǰ
 7	մէջ	մէջ	ADP	_	AdpType=Post	6	case	_	Translit=mēǰ|LTranslit=mēǰ
 8	անդրադարձած	անդրադառնալ	VERB	_	Polarity=Pos|Subcat=Intr|VerbForm=Part|Voice=Mid	16	advcl:relcl	_	Translit=andradarjaç|LTranslit=andradaṙnal
-9	ենք	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	8	aux	_	Translit=enk’|LTranslit=em
+9	ենք	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	Translit=enk’|LTranslit=em
 10	թուրք	թուրք	NOUN	_	Animacy=Hum|Case=Nom|Definite=Ind|Number=Sing	11	nmod	_	Translit=t’owrk’|LTranslit=t’owrk’
 11	ազատականներու	ազատական	NOUN	_	Animacy=Hum|Case=Dat|Definite=Ind|Number=Plur	8	obl	_	Translit=azatakannerow|LTranslit=azatakan
 12	եւ	եւ	CCONJ	_	_	13	cc	_	Translit=ew|LTranslit=ew
@@ -14924,7 +14924,7 @@
 2	Դէ	դէ	INTJ	_	_	6	discourse	_	Translit=Dē|LTranslit=dē
 3	՛	՛	PUNCT	_	_	2	punct	_	Translit=՛|LTranslit=՛
 4	ինչ	ինչ	ADV	_	PronType=Int	6	advmod	_	Translit=inč|LTranslit=inč
-5	ենք	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	6	aux	_	Translit=enk’|LTranslit=em
+5	ենք	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	Translit=enk’|LTranslit=em
 6	մնացել	մնալ	VERB	_	Aspect=Perf|LangId=Hy|Subcat=Intr|VerbForm=Part|Voice=Mid	0	root	_	Translit=mnac’el|LTranslit=mnal
 7	քորիդորում	քորիդոր	NOUN	_	Animacy=Nhum|Case=Loc|Definite=Ind|LangId=Hy|Number=Sing|Style=Coll	6	obl	_	Translit=k’oridorowm|LTranslit=k’oridor|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	Translit=,|LTranslit=,
@@ -17172,7 +17172,7 @@
 7	ուժեղ	ուժեղ	ADJ	_	Degree=Pos	10	amod	_	Translit=owžeġ|LTranslit=owžeġ
 8	մէկ	մէկ	NUM	_	NumForm=Word|NumType=Card	10	nummod	_	Translit=mēk|LTranslit=mēk
 9	երկու	երկու	NUM	_	NumForm=Word|NumType=Card	8	flat:range	_	Translit=erkow|LTranslit=erkow
-10	բախում	բախում	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	11	compound:lvc	_	Translit=baxowm|LTranslit=baxowm
+10	բախում	բախում	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	11	obj	_	Translit=baxowm|LTranslit=baxowm
 11	ունեցած	ունենալ	VERB	_	Aspect=Perf|Polarity=Pos|Subcat=Tran|VerbForm=Part|Voice=Act	2	ccomp	_	Translit=ownec’aç|LTranslit=ownenal
 12	էր	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Imp|VerbForm=Fin	11	aux	_	Translit=ēr|LTranslit=em
 13	այնպիսի	այնպիսի	DET	_	Deixis=Remt|PronType=Dem	14	det	_	Translit=aynpisi|LTranslit=aynpisi

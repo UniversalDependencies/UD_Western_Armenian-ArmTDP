@@ -8654,14 +8654,14 @@
 3	ժողովուրդ	ժողովուրդ	NOUN	_	Animacy=Hum|Case=Nom|Definite=Ind|Number=Sing	7	dislocated	_	Translit=žoġovowrd|LTranslit=žoġovowrd|SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	Translit=,|LTranslit=,
 5	իրականութիւն	իրականութիւն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	7	xcomp	_	Translit=irakanowt’iwn|LTranslit=irakanowt’iwn
-6	ենք	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	7	aux	_	Translit=enk’|LTranslit=em
+6	ենք	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	Translit=enk’|LTranslit=em
 7	համարեր	համարել	VERB	_	Aspect=Perf|Subcat=Tran|VerbForm=Part|Voice=Act	0	root	_	Translit=hamarer|LTranslit=hamarel
 8	այն	այն	PRON	_	Deixis=Remt|PronType=Dem	7	obj	_	Translit=ayn|LTranslit=ayn|SpaceAfter=No
 9	՝	՝	PUNCT	_	_	12	punct	_	Translit=,|LTranslit=,
 10	ինչ	ինչ	PRON	_	PronType=Rel	12	obj	_	Translit=inč|LTranslit=inč
 11	որ	որ	PART	_	_	10	fixed	_	Translit=or|LTranslit=or
 12	բաղձացեր	բաղձալ	VERB	_	Aspect=Perf|Subcat=Tran|VerbForm=Part|Voice=Act	8	acl:relcl	_	Translit=baġjac’er|LTranslit=baġjal
-13	ենք	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	12	aux	_	Translit=enk’|LTranslit=em|SpaceAfter=No
+13	ենք	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	Translit=enk’|LTranslit=em|SpaceAfter=No
 14	։	։	PUNCT	_	_	7	punct	_	Translit=.|LTranslit=.
 
 # newpar id = nonfiction-0009-000D
@@ -9357,7 +9357,7 @@
 6	մենք	մենք	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	Translit=menk’|LTranslit=menk’
 7	յաճախ	յաճախ	ADV	_	_	8	advmod	_	Translit=yač̣ax|LTranslit=yač̣ax
 8	մղած	մղել	VERB	_	Aspect=Perf|Polarity=Pos|Subcat=Tran|VerbForm=Part|Voice=Act	3	acl	_	Translit=mġaç|LTranslit=mġel
-9	ենք	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	8	aux	_	Translit=enk’|LTranslit=em
+9	ենք	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	Translit=enk’|LTranslit=em
 10	պայքարներ	պայքար	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Plur	8	obj	_	Translit=payk’arner|LTranslit=payk’ar
 11	սխալ	սխալ	ADJ	_	Degree=Pos	12	amod	_	Translit=sxal|LTranslit=sxal
 12	ռազմավարութիւնով	ռազմավարութիւն	NOUN	_	Animacy=Nhum|Case=Ins|Definite=Ind|Number=Sing	8	obl	_	Translit=ṙazmavarowt’iwnov|LTranslit=ṙazmavarowt’iwn
@@ -9371,7 +9371,7 @@
 20	,	,	PUNCT	_	_	24	punct	_	Translit=,|LTranslit=,
 21	բաց	բաց	ADJ	_	Degree=Pos	22	amod	_	Translit=bac’|LTranslit=bac’
 22	դաշտ	դաշտ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	24	obl	_	Translit=dašt|LTranslit=dašt
-23	ենք	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	24	aux	_	Translit=enk’|LTranslit=em
+23	ենք	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	24	aux	_	Translit=enk’|LTranslit=em
 24	նետուեր	նետուիլ	VERB	_	Aspect=Perf|Subcat=Intr|VerbForm=Part|Voice=Mid	8	conj	_	Translit=netower|LTranslit=netowil|SpaceAfter=No
 25	՝	՝	PUNCT	_	_	26	punct	_	Translit=,|LTranslit=,
 26	անգիտակ	անգիտակ	ADJ	_	Degree=Pos	24	xcomp	_	Translit=angitak|LTranslit=angitak
@@ -9458,7 +9458,7 @@
 3	կողմերուն	կողմ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Plur	7	obl	_	Translit=koġmerown|LTranslit=koġm
 4	մասին	մասին	ADP	_	AdpType=Post	3	case	_	Translit=masin|LTranslit=masin
 5	շատ	շատ	ADV	_	_	7	advmod	_	Translit=šat|LTranslit=šat
-6	ենք	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	7	aux	_	Translit=enk’|LTranslit=em
+6	ենք	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	Translit=enk’|LTranslit=em
 7	լսեր	լսել	VERB	_	Aspect=Perf|Subcat=Tran|VerbForm=Part|Voice=Act	0	root	_	Translit=lser|LTranslit=lsel|SpaceAfter=No
 8	։	։	PUNCT	_	_	7	punct	_	Translit=.|LTranslit=.
 
@@ -9514,7 +9514,7 @@
 4	որ	որ	SCONJ	_	_	6	mark	_	Translit=or|LTranslit=or
 5	մենք	մենք	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	Translit=menk’|LTranslit=menk’
 6	Հայ	հայ	NOUN	_	Animacy=Hum|Case=Nom|Definite=Ind|Number=Sing	2	ccomp	_	Translit=Hay|LTranslit=hay
-7	ենք	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	6	cop	_	Translit=enk’|LTranslit=em|SpaceAfter=No
+7	ենք	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	Translit=enk’|LTranslit=em|SpaceAfter=No
 8	։	։	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.
 
 # sent_id = nonfiction-0009-001200EI

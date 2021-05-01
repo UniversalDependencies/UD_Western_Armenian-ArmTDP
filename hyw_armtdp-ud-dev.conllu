@@ -4913,7 +4913,7 @@
 4	կարգը	կարգ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	6	nsubj	_	Translit=kargë|LTranslit=karg
 5	էրկանը	էրիկ	NOUN	_	Animacy=Hum|Case=Dat|Definite=Def|Number=Sing	6	obj	_	Translit=ērkanë|LTranslit=ērik
 6	եկաւ	գալ	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Past|VerbForm=Fin|Voice=Mid	1	advcl:relcl	_	Translit=ekaw|LTranslit=gal
-7	մեկնելու	մեկնիլ	VERB	_	Case=Dat|Definite=Ind|Polarity=Pos|Subcat=Intr|VerbForm=Inf|Voice=Mid	6	xcomp	_	Translit=meknelow|LTranslit=meknil|SpaceAfter=No
+7	մեկնելու	մեկնիլ	VERB	_	Case=Dat|Definite=Ind|Polarity=Pos|Subcat=Intr|VerbForm=Inf|Voice=Mid	6	advcl	_	Translit=meknelow|LTranslit=meknil|SpaceAfter=No
 8	:	:	PUNCT	_	Foreign=Yes	1	punct	_	Translit=.|LTranslit=.
 
 # sent_id = fiction-000J-000U01DL
@@ -7917,7 +7917,7 @@
 1	Որքան	որքան	ADV	_	PronType=Exc	3	advmod	_	Translit=Ork’an|LTranslit=ork’an
 2	՛	՛	PUNCT	_	_	1	punct	_	Translit=՛|LTranslit=՛
 3	հեռու	հեռու	ADJ	_	Degree=Pos	0	root	_	Translit=heṙow|LTranslit=heṙow
-4	ենք	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	3	cop	_	Translit=enk’|LTranslit=em
+4	ենք	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	Translit=enk’|LTranslit=em
 5	եւրոպական	եւրոպական	ADJ	_	_	6	amod	_	Translit=ewropakan|LTranslit=ewropakan
 6	քաղաքի	քաղաք	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Sing	8	nmod:poss	_	Translit=k’aġak’i|LTranslit=k’aġak’
 7	մը	մը	DET	_	PronType=Art	6	det	_	Translit=më|LTranslit=më
@@ -10186,7 +10186,7 @@
 22	մենք	մենք	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	Translit=menk’|LTranslit=menk’
 23	հողին	հող	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	24	nmod:poss	_	Translit=hoġin|LTranslit=hoġ
 24	գերին	գերի	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Number=Sing	7	conj	_	Translit=gerin|LTranslit=geri
-25	ենք	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	24	cop	_	Translit=enk’|LTranslit=em|SpaceAfter=No
+25	ենք	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	24	cop	_	Translit=enk’|LTranslit=em|SpaceAfter=No
 26	»	»	PUNCT	_	_	7	punct	_	Translit=»|LTranslit=»|SpaceAfter=No
 27	։	։	PUNCT	_	_	7	punct	_	Translit=.|LTranslit=.
 
@@ -11055,7 +11055,7 @@
 # translit = — Axpē!r ǰan, mi ktor hac’ ta?s...
 1	—	—	PUNCT	_	_	2	punct	_	Translit=—|LTranslit=—
 2-3	Ախպէ՜ր	_	_	_	_	_	_	_	Translit=Axpē!r
-2	Ախպէր	ախպէր	NOUN	_	Animacy=Hum|Case=Nom|Definite=Ind|Foreign=Yes|LangId=Hy|Number=Sing|Style=Coll	9	vocative	_	Translit=Axpēr|LTranslit=axpēr
+2	Ախպէր	ախպէր	NOUN	_	Animacy=Hum|Case=Nom|Definite=Ind|LangId=Hy|Number=Sing|Style=Coll	9	vocative	_	Translit=Axpēr|LTranslit=axpēr
 3	՜	՜	PUNCT	_	_	2	punct	_	Translit=!|LTranslit=!
 4	ջան	ջան	INTJ	_	_	2	discourse	_	Translit=ǰan|LTranslit=ǰan|SpaceAfter=No
 5	,	,	PUNCT	_	_	9	punct	_	Translit=,|LTranslit=,
@@ -11231,7 +11231,7 @@
 # translit = — Axpē!r ǰan, mi ktor hac’ ta?s...
 1	—	—	PUNCT	_	_	2	punct	_	Translit=—|LTranslit=—
 2-3	Ախպէ՜ր	_	_	_	_	_	_	_	Translit=Axpē!r
-2	Ախպէր	ախպէր	NOUN	_	Animacy=Hum|Case=Nom|Definite=Ind|Foreign=Yes|LangId=Hy|Number=Sing|Style=Coll	9	vocative	_	Translit=Axpēr|LTranslit=axpēr
+2	Ախպէր	ախպէր	NOUN	_	Animacy=Hum|Case=Nom|Definite=Ind|LangId=Hy|Number=Sing|Style=Coll	9	vocative	_	Translit=Axpēr|LTranslit=axpēr
 3	՜	՜	PUNCT	_	_	2	punct	_	Translit=!|LTranslit=!
 4	ջան	ջան	INTJ	_	_	2	discourse	_	Translit=ǰan|LTranslit=ǰan|SpaceAfter=No
 5	,	,	PUNCT	_	_	9	punct	_	Translit=,|LTranslit=,
