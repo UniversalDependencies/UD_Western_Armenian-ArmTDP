@@ -1,12 +1,12 @@
 # Summary
 
-The Western Armenian UD treebank is based on the Western Armenian section of the Armenian Dependency Treebank (Հայերէնի Ծառադարան), originally developed for UD by the ArmTDP team led by Marat M. Yavrumyan at the Yerevan State University.
+The Western Armenian UD treebank is based on the Western Armenian section of the Armenian Dependency Treebank (Հայերէնի Ծառադարան), developed for UD originally by the ArmTDP team led by Marat M. Yavrumyan at the Yerevan State University.
 
 # Introduction
 
 The UD_Western_Armenian-ArmTDP treebank is based on the Հայերէնի Ծառադարան dataset (version 1.0), a mix of texts sampled from different sources, representing different genres and domains (local on-line newspapers, journal articles, and fiction dated between 1895 and 2020). The treebank consists of 1780 sentences (~36K tokens).
 
-The annotation scheme was developed in accordance with the UD guidelines. The original data were manually annotated by the ArmTDP team. The tokenization and POS-tagging process was carried out through alternating steps of automatic scripting and manual revision in the YerevaNN research lab (led by Hrant H. Khachatrian). The treebank is so far the only manual verified corpus of Western Armenian, supplied with comprehensive morphological and syntactic annotation in the form of a complete dependency tree provided for every sentence.
+The annotation scheme was developed in accordance with the UD guidelines. The original data were manually annotated by the ArmTDP team. The tokenization and POS-tagging process was carried out through alternating steps of automatic scripting and manual revision at the YerevaNN research lab (led by Hrant H. Khachatrian). The treebank is so far the only manual verified corpus of Western Armenian, supplied with comprehensive morphological and syntactic annotation in the form of a complete dependency tree provided for every sentence.
 
 # Acknowledgments
 
@@ -35,16 +35,22 @@ UD_Armenian-ArmTDP data conforms to [CoNLL-U](http://universaldependencies.org/f
 
 # Changelog
 
+* 2021-11-15 v2.9
+  * Fixed annotation errors and inconsistencies, added new texts: 36K→90K (mostly blog and news).
+  * Introduced `flat:dist`, `flat:range`.
+  * Specified `advcl:relcl`.
+  * Resplitted train/dev/test.
+  * Fixed some validation errors.
+
 * 2021-05-15 v2.8
   * Initial release in Universal Dependencies.
-
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.8
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: fiction nonfiction
+Genre: blog fiction news nonfiction
 Lemmas: manual native
 UPOS: manual native
 XPOS: not available
