@@ -37,7 +37,7 @@ UD_Western_Armenian-ArmTDP data conforms to [CoNLL-U](http://universaldependenci
 
 * 2021-11-15 v2.9
   * Fixed annotation errors and inconsistencies, added new texts: 36K→90K (mostly blog and news).
-  * Introduced `flat:dist`, `flat:range`.
+  * Introduced `flat:dist`, `flat:range`, `flat:frac`.
   * Specified `advcl:relcl`.
   * Resplitted train/dev/test.
   * Fixed some validation errors.
@@ -60,6 +60,6 @@ Contributors: Yavrumyan, Marat M.
 Contributing: elsewhere
 Contact: myavrum@ysu.am
 ===============================================================================
-Documentation contributors: Yavrumyan, Marat M.; Danielyan, Anna S.
+Documentation contributors: Marat M. Yavrumyan, Anna S. Danielyan, Setrag H.M. Hovsepian
 https://github.com/armtreebank
 </pre>
