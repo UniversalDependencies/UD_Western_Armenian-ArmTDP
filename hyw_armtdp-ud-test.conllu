@@ -900,7 +900,7 @@
 39	խոժոռի	խոժոռիլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	17	conj	_	Translit=xožoṙi|LTranslit=xožoṙil
 40	եւ	եւ	CCONJ	_	_	45	cc	_	Translit=ew|LTranslit=ew
 41	դժկամութեամբ	դժկամակութիւն	NOUN	_	Animacy=Nhum|Case=Ins|Definite=Ind|Number=Coll	45	obl	_	Translit=džkamowt’eamb|LTranslit=džkamakowt’iwn
-42	նոյնը	նոյն	PRON	_	Case=Nom|Definite=Def|Deixis=Remt|Number=Sing|PronType=Dem	45	nsubj	_	Translit=noynë|LTranslit=noyn
+42	նոյնը	նոյնը	PRON	_	Deixis=Remt|PronType=Dem	45	nsubj	_	Translit=noynë|LTranslit=noynë
 43	անգլերէնով	անգլերէն	NOUN	_	Animacy=Nhum|Case=Ins|Definite=Ind|Number=Coll	45	obl	_	Translit=anglerēnov|LTranslit=anglerēn
 44	կ՚	կը	AUX	_	Aspect=Imp|Mood=Ind	45	aux	_	Translit=k,|LTranslit=kë|SpaceAfter=No
 45	ըսէ	ըսել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	Translit=ësē|LTranslit=ësel|SpaceAfter=No
@@ -2068,7 +2068,7 @@
 3	եւ	եւ	CCONJ	_	_	4	cc	_	Translit=ew|LTranslit=ew
 4	մաման	մամա	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Number=Sing	2	conj	_	Translit=maman|LTranslit=mama
 5-6	ո՞ւշ	_	_	_	_	_	_	_	Translit=o?wš
-5	ուշ	ուշ	ADV	_	_	8	advmod	_	Translit=owš|LTranslit=owš
+5	ուշ	ուշ	ADV	_	Degree=Pos	8	advmod	_	Translit=owš|LTranslit=owš
 6	՞	՞	PUNCT	_	_	5	punct	_	Translit=?|LTranslit=?
 7	պիտի	պիտի	AUX	_	Aspect=Prosp|Mood=Ind|Polarity=Pos	8	aux	_	Translit=piti|LTranslit=piti
 8	գան	գալ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Translit=gan|LTranslit=gal|SpaceAfter=No
@@ -9920,7 +9920,7 @@
 16	հայ	հայ	ADJ	_	_	18	amod	_	Translit=hay|LTranslit=hay
 17	քաղաքական	քաղաքական	ADJ	_	_	18	amod	_	Translit=k’aġak’akan|LTranslit=k’aġak’akan
 18	կեանքին	կեանք	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	20	nmod:poss	_	Translit=keank’in|LTranslit=keank’
-19	գլխաւոր	գլխաւոր	ADJ	_	Degree=Pos	20	amod	_	Translit=glxawor|LTranslit=glxawor
+19	գլխաւոր	գլխաւոր	ADJ	_	_	20	amod	_	Translit=glxawor|LTranslit=glxawor
 20	անկիւնաքարը	անկիւնաքար	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	27	nsubj	_	Translit=ankiwnak’arë|LTranslit=ankiwnak’ar
 21-22	ե՛ւ	_	_	_	_	_	_	_	Translit=e՛w
 21	եւ	եւ	CCONJ	_	_	23	cc	_	Translit=ew|LTranslit=ew
@@ -10174,7 +10174,7 @@
 1	Որովհետեւ	որովհետեւ	SCONJ	_	_	12	mark	_	Translit=Orovhetew|LTranslit=orovhetew
 2	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	Translit=mer|LTranslit=menk’
 3	պարտութիւններուն	պարտութիւն	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	5	nmod:poss	_	Translit=partowt’iwnnerown|LTranslit=partowt’iwn
-4	գլխաւոր	գլխաւոր	ADJ	_	Degree=Pos	5	amod	_	Translit=glxawor|LTranslit=glxawor
+4	գլխաւոր	գլխաւոր	ADJ	_	_	5	amod	_	Translit=glxawor|LTranslit=glxawor
 5	պատճառը	պատճառ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	12	nsubj	_	Translit=patč̣aṙë|LTranslit=patč̣aṙ
 6	թշնամիին	թշնամի	NOUN	_	Animacy=Hum|Case=Dat|Definite=Def|Number=Sing	7	nmod:poss	_	Translit=t’šnamiin|LTranslit=t’šnami
 7	ուժերու	ուժ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Plur	8	nmod:poss	_	Translit=owžerow|LTranslit=owž
@@ -12756,7 +12756,7 @@
 32	,	,	PUNCT	_	_	35	punct	_	Translit=,|LTranslit=,
 33	որքան	որքան	ADV	_	PronType=Int	35	advmod	_	Translit=ork’an|LTranslit=ork’an
 34	որ	որ	PART	_	_	33	fixed	_	Translit=or|LTranslit=or
-35	ուշ	ուշ	ADV	_	_	31	advcl	_	Translit=owš|LTranslit=owš
+35	ուշ	ուշ	ADV	_	Degree=Pos	31	advcl	_	Translit=owš|LTranslit=owš
 36	չէ	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	35	cop	_	Translit=čē|LTranslit=em|SpaceAfter=No
 37	։	։	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.
 

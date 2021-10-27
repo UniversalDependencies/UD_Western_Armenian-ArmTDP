@@ -488,7 +488,7 @@
 10	վրայ	վրայ	ADP	_	AdpType=Post	9	case	_	Translit=vray|LTranslit=vray|SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	Translit=,|LTranslit=,
 12	որպէս	որպէս	ADP	_	AdpType=Prep	14	case	_	Translit=orpēs|LTranslit=orpēs
-13	գլխաւոր	գլխաւոր	ADJ	_	Degree=Pos	14	amod	_	Translit=glxawor|LTranslit=glxawor
+13	գլխաւոր	գլխաւոր	ADJ	_	_	14	amod	_	Translit=glxawor|LTranslit=glxawor
 14	երաշխիք	երաշխիք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	8	appos	_	Translit=erašxik’|LTranslit=erašxik’
 15	հայուն	հայ	NOUN	_	Animacy=Hum|Case=Dat|Definite=Def|Number=Sing	14	nmod:npmod	_	Translit=hayown|LTranslit=hay
 16	դիմագրաւելու	դիմագրաւել	VERB	_	Case=Dat|Definite=Ind|Polarity=Pos|Subcat=Intr|VerbForm=Inf|Voice=Mid	14	nmod:poss	_	Translit=dimagrawelow|LTranslit=dimagrawel
@@ -2962,7 +2962,7 @@
 5	կողմ	կողմ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	10	obl	_	Translit=koġm|LTranslit=koġm
 6	Թուրքիոյ	Թուրքիա	PROPN	_	Animacy=Nhum|Case=Dat|Definite=Ind|NameType=Geo|Number=Sing	7	nmod:poss	_	Translit=T’owrk’ioy|LTranslit=T’owrk’ia
 7	օրակարգի	օրակարգ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Sing	9	nmod:poss	_	Translit=òrakargi|LTranslit=òrakarg
-8	գլխաւոր	գլխաւոր	ADJ	_	Degree=Pos	9	amod	_	Translit=glxawor|LTranslit=glxawor
+8	գլխաւոր	գլխաւոր	ADJ	_	_	9	amod	_	Translit=glxawor|LTranslit=glxawor
 9	նիւթը	նիւթ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	10	xcomp	_	Translit=niwt’ë|LTranslit=niwt’
 10	դարձած	դառնալ	VERB	_	Aspect=Perf|Polarity=Pos|Subcat=Intr|VerbForm=Part|Voice=Mid	0	root	_	Translit=darjaç|LTranslit=daṙnal
 11	է	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	aux	_	Translit=ē|LTranslit=em
@@ -5839,7 +5839,7 @@
 # sent_id = fiction-000K-000Q01IS
 # text = Գլխաւոր շարժիչ, առաջնորդող ուժը եղաւ Զարեհ Նազարիկեան, որ յայտնի կերպով իր հօր վերընտրութեանը դէմ ելաւ, նոյնիսկ այնքան բուռն կերպով, որ նախկին ատենապետին բարեկամներէն շատեր եկան եղելութիւնը ցաւած սրտով պատմեցին իրեն:
 # translit = Glxawor šaržič, aṙaǰnordoġ owžë eġaw Zareh Nazarikean, or yaytni kerpov ir hòr verëntrowt’eanë dēm elaw, noynisk aynk’an bowṙn kerpov, or naxkin atenapetin barekamnerēn šater ekan eġelowt’iwnë c’awaç srtov patmec’in iren.
-1	Գլխաւոր	գլխաւոր	ADJ	_	Degree=Pos	5	amod	_	Translit=Glxawor|LTranslit=glxawor
+1	Գլխաւոր	գլխաւոր	ADJ	_	_	5	amod	_	Translit=Glxawor|LTranslit=glxawor
 2	շարժիչ	շարժիչ	ADJ	_	_	5	amod	_	Translit=šaržič|LTranslit=šaržič|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	Translit=,|LTranslit=,
 4	առաջնորդող	առաջնորդել	VERB	_	Aspect=Dur|Polarity=Pos|Subcat=Tran|VerbForm=Part|Voice=Act	2	conj	_	Translit=aṙaǰnordoġ|LTranslit=aṙaǰnordel
@@ -8258,7 +8258,7 @@
 10	տուող	տալ	VERB	_	Aspect=Dur|Polarity=Pos|Subcat=Tran|VerbForm=Part|Voice=Act	11	acl	_	Translit=towoġ|LTranslit=tal
 11	ձայնի	ձայն	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Sing	12	nmod:poss	_	Translit=jayni|LTranslit=jayn
 12	տէրը	տէր	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Number=Sing	13	obj	_	Translit=tērë|LTranslit=tēr
-13	ճանչնալու	ճանչնալ	VERB	_	Case=Dat|Definite=Ind|Subcat=Tran|VerbForm=Inf|Voice=Act	3	obl	_	Translit=č̣ančnalow|LTranslit=č̣ančnal
+13	ճանչնալու	ճանչնալ	VERB	_	Case=Dat|Definite=Ind|Polarity=Pos|Subcat=Tran|VerbForm=Inf|Voice=Act	3	obl	_	Translit=č̣ančnalow|LTranslit=č̣ančnal
 14	համար	համար	ADP	_	AdpType=Post	13	case	_	Translit=hamar|LTranslit=hamar|SpaceAfter=No
 15	:	:	PUNCT	_	Foreign=Yes	3	punct	_	Translit=.|LTranslit=.
 
@@ -10871,7 +10871,7 @@
 8	իմ	ես	DET	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	Translit=im|LTranslit=es
 9	տեւական	տեւական	ADJ	_	Degree=Pos	12	amod	_	Translit=tewakan|LTranslit=tewakan
 10	եւ	եւ	CCONJ	_	_	11	cc	_	Translit=ew|LTranslit=ew
-11	գլխաւոր	գլխաւոր	ADJ	_	Degree=Pos	9	conj	_	Translit=glxawor|LTranslit=glxawor
+11	գլխաւոր	գլխաւոր	ADJ	_	_	9	conj	_	Translit=glxawor|LTranslit=glxawor
 12	զգացումս	զգացում	NOUN	_	Animacy=Nhum|Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	14	nsubj	_	Translit=zgac’owms|LTranslit=zgac’owm
 13	ապահովութեան	ապահովութիւն	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Coll	14	nmod:poss	_	Translit=apahovowt’ean|LTranslit=apahovowt’iwn
 14	զգացումն	զգացում	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	0	root	_	Translit=zgac’owmn|LTranslit=zgac’owm
