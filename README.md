@@ -4,7 +4,7 @@ A Universal Dependencies treebank for Western Armenian developed for UD original
 
 # Introduction
 
-The UD_Western_Armenian-ArmTDP treebank is based on the Western Armenian section of the Հայերէնի Ծառադարան dataset (ArmTDP V2.0), a broad-coverage corpus of general Modern Standard Armenian covering numerous genres.
+The UD_Western_Armenian-ArmTDP treebank is based on the Western Armenian section of the Հայերէնի Ծառադարան dataset (ArmTDP v2.0), a broad-coverage corpus of general Modern Standard Armenian covering numerous genres. The treebank consists of 5024 sentences (~93K tokens).
 
 The annotation scheme was developed in accordance with the UD guidelines. The original data was manually annotated by the ArmTDP team. The tokenization and POS-tagging process was carried out through alternating steps of glossary-based automatic scripting and manual revision at the YerevaNN research lab (led by Hrant H. Khachatrian). The treebank is so far the only manual verified corpus of Western Armenian, supplied with comprehensive morphological and syntactic annotation in the form of a complete dependency tree provided for every sentence.
 
@@ -23,7 +23,7 @@ The team behind the UD_Western_Armenian-ArmTDP: Marat M. Yavrumyan, Hrant H. Kha
 UD_Western_Armenian-ArmTDP data conforms to [CoNLL-U](http://universaldependencies.org/format.html) format with the following specifics:
 * Sentence-level comments:
   * Document titles are present as `# doc_title = Սիլիհտարի պարտէզները`.
-  * Document boundaries are present as `# newdoc id = fiction/news-xxxx`.
+  * Document boundaries are present as `# newdoc id = blog/fiction/news/nonfiction-xxxx`.
   * Sentence-level paragraph boundaries are present as `# newpar id = newdoc-xxxx`.
   * Sentence boundaries are present as `# sent_id = newdoc-newparxxxx`.
 * XPOSTAG column is currently unused.
@@ -36,7 +36,7 @@ UD_Western_Armenian-ArmTDP data conforms to [CoNLL-U](http://universaldependenci
 # Changelog
 
 * 2021-11-15 v2.9
-  * Fixed annotation errors and inconsistencies, added new texts: 36K→90K (mostly blog and news).
+  * Fixed annotation errors and inconsistencies, added new texts: 36K→93K (mostly blog and news).
   * Introduced `flat:dist`, `flat:range`, `flat:frac`.
   * Specified `advcl:relcl`.
   * Resplitted train/dev/test.
