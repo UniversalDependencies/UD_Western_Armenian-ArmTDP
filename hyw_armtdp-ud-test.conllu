@@ -1268,7 +1268,7 @@
 6	մասին	մասին	ADP	_	AdpType=Post	5	case	_	Translit=masin|LTranslit=masin
 7	շատ	շատ	ADV	_	_	9	advmod	_	Translit=šat|LTranslit=šat
 8	կը	կը	AUX	_	Aspect=Imp|Mood=Ind	9	aux	_	Translit=kë|LTranslit=kë
-9	խօսէր	խօսիլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Imp|VerbForm=Fin|Voice=Act	1	acl:relcl	_	Translit=xòsēr|LTranslit=xòsil|SpaceAfter=No
+9	խօսէր	խօսիլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Imp|VerbForm=Fin|Voice=Mid	1	acl:relcl	_	Translit=xòsēr|LTranslit=xòsil|SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	Translit=,|LTranslit=,
 11	ոչինչ	ոչինչ	PRON	_	Case=Nom|Definite=Ind|PronType=Neg	13	obj	_	Translit=očinč|LTranslit=očinč
 12	կը	կը	AUX	_	Aspect=Imp|Mood=Ind	13	aux	_	Translit=kë|LTranslit=kë
@@ -7715,7 +7715,7 @@
 # text = Անոր լեցուն մարմինը կը յորդէր յուղարկաւորի հագուստէն, որ մաշիլ չէր գիտեր։
 # translit = Anor lec’own marminë kë yordēr yowġarkawori hagowstēn, or mašil čēr giter.
 1	Անոր	ան	DET	_	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	Translit=Anor|LTranslit=an
-2	լեցուն	լեցուն	ADJ	_	Degree=Pos	3	amod	_	Translit=lec’own|LTranslit=lec’own
+2	լեցուն	լեցուն	ADJ	_	_	3	amod	_	Translit=lec’own|LTranslit=lec’own
 3	մարմինը	մարմին	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	5	nsubj	_	Translit=marminë|LTranslit=marmin
 4	կը	կը	AUX	_	Aspect=Imp|Mood=Ind	5	aux	_	Translit=kë|LTranslit=kë
 5	յորդէր	յորդիլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Imp|VerbForm=Fin|Voice=Mid	0	root	_	Translit=yordēr|LTranslit=yordil
