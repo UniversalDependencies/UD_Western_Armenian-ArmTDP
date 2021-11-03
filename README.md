@@ -1,12 +1,12 @@
 # Summary
 
-The Western Armenian UD treebank is based on the Western Armenian section of the Armenian Dependency Treebank (Հայերէնի Ծառադարան), originally developed for UD by the ArmTDP team led by Marat M. Yavrumyan at the Yerevan State University.
+A Universal Dependencies treebank for Western Armenian developed for UD originally by the ArmTDP team led by Marat M. Yavrumyan at the Yerevan State University.
 
 # Introduction
 
-The UD_Western_Armenian-ArmTDP treebank is based on the Հայերէնի Ծառադարան dataset (version 1.0), a mix of texts sampled from different sources, representing different genres and domains (local on-line newspapers, journal articles, and fiction dated between 1895 and 2020). The treebank consists of 1780 sentences (~36K tokens).
+The UD_Western_Armenian-ArmTDP treebank is based on the Western Armenian section of the Հայերէնի Ծառադարան dataset (ArmTDP v2.0), a broad-coverage corpus of general Modern Standard Armenian covering numerous genres. The treebank consists of 5026 sentences (~93K tokens).
 
-The annotation scheme was developed in accordance with the UD guidelines. The original data were manually annotated by the ArmTDP team. The tokenization and POS-tagging process was carried out through alternating steps of automatic scripting and manual revision in the YerevaNN research lab (led by Hrant H. Khachatrian). The treebank is so far the only manual verified corpus of Western Armenian, supplied with comprehensive morphological and syntactic annotation in the form of a complete dependency tree provided for every sentence.
+The annotation scheme was developed in accordance with the UD guidelines. The original data was manually annotated by the ArmTDP team. The tokenization and POS-tagging process was carried out through alternating steps of glossary-based automatic scripting and manual revision at the YerevaNN research lab (led by Hrant H. Khachatrian). The treebank is so far the only manual verified corpus of Western Armenian, supplied with comprehensive morphological and syntactic annotation in the form of a complete dependency tree provided for every sentence.
 
 # Acknowledgments
 
@@ -20,10 +20,10 @@ The team behind the UD_Western_Armenian-ArmTDP: Marat M. Yavrumyan, Hrant H. Kha
 
 ## Format
 
-UD_Armenian-ArmTDP data conforms to [CoNLL-U](http://universaldependencies.org/format.html) format with the following specifics:
+UD_Western_Armenian-ArmTDP data conforms to [CoNLL-U](http://universaldependencies.org/format.html) format with the following specifics:
 * Sentence-level comments:
   * Document titles are present as `# doc_title = Սիլիհտարի պարտէզները`.
-  * Document boundaries are present as `# newdoc id = fiction/news-xxxx`.
+  * Document boundaries are present as `# newdoc id = blog/fiction/news/nonfiction-xxxx`.
   * Sentence-level paragraph boundaries are present as `# newpar id = newdoc-xxxx`.
   * Sentence boundaries are present as `# sent_id = newdoc-newparxxxx`.
 * XPOSTAG column is currently unused.
@@ -35,16 +35,22 @@ UD_Armenian-ArmTDP data conforms to [CoNLL-U](http://universaldependencies.org/f
 
 # Changelog
 
+* 2021-11-15 v2.9
+  * Fixed annotation errors and inconsistencies, added new texts: 36K→93K (mostly blog and news).
+  * Introduced `flat:dist`, `flat:range`, `flat:frac`.
+  * Specified `advcl:relcl`.
+  * Resplitted train/dev/test.
+  * Fixed some validation errors.
+
 * 2021-05-15 v2.8
   * Initial release in Universal Dependencies.
-
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.8
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: fiction nonfiction
+Genre: blog fiction news nonfiction
 Lemmas: manual native
 UPOS: manual native
 XPOS: not available
@@ -54,6 +60,6 @@ Contributors: Yavrumyan, Marat M.
 Contributing: elsewhere
 Contact: myavrum@ysu.am
 ===============================================================================
-Documentation contributors: Yavrumyan, Marat M.; Danielyan, Anna S.
+Documentation contributors: Marat M. Yavrumyan, Anna S. Danielyan, Setrag H.M. Hovsepian
 https://github.com/armtreebank
 </pre>
