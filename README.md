@@ -35,6 +35,11 @@ UD_Western_Armenian-ArmTDP data conforms to [CoNLL-U](http://universaldependenci
 
 # Changelog
 
+* 2022-05-15 v2.10
+  * Fixed annotation errors and inconsistencies, added new texts: 36K→124K (mostly reviews, social, spoken, web and wiki).
+  * Resplitted train/dev/test.
+  * Fixed some validation and annotation errors.
+
 * 2021-11-15 v2.9
   * Fixed annotation errors and inconsistencies, added new texts: 36K→93K (mostly blog and news).
   * Introduced `flat:dist`, `flat:range`, `flat:frac`.
@@ -50,7 +55,7 @@ UD_Western_Armenian-ArmTDP data conforms to [CoNLL-U](http://universaldependenci
 Data available since: UD v2.8
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: blog fiction news nonfiction
+Genre: blog fiction news nonfiction reviews social spoken web wiki
 Lemmas: manual native
 UPOS: manual native
 XPOS: not available
