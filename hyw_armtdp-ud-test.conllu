@@ -10544,7 +10544,7 @@
 64	դերասաններ	դերասան	NOUN	_	Animacy=Hum|Case=Nom|Definite=Ind|Number=Plur	32	dislocated	_	Translit=derasanner|LTranslit=derasan|SpaceAfter=No
 65	`	`	PUNCT	_	Foreign=Yes	69	punct	_	Translit=,|LTranslit=,
 66	որ	որ	SCONJ	_	_	69	mark	_	Translit=or|LTranslit=or
-67	յանձն	յանձն	X	_	Style=Arch	70	compound:lvc	_	Translit=yanjn|LTranslit=yanjn
+67	յանձն	յանձն	X	_	_	70	compound:lvc	_	Translit=yanjn|LTranslit=yanjn
 68	չեն	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	69	aux	_	Translit=čen|LTranslit=em
 69	կրնար	կրնալ	VERB	_	Aspect=Imp|Connegative=Yes|Subcat=Intr|VerbForm=Part|Voice=Mid	64	acl	_	Translit=krnar|LTranslit=krnal
 70	առնել	առնել	VERB	_	Polarity=Pos|Subcat=Tran|VerbForm=Inf|Voice=Act	69	xcomp	_	Translit=aṙnel|LTranslit=aṙnel
