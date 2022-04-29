@@ -38,7 +38,7 @@ UD_Western_Armenian-ArmTDP data conforms to [CoNLL-U](http://universaldependenci
 * 2022-05-15 v2.10
   * Fixed annotation errors and inconsistencies, added new texts: 36K→124K (mostly reviews, social, spoken, web and wiki).
   * Resplitted train/dev/test.
-  * Fixed some validation and annotation errors.
+  * Fixed some validation errors.
 
 * 2021-11-15 v2.9
   * Fixed annotation errors and inconsistencies, added new texts: 36K→93K (mostly blog and news).
