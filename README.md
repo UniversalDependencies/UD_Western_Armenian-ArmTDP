@@ -6,7 +6,7 @@ A Universal Dependencies treebank for Western Armenian developed for UD original
 
 The UD_Western_Armenian-ArmTDP treebank is based on the Western Armenian section of the Հայերէնի Ծառադարան dataset (ArmTDP v2.0), a broad-coverage corpus of general Modern Standard Armenian covering numerous genres. The treebank consists of 6656 sentences (~124K tokens).
 
-The annotation scheme was developed in accordance with the UD guidelines. The original data was manually annotated by the ArmTDP team. The tokenization and POS-tagging process was carried out through alternating steps of glossary-based automatic scripting and manual revision at the YerevaNN research lab (led by Hrant H. Khachatrian). The treebank is so far the only manual verified corpus of Western Armenian, supplied with comprehensive morphological and syntactic annotation in the form of a complete dependency tree provided for every sentence.
+The annotation scheme was developed in accordance with the UD guidelines. The original data was manually annotated by the ArmTDP team. The tokenization and POS-tagging process was carried out through alternating steps of glossary-based automatic scripting and manual revision. The treebank is so far the only manual verified corpus of Western Armenian, supplied with comprehensive morphological and syntactic annotation in the form of a complete dependency tree provided for every sentence.
 
 # Acknowledgments
 
