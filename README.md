@@ -63,7 +63,7 @@ Features: manual native
 Relations: manual native
 Contributors: Yavrumyan, Marat M.
 Contributing: elsewhere
-Contact: myavrum@ysu.am
+Contact: marat.yavrumyan@plus.ac.at
 ===============================================================================
 Documentation contributors: Marat M. Yavrumyan, Anna S. Danielyan, Setrag H.M. Hovsepian
 https://github.com/armtreebank
