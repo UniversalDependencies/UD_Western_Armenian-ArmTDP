@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Western_Armenian-ArmTDP:
-commit 2a02e672d753045b7869fdc7083e210f8f87c6d5
-Merge: 3494583 54979e5
+commit d7d86eb6f256afa8813759e1dde4e60c63ffeb82
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 14 12:49:26 2022 +0100
 Size: counted 122907 of 122907 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.62285594365103.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -24,27 +24,27 @@ Udapi:
 Udapi: found 147 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 122907 words.
 Genres: found 9 out of 17 known.
-validate.py --lang hyw --max-err=10 UD_Western_Armenian-ArmTDP/hyw_armtdp-ud-dev.conllu
-[Line 649 Sent blog-003A-000806TP Node 20]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [19, 23]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+/net/work/people/zeman/unidep/tools/validate.py --lang hyw --max-err=10 UD_Western_Armenian-ArmTDP/hyw_armtdp-ud-dev.conllu
+[Line 649 Sent blog-003A-000806TP Node 20]: [L3 Syntax too-many-subjects] Multiple subjects [19, 23] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
 Syntax errors: 1
 *** FAILED *** with 1 errors
 Exit code: 1
-validate.py --lang hyw --max-err=10 UD_Western_Armenian-ArmTDP/hyw_armtdp-ud-test.conllu
-[Line 472 Sent reviews-003F-0004072F Node 5]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 10]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 5740 Sent wiki-002L-000205OR Node 9]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [4, 30]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+/net/work/people/zeman/unidep/tools/validate.py --lang hyw --max-err=10 UD_Western_Armenian-ArmTDP/hyw_armtdp-ud-test.conllu
+[Line 472 Sent reviews-003F-0004072F Node 5]: [L3 Syntax too-many-subjects] Multiple subjects [2, 10] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 5740 Sent wiki-002L-000205OR Node 9]: [L3 Syntax too-many-subjects] Multiple subjects [4, 30] not subtyped as ':outer'.
 Syntax errors: 2
 *** FAILED *** with 2 errors
 Exit code: 1
-validate.py --lang hyw --max-err=10 UD_Western_Armenian-ArmTDP/hyw_armtdp-ud-train.conllu
-[Line 7838 Sent news-0035-000406J0 Node 23]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [19, 28]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 10756 Sent web-0033-001406FR Node 4]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 7]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 15303 Sent wiki-002V-000Q066N Node 7]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 6]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 15696 Sent wiki-002V-00130679 Node 15]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [14, 21]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 22431 Sent wiki-002N-000105PE Node 3]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 5]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 23590 Sent wiki-002K-000705LU Node 6]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 4]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 40284 Sent fiction-002C-000504CG Node 6]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 20]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 42481 Sent fiction-002C-002H04G4 Node 4]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 5]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 52265 Sent news-0028-000S041J Node 15]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [7, 12]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+/net/work/people/zeman/unidep/tools/validate.py --lang hyw --max-err=10 UD_Western_Armenian-ArmTDP/hyw_armtdp-ud-train.conllu
+[Line 7838 Sent news-0035-000406J0 Node 23]: [L3 Syntax too-many-subjects] Multiple subjects [19, 28] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 10756 Sent web-0033-001406FR Node 4]: [L3 Syntax too-many-subjects] Multiple subjects [3, 7] not subtyped as ':outer'.
+[Line 15303 Sent wiki-002V-000Q066N Node 7]: [L3 Syntax too-many-subjects] Multiple subjects [2, 6] not subtyped as ':outer'.
+[Line 15696 Sent wiki-002V-00130679 Node 15]: [L3 Syntax too-many-subjects] Multiple subjects [14, 21] not subtyped as ':outer'.
+[Line 22431 Sent wiki-002N-000105PE Node 3]: [L3 Syntax too-many-subjects] Multiple subjects [2, 5] not subtyped as ':outer'.
+[Line 23590 Sent wiki-002K-000705LU Node 6]: [L3 Syntax too-many-subjects] Multiple subjects [2, 4] not subtyped as ':outer'.
+[Line 40284 Sent fiction-002C-000504CG Node 6]: [L3 Syntax too-many-subjects] Multiple subjects [3, 20] not subtyped as ':outer'.
+[Line 42481 Sent fiction-002C-002H04G4 Node 4]: [L3 Syntax too-many-subjects] Multiple subjects [1, 5] not subtyped as ':outer'.
+[Line 52265 Sent news-0028-000S041J Node 15]: [L3 Syntax too-many-subjects] Multiple subjects [7, 12] not subtyped as ':outer'.
 ...suppressing further errors regarding Syntax
 Syntax errors: 13
 *** FAILED *** with 13 errors
