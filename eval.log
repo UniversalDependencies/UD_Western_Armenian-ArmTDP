@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Western_Armenian-ArmTDP:
-commit d7d86eb6f256afa8813759e1dde4e60c63ffeb82
+commit 9e9391e0b6c865224a48b600c05dfd6fcdac7b9b
+Merge: 80856cd eceba9d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 14 12:49:26 2022 +0100
 Size: counted 122907 of 122907 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.62285594365103.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,49 +15,30 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 85353 out of 122907 total words have one or more features.
+Features: 85409 out of 122907 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL        147
-Udapi: found 147 bugs.
+               TOTAL        133
+Udapi: found 133 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 122907 words.
 Genres: found 9 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang hyw --max-err=10 UD_Western_Armenian-ArmTDP/hyw_armtdp-ud-dev.conllu
-[Line 649 Sent blog-003A-000806TP Node 20]: [L3 Syntax too-many-subjects] Multiple subjects [19, 23] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
-Syntax errors: 1
-*** FAILED *** with 1 errors
-Exit code: 1
+*** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang hyw --max-err=10 UD_Western_Armenian-ArmTDP/hyw_armtdp-ud-test.conllu
-[Line 472 Sent reviews-003F-0004072F Node 5]: [L3 Syntax too-many-subjects] Multiple subjects [2, 10] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 5740 Sent wiki-002L-000205OR Node 9]: [L3 Syntax too-many-subjects] Multiple subjects [4, 30] not subtyped as ':outer'.
-Syntax errors: 2
-*** FAILED *** with 2 errors
-Exit code: 1
+*** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang hyw --max-err=10 UD_Western_Armenian-ArmTDP/hyw_armtdp-ud-train.conllu
-[Line 7838 Sent news-0035-000406J0 Node 23]: [L3 Syntax too-many-subjects] Multiple subjects [19, 28] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 10756 Sent web-0033-001406FR Node 4]: [L3 Syntax too-many-subjects] Multiple subjects [3, 7] not subtyped as ':outer'.
-[Line 15303 Sent wiki-002V-000Q066N Node 7]: [L3 Syntax too-many-subjects] Multiple subjects [2, 6] not subtyped as ':outer'.
-[Line 15696 Sent wiki-002V-00130679 Node 15]: [L3 Syntax too-many-subjects] Multiple subjects [14, 21] not subtyped as ':outer'.
-[Line 22431 Sent wiki-002N-000105PE Node 3]: [L3 Syntax too-many-subjects] Multiple subjects [2, 5] not subtyped as ':outer'.
-[Line 23590 Sent wiki-002K-000705LU Node 6]: [L3 Syntax too-many-subjects] Multiple subjects [2, 4] not subtyped as ':outer'.
-[Line 40284 Sent fiction-002C-000504CG Node 6]: [L3 Syntax too-many-subjects] Multiple subjects [3, 20] not subtyped as ':outer'.
-[Line 42481 Sent fiction-002C-002H04G4 Node 4]: [L3 Syntax too-many-subjects] Multiple subjects [1, 5] not subtyped as ':outer'.
-[Line 52265 Sent news-0028-000S041J Node 15]: [L3 Syntax too-many-subjects] Multiple subjects [7, 12] not subtyped as ':outer'.
-...suppressing further errors regarding Syntax
-Syntax errors: 13
-*** FAILED *** with 13 errors
-Exit code: 1
-Validity: 0.01
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
 (weight=0.0769230769230769) * (score{genres}=0.529411764705882) = 0.0407239819004525
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
 (weight=0.256410256410256) * (score{size}=0.696525539412925) = 0.17859629215716
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
-(weight=0.307692307692308) * (score{udapi}=0.988039737362396) = 0.304012226880737
+(weight=0.307692307692308) * (score{udapi}=0.989178809994549) = 0.304362710767554
 (weight=0.0769230769230769) * (score{udeprels}=0.945945945945946) = 0.0727650727650728
-(TOTAL score=0.878148855754705) * (availability=1) * (validity=0.01) = 0.00878148855754705
-STARS = 0
-UD_Western_Armenian-ArmTDP	0.00878148855754705	0
+(TOTAL score=0.878499339641521) * (availability=1) * (validity=1) = 0.878499339641521
+STARS = 4.5
+UD_Western_Armenian-ArmTDP	0.878499339641521	4.5
