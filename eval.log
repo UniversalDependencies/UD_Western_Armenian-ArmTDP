@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Western_Armenian-ArmTDP:
-commit d0f0d55cf272770e5f089962e49e80416d498f79
+commit 122ac4538362d9111a1f6b5f7386e7d66ef0b362
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 13:14:14 2023 +0100
+Date:   Sun May 5 13:40:21 2024 +0200
 Size: counted 122907 of 122907 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.62285594365103.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,10 +25,22 @@ Udapi: found 133 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 122907 words.
 Genres: found 9 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang hyw --max-err=10 UD_Western_Armenian-ArmTDP/hyw_armtdp-ud-dev.conllu
+[Line 16219 Sent nonfiction-0009-000S00E5 Node 25]: [L3 Warning leaf-det] 'det' not expected to have children (25:այն:det --> 31:կրնար:advcl)
+Warnings: 1
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang hyw --max-err=10 UD_Western_Armenian-ArmTDP/hyw_armtdp-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang hyw --max-err=10 UD_Western_Armenian-ArmTDP/hyw_armtdp-ud-train.conllu
+[Line 8001 Sent news-0035-000606J4 Node 21]: [L3 Warning leaf-det] 'det' not expected to have children (21:այն:det --> 32:զգայ:acl)
+[Line 8295 Sent news-0035-000706JA Node 47]: [L3 Warning leaf-det] 'det' not expected to have children (47:նոյն:det --> 51:պաշտպանելու:appos)
+[Line 54356 Sent blog-0026-00070450 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:մըն:det --> 5:է:cop)
+[Line 62418 Sent news-001V-000P03L3 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:այս:det --> 7:ստեղծուած:acl)
+[Line 67628 Sent news-001U-000403FR Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:բոլոր:det --> 4:տասներկու:appos)
+[Line 73136 Sent news-001O-000803CM Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:այնպիսի:det --> 20:վնասուէր:advcl)
+[Line 74562 Sent news-001M-0002038B Node 13]: [L3 Warning leaf-det] 'det' not expected to have children (13:որեւէ:det --> 12:խելամիտ:amod)
+[Line 91358 Sent nonfiction-000R-000H01U0 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:Այս:det --> 3:2:appos)
+[Line 108696 Sent nonfiction-000I-0006019C Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:այնպիսի:det --> 30:բերեն:advcl)
+Warnings: 9
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
