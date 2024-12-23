@@ -17,6 +17,7 @@ The team behind the UD_Western_Armenian-ArmTDP: Marat M. Yavrumyan, Hrant H. Kha
 ## References
 
 * Marat M. Yavrumyan. “Universal Dependencies for Armenian.” International Conference on Digital Armenian, Abstracts. Inalco, Paris, October 3-5, 2019.
+* Marat M. Yavrumyan, Anna S. Danielyan, “Universal Dependencies and the Armenian Treebank.” Herald of the Social Sciences (2): 231-244, 2020. (in Armenian)
 
 ## Format
 
