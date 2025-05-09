@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Western_Armenian-ArmTDP:
-commit 122ac4538362d9111a1f6b5f7386e7d66ef0b362
+commit d485fad3a30bd9e01c43ec6568664c9465f7d0f0
+Merge: 0b8c74f d88fc09
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 13:40:21 2024 +0200
 Size: counted 122907 of 122907 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.62285594365103.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,37 +20,91 @@ Features: source of annotation (from README) factor is 1.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL        133
-Udapi: found 133 bugs.
+               TOTAL         72
+Udapi: found 72 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 122907 words.
-Genres: found 9 out of 17 known.
+Genres: found 9 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang hyw --max-err=10 UD_Western_Armenian-ArmTDP/hyw_armtdp-ud-dev.conllu
-[Line 16219 Sent nonfiction-0009-000S00E5 Node 25]: [L3 Warning leaf-det] 'det' not expected to have children (25:այն:det --> 31:կրնար:advcl)
-Warnings: 1
-*** PASSED ***
+[Line 131 Sent blog-003A-000306T3 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'ամէն մէկ' does not have the 'ExtPos' feature
+[Line 184 Sent blog-003A-000406T4 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'քանի մը' does not have the 'ExtPos' feature
+[Line 539 Sent blog-003A-000806TK Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'ի վեր' does not have the 'ExtPos' feature
+[Line 707 Sent blog-003A-000806TR Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'մեծ մասամբ' does not have the 'ExtPos' feature
+[Line 898 Sent blog-003A-000A06U4 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'ամէն ինչ' does not have the 'ExtPos' feature
+[Line 1364 Sent wiki-002O-000205QH Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'ինչպէս նաեւ' does not have the 'ExtPos' feature
+[Line 1687 Sent wiki-002O-000905R0 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'քանի մը' does not have the 'ExtPos' feature
+[Line 1722 Sent wiki-002O-000905R2 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ի զարմանս' does not have the 'ExtPos' feature
+[Line 1998 Sent wiki-002O-000G05RF Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'քանի մը' does not have the 'ExtPos' feature
+[Line 2240 Sent wiki-002O-000K05RQ Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'եւ ոչ թէ' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 4385 Sent news-0017-000302P8 Node 22]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PART' word 'ոչ'
+[Line 15621 Sent nonfiction-0009-000B00DH Node 13]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PART' word 'ոչ'
+[Line 15630 Sent nonfiction-0009-000B00DH Node 21]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PART' word 'ոչ'
+[Line 16219 Sent nonfiction-0009-000S00E5 Node 25]: [L3 Syntax leaf-det] 'det' not expected to have children (25:այն:det --> 31:կրնար:advcl)
+[Line 16626 Sent nonfiction-0009-001400EM Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'առ'
+Syntax errors: 5
+Warnings: 79
+*** FAILED *** with 5 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang hyw --max-err=10 UD_Western_Armenian-ArmTDP/hyw_armtdp-ud-test.conllu
-*** PASSED ***
+[Line 107 Sent reviews-003F-00020721 Node 25]: [L3 Warning fixed-without-extpos] Fixed expression 'եթէ ոչ' does not have the 'ExtPos' feature
+[Line 172 Sent reviews-003F-00020724 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'քանի մը' does not have the 'ExtPos' feature
+[Line 243 Sent reviews-003F-00020725 Node 44]: [L3 Warning fixed-without-extpos] Fixed expression 'ի վեր' does not have the 'ExtPos' feature
+[Line 367 Sent reviews-003F-0003072A Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'քանի որ' does not have the 'ExtPos' feature
+[Line 373 Sent reviews-003F-0003072A Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'ի վեր' does not have the 'ExtPos' feature
+[Line 432 Sent reviews-003F-0003072D Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'մէկէն ի մէկ' does not have the 'ExtPos' feature
+[Line 491 Sent reviews-003F-0005072G Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'ինքն իր' does not have the 'ExtPos' feature
+[Line 583 Sent reviews-003F-0005072J Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'չէ թէ' does not have the 'ExtPos' feature
+[Line 602 Sent reviews-003F-0006072K Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'դժուար թէ' does not have the 'ExtPos' feature
+[Line 659 Sent reviews-003F-0006072M Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'անշուշտ թէ' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 8260 Sent nonfiction-000O-000401OJ Node 14]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PART' word 'ոչ'
+[Line 8266 Sent nonfiction-000O-000401OJ Node 19]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PART' word 'ոչ'
+[Line 8487 Sent nonfiction-000O-000901OP Node 19]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PART' word 'ոչ'
+[Line 9127 Sent nonfiction-000O-000L01PB Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'Ինչ'
+[Line 9541 Sent nonfiction-000O-000S01PM Node 14]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'X' word 'բացէ'
+[Line 12182 Sent fiction-000H-000V018I Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Ի'
+[Line 13585 Sent fiction-000D-000G00QP Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Ի'
+[Line 14807 Sent fiction-000D-000V00S2 Node 4]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PART' word 'ոչ'
+Syntax errors: 8
+Warnings: 110
+*** FAILED *** with 8 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang hyw --max-err=10 UD_Western_Armenian-ArmTDP/hyw_armtdp-ud-train.conllu
-[Line 8001 Sent news-0035-000606J4 Node 21]: [L3 Warning leaf-det] 'det' not expected to have children (21:այն:det --> 32:զգայ:acl)
-[Line 8295 Sent news-0035-000706JA Node 47]: [L3 Warning leaf-det] 'det' not expected to have children (47:նոյն:det --> 51:պաշտպանելու:appos)
-[Line 54356 Sent blog-0026-00070450 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:մըն:det --> 5:է:cop)
-[Line 62418 Sent news-001V-000P03L3 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:այս:det --> 7:ստեղծուած:acl)
-[Line 67628 Sent news-001U-000403FR Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:բոլոր:det --> 4:տասներկու:appos)
-[Line 73136 Sent news-001O-000803CM Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:այնպիսի:det --> 20:վնասուէր:advcl)
-[Line 74562 Sent news-001M-0002038B Node 13]: [L3 Warning leaf-det] 'det' not expected to have children (13:որեւէ:det --> 12:խելամիտ:amod)
-[Line 91358 Sent nonfiction-000R-000H01U0 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:Այս:det --> 3:2:appos)
-[Line 108696 Sent nonfiction-000I-0006019C Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:այնպիսի:det --> 30:բերեն:advcl)
-Warnings: 9
-*** PASSED ***
-Validity: 1
+[Line 118 Sent blog-003E-0004070V Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'ի վեր' does not have the 'ExtPos' feature
+[Line 251 Sent blog-003E-00050711 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'ոչ մէկ' does not have the 'ExtPos' feature
+[Line 251 Sent blog-003E-00050711 Node 17]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PART' word 'ոչ'
+[Line 1109 Sent news-003D-000206UP Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'քանի մը' does not have the 'ExtPos' feature
+[Line 1178 Sent news-003D-000206UR Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ի պատիւ' does not have the 'ExtPos' feature
+[Line 1180 Sent news-003D-000206UR Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'քանի մը' does not have the 'ExtPos' feature
+[Line 1546 Sent news-003D-000606VB Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'քանի մը' does not have the 'ExtPos' feature
+[Line 1592 Sent news-003D-000606VD Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'աւելի քան' does not have the 'ExtPos' feature
+[Line 1638 Sent news-003D-000606VF Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'քանի որ' does not have the 'ExtPos' feature
+[Line 1878 Sent news-003D-000606VR Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ահա թէ' does not have the 'ExtPos' feature
+[Line 2043 Sent news-003D-00090702 Node 21]: [L3 Warning fixed-without-extpos] Fixed expression 'քանի որ' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 2252 Sent news-003D-000C0709 Node 16]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PART' word 'ոչ'
+[Line 2680 Sent news-003D-000D070N Node 29]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PART' word 'ոչ'
+[Line 3339 Sent social-0037-000H06MP Node 20]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'ինչ'
+[Line 8001 Sent news-0035-000606J4 Node 21]: [L3 Syntax leaf-det] 'det' not expected to have children (21:այն:det --> 32:զգայ:acl)
+[Line 8295 Sent news-0035-000706JA Node 47]: [L3 Syntax leaf-det] 'det' not expected to have children (47:նոյն:det --> 51:պաշտպանելու:appos)
+[Line 20229 Sent wiki-002U-001F064O Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PART' word 'ոչ'
+[Line 26479 Sent reviews-002J-000C05D6 Node 4]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PART' word 'ոչ'
+[Line 27653 Sent reviews-002J-000G05EU Node 18]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PART' word 'ոչ'
+[Line 30337 Sent reviews-002J-000M05IQ Node 18]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PART' word 'ոչ'
+...suppressing further errors regarding Syntax
+Syntax errors: 56
+Warnings: 719
+*** FAILED *** with 56 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.529411764705882) = 0.0407239819004525
+(weight=0.0769230769230769) * (score{genres}=0.5) = 0.0384615384615385
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
 (weight=0.256410256410256) * (score{size}=0.696525539412925) = 0.17859629215716
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
-(weight=0.307692307692308) * (score{udapi}=0.989178809994549) = 0.304362710767554
+(weight=0.307692307692308) * (score{udapi}=0.9941419121775) = 0.305889819131539
 (weight=0.0769230769230769) * (score{udeprels}=0.945945945945946) = 0.0727650727650728
-(TOTAL score=0.878499339641521) * (availability=1) * (validity=1) = 0.878499339641521
-STARS = 4.5
-UD_Western_Armenian-ArmTDP	0.878499339641521	4.5
+(TOTAL score=0.877764004566592) * (availability=1) * (validity=0.01) = 0.00877764004566592
+STARS = 0
+UD_Western_Armenian-ArmTDP	0.00877764004566592	0
