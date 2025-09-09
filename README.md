@@ -59,6 +59,7 @@ UD_Western_Armenian-ArmTDP data conforms to [CoNLL-U](http://universaldependenci
 Data available since: UD v2.8
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: blog fiction news nonfiction reviews social spoken web wiki
 Lemmas: manual native
 UPOS: manual native
