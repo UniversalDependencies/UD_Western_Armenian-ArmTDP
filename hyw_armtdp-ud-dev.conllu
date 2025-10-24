@@ -704,8 +704,8 @@
 12	կատարուեցաւ	կատարուիլ	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Past|VerbForm=Fin|Voice=Mid	3	acl:relcl	_	Translit=katarowec’aw|LTranslit=katarowil
 13	եւ	եւ	CCONJ	_	_	19	cc	_	Translit=ew|LTranslit=ew
 14	հեռացողները	հեռացող	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Number=Plur	19	nsubj	_	Translit=heṙac’oġnerë|LTranslit=heṙac’oġ
-15	մեծ	մեծ	ADJ	_	Degree=Pos|ExtPos=ADV	17	advmod	_	Translit=meç|LTranslit=meç
-16	մասամբ	մասամբ	ADV	_	_	15	fixed	_	Translit=masamb|LTranslit=masamb
+15	մեծ	մեծ	ADV	_	Degree=Pos	16	advmod	_	Translit=meç|LTranslit=meç
+16	մասամբ	մասամբ	ADV	_	_	17	advmod	_	Translit=masamb|LTranslit=masamb
 17	հեռու	հեռու	ADJ	_	Degree=Pos	18	amod	_	Translit=heṙow|LTranslit=heṙow
 18	երկիրներ	երկիր	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Plur	19	obl	_	Translit=erkirner|LTranslit=erkir
 19	գացին	երթալ	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Past|VerbForm=Fin|Voice=Mid	12	conj	_	Translit=gac’in|LTranslit=ert’al|SpaceAfter=No
@@ -2651,7 +2651,7 @@
 2	կը	կը	AUX	_	Aspect=Imp|Mood=Ind	3	aux	_	Translit=kë|LTranslit=kë
 3	կազմակերպուին	կազմակերպել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Translit=kazmakerpowin|LTranslit=kazmakerpel
 4	այն	այն	DET	_	Deixis=Remt|PronType=Dem	6	det	_	Translit=ayn|LTranslit=ayn
-5	նոյն	նոյն	DET	_	PronType=Dem	6	det	_	Translit=noyn|LTranslit=noyn
+5	նոյն	նոյն	DET	_	Deixis=Remt|PronType=Dem	6	det	_	Translit=noyn|LTranslit=noyn
 6	հիմնարկներուն	հիմնարկ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Plur	3	obl:agent	_	Translit=himnarknerown|LTranslit=himnark
 7	կողմէ	կողմէ	ADP	_	AdpType=Post	6	case	_	Translit=koġmē|LTranslit=koġmē|SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	Translit=,|LTranslit=,
@@ -3224,7 +3224,7 @@
 # text = Նո՞յն դիպուածները միջամտեր էին, որպէսզի քու ալ մեծ ծնողքդ որբանային բայց փրկուէին, հանդիպէին իրարու եւ հիմը դնէին ընտանիքին, որ ի վերջոյ քեզմով պիտի լրանար:
 # translit = No?yn dipowaçnerë miǰamter ēin, orpēszi k’ow al meç çnoġk’d orbanayin bayc’ p’rkowēin, handipēin irarow ew himë dnēin ëntanik’in, or i verǰoy k’ezmov piti lranar.
 1-2	Նո՞յն	_	_	_	_	_	_	_	Translit=No?yn
-1	Նոյն	նոյն	DET	_	PronType=Dem	3	det	_	Translit=Noyn|LTranslit=noyn
+1	Նոյն	նոյն	DET	_	Deixis=Remt|PronType=Dem	3	det	_	Translit=Noyn|LTranslit=noyn
 2	՞	՞	PUNCT	_	_	1	punct	_	Translit=?|LTranslit=?
 3	դիպուածները	դիպուած	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Plur	4	nsubj	_	Translit=dipowaçnerë|LTranslit=dipowaç
 4	միջամտեր	միջամտել	VERB	_	Aspect=Perf|Subcat=Intr|VerbForm=Part|Voice=Mid	0	root	_	Translit=miǰamter|LTranslit=miǰamtel
@@ -3739,7 +3739,7 @@
 8	է	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	Translit=ē|LTranslit=em|SpaceAfter=No
 9	՝	՝	PUNCT	_	_	15	punct	_	Translit=,|LTranslit=,
 10	առջեւդ	առջեւ	ADP	_	AdpType=Post|Case=Nom|Number[psor]=Sing|Person[psor]=2	15	obl	_	Translit=aṙǰewd|LTranslit=aṙǰew
-11	նոյն	նոյն	DET	_	PronType=Dem	14	det	_	Translit=noyn|LTranslit=noyn
+11	նոյն	նոյն	DET	_	Deixis=Remt|PronType=Dem	14	det	_	Translit=noyn|LTranslit=noyn
 12	այն	այն	DET	_	Deixis=Remt|PronType=Dem	14	det	_	Translit=ayn|LTranslit=ayn
 13	հայաշէնցի	հայաշէնցի	NOUN	_	Animacy=Hum|Case=Nom|Definite=Ind|Number=Sing	14	nmod	_	Translit=hayašēnc’i|LTranslit=hayašēnc’i
 14	տղան	տղայ	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Number=Sing	15	nsubj	_	Translit=tġan|LTranslit=tġay
@@ -5374,7 +5374,7 @@
 # sent_id = news-0010-000502MB
 # text = Նորին Ամենապատուութիւնը, 14 Հոկտեմբեր 1998ին ընտրուած էր Պատրիարք Հայոց Պոլսոյ, յաջորդելով Երանաշնորհ Գարեգին Բ. Պատրիարքին, որուն անմիջական գործակիցը հանդիսացած էր։
 # translit = Norin Amenapatowowt’iwnë, 14 Hoktember 1998in ëntrowaç ēr Patriark’ Hayoc’ Polsoy, yaǰordelov Eranašnorh Garegin B. Patriark’in, orown anmiǰakan gorçakic’ë handisac’aç ēr.
-1	Նորին	նորին	DET	_	Deixis=Remt|PronType=Dem|Style=Arch	2	det	_	Translit=Norin|LTranslit=norin
+1	Նորին	նոյն	DET	_	Case=Gen|Deixis=Remt|Number=Sing|PronType=Dem|Style=Arch	2	det	_	Translit=Norin|LTranslit=noyn
 2	Ամենապատուութիւնը	ամենապատուութիւն	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Number=Coll	8	nsubj	_	Translit=Amenapatowowt’iwnë|LTranslit=amenapatowowt’iwn|SpaceAfter=No
 3	,	,	PUNCT	_	_	8	punct	_	Translit=,|LTranslit=,
 4	14	14	NUM	_	NumForm=Digit|NumType=Card	8	obl	_	Translit=14|LTranslit=14
@@ -5774,7 +5774,7 @@
 1	Բոլորն	բոլորը	PRON	_	Case=Nom|PronType=Tot	0	root	_	Translit=Bolorn|LTranslit=bolorë
 2	ալ	ալ	ADV	_	_	1	advmod:emph	_	Translit=al|LTranslit=al|SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	Translit=,|LTranslit=,
-4	նոյն	նոյն	DET	_	PronType=Dem	5	det	_	Translit=noyn|LTranslit=noyn
+4	նոյն	նոյն	DET	_	Deixis=Remt|PronType=Dem	5	det	_	Translit=noyn|LTranslit=noyn
 5	հրաշքով	հրաշք	NOUN	_	Animacy=Nhum|Case=Ins|Definite=Ind|Number=Sing	6	obl	_	Translit=hrašk’ov|LTranslit=hrašk’
 6	նետուած	նետել	VERB	_	Aspect=Perf|Polarity=Pos|Subcat=Intr|VerbForm=Part|Voice=Pass	1	acl	_	Translit=netowaç|LTranslit=netel
 7	դուրս	դուրս	ADV	_	_	6	compound:lvc	_	Translit=dowrs|LTranslit=dowrs
@@ -6838,7 +6838,7 @@
 34	կ՚	կը	AUX	_	Aspect=Imp|Mood=Ind	35	aux	_	Translit=k,|LTranslit=kë|SpaceAfter=No
 35	առաջնորդուէին	առաջնորդուիլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Imp|VerbForm=Fin|Voice=Mid	21	conj	_	Translit=aṙaǰnordowēin|LTranslit=aṙaǰnordowil|SpaceAfter=No
 36	,	,	PUNCT	_	_	38	punct	_	Translit=,|LTranslit=,
-37	նոյն	նոյն	DET	_	PronType=Dem	38	det	_	Translit=noyn|LTranslit=noyn
+37	նոյն	նոյն	DET	_	Deixis=Remt|PronType=Dem	38	det	_	Translit=noyn|LTranslit=noyn
 38	արարողութեամբ	արարողութիւն	NOUN	_	Animacy=Nhum|Case=Ins|Definite=Ind|Number=Sing	35	obl	_	Translit=araroġowt’eamb|LTranslit=araroġowt’iwn|SpaceAfter=No
 39	,	,	PUNCT	_	_	41	punct	_	Translit=,|LTranslit=,
 40	իրենց	իրենց	DET	_	Number=Plur|Person=3|Poss=Yes|PronType=Emp|Reflex=Yes	41	det:poss	_	Translit=irenc’|LTranslit=irenc’
@@ -7064,7 +7064,7 @@
 # sent_id = fiction-000U-000602DB
 # text = Ոչ ոք ուշադրութիւն կ՚ընէր իր մտածումներուն։
 # translit = Oč ok’ owšadrowt’iwn k,ënēr ir mtaçowmnerown.
-1	Ոչ	ոչ	PART	_	ExtPos=PROPN|Polarity=Neg	5	nsubj	_	Translit=Oč|LTranslit=oč
+1	Ոչ	ոչ	PART	_	ExtPos=PRON|Polarity=Neg	5	nsubj	_	Translit=Oč|LTranslit=oč
 2	ոք	ոք	PRON	_	Animacy=Hum|Case=Nom|PronType=Ind	1	fixed	_	Translit=ok’|LTranslit=ok’
 3	ուշադրութիւն	ուշադրութիւն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Coll	5	compound:lvc	_	Translit=owšadrowt’iwn|LTranslit=owšadrowt’iwn
 4	կ՚	կը	AUX	_	Aspect=Imp|Mood=Ind	5	aux	_	Translit=k,|LTranslit=kë|SpaceAfter=No
@@ -8922,7 +8922,7 @@
 7	էր	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Imp|VerbForm=Fin	6	aux	_	Translit=ēr|LTranslit=em
 8	անիկա	անիկա	PRON	_	Case=Nom|Deixis=Remt|Number=Sing|PronType=Dem	6	nsubj	_	Translit=anika|LTranslit=anika
 9	եւ	եւ	CCONJ	_	_	12	cc	_	Translit=ew|LTranslit=ew
-10	ոչ	ոչ	PART	_	ExtPos=PROPN|Polarity=Neg	12	nsubj	_	Translit=oč|LTranslit=oč
+10	ոչ	ոչ	PART	_	ExtPos=PRON|Polarity=Neg	12	nsubj	_	Translit=oč|LTranslit=oč
 11	ոք	ոք	PRON	_	Animacy=Hum|Case=Nom|PronType=Ind	10	fixed	_	Translit=ok’|LTranslit=ok’
 12	գիտէր	գիտեմ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Imp|VerbForm=Fin|Voice=Act	6	conj	_	Translit=gitēr|LTranslit=gitem
 13	ստոյգ	ստոյգ	ADV	_	_	12	advmod	_	Translit=stoyg|LTranslit=stoyg
@@ -8964,7 +8964,7 @@
 9	խօսքը	խօսք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	11	obj	_	Translit=xòsk’ë|LTranslit=xòsk’
 10	կ՚	կը	AUX	_	Aspect=Imp|Mood=Ind	11	aux	_	Translit=k,|LTranslit=kë|SpaceAfter=No
 11	ուղղէր	ուղղել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Imp|VerbForm=Fin|Voice=Act	0	root	_	Translit=owġġēr|LTranslit=owġġel
-12	մեծին	մեծ	NOUN	_	Animacy=Hum|Case=Dat|Definite=Def|Number=Sing	11	obj	_	Translit=meçin|LTranslit=meç
+12	մեծին	մեծ	NOUN	_	Animacy=Hum|Case=Dat|Definite=Def|Number=Sing	11	iobj	_	Translit=meçin|LTranslit=meç
 13	ու	ու	CCONJ	_	_	14	cc	_	Translit=ow|LTranslit=ow
 14	պզտիկին	պզտիկ	NOUN	_	Animacy=Hum|Case=Dat|Definite=Def|Number=Sing	12	conj	_	Translit=pztikin|LTranslit=pztik|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	Translit=,|LTranslit=,
@@ -9079,7 +9079,7 @@
 18	մարդերէն	մարդ	NOUN	_	Animacy=Hum|Case=Abl|Definite=Def|Number=Plur	17	obl	_	Translit=marderēn|LTranslit=mard|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	Translit=,|LTranslit=,
 20	չխօսելով	խօսիլ	VERB	_	Case=Ins|Definite=Ind|Polarity=Neg|Subcat=Intr|VerbForm=Inf|Voice=Mid	6	conj	_	Translit=čxòselov|LTranslit=xòsil
-21	ոչ	ոչ	PART	_	ExtPos=PROPN|Polarity=Neg	20	obl	_	Translit=oč|LTranslit=oč
+21	ոչ	ոչ	PART	_	ExtPos=PRON|Polarity=Neg	20	obl	_	Translit=oč|LTranslit=oč
 22	ոքի	ոք	PRON	_	Animacy=Hum|Case=Dat|PronType=Ind	21	fixed	_	Translit=ok’i|LTranslit=ok’
 23	հետ	հետ	ADP	_	AdpType=Post	21	case	_	Translit=het|LTranslit=het|SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	Translit=,|LTranslit=,
@@ -11517,14 +11517,14 @@
 # sent_id = fiction-000S-000O026A
 # text = — Քա՛ւ լիցի, Տիկին։
 # translit = — K’a՛w lic’i, Tikin.
-1	—	—	PUNCT	_	_	2	punct	_	Translit=—|LTranslit=—
+1	—	—	PUNCT	_	_	4	punct	_	Translit=—|LTranslit=—
 2-3	Քա՛ւ	_	_	_	_	_	_	_	Translit=K’a՛w
-2	Քաւ	քաւ	INTJ	_	ExtPos=INTJ|Style=Arch	0	root	_	Translit=K’aw|LTranslit=k’aw
+2	Քաւ	քաւ	INTJ	_	Style=Arch	4	compound:lvc	_	Translit=K’aw|LTranslit=k’aw
 3	՛	՛	PUNCT	_	_	2	punct	_	Translit=՛|LTranslit=՛
-4	լիցի	լինել	VERB	_	Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	2	fixed	_	Translit=lic’i|LTranslit=linel|SpaceAfter=No
+4	լիցի	լինել	VERB	_	Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Style=Arch|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Translit=lic’i|LTranslit=linel|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	Translit=,|LTranslit=,
-6	Տիկին	տիկին	NOUN	_	Animacy=Hum|Case=Nom|Definite=Ind|Number=Sing	2	vocative	_	Translit=Tikin|LTranslit=tikin|SpaceAfter=No
-7	։	։	PUNCT	_	_	2	punct	_	Translit=.|LTranslit=.
+6	Տիկին	տիկին	NOUN	_	Animacy=Hum|Case=Nom|Definite=Ind|Number=Sing	4	vocative	_	Translit=Tikin|LTranslit=tikin|SpaceAfter=No
+7	։	։	PUNCT	_	_	4	punct	_	Translit=.|LTranslit=.
 
 # newpar id = fiction-000S-000P
 # sent_id = fiction-000S-000P026B
@@ -11997,7 +11997,7 @@
 3	էր	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Imp|VerbForm=Fin	1	aux	_	Translit=ēr|LTranslit=em|SpaceAfter=No
 4	.	.	PUNCT	_	_	10	punct	_	Translit=.|LTranslit=.
 5	բայց	բայց	CCONJ	_	_	10	cc	_	Translit=bayc’|LTranslit=bayc’
-6	հազիւ	հազիւ	ADV	_	_	10	advmod	_	Translit=haziw|LTranslit=haziw
+6	հազիւ	հազիւ	ADV	_	ExtPos=ADV	10	advmod	_	Translit=haziw|LTranslit=haziw
 7	թէ	թէ	PART	_	_	6	fixed	_	Translit=t’ē|LTranslit=t’ē
 8	այս	այս	DET	_	Deixis=Prox|PronType=Dem	9	det	_	Translit=ays|LTranslit=ays
 9	խորհրդածութիւն	խորհրդածութիւն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	10	obj	_	Translit=xorhrdaçowt’iwn|LTranslit=xorhrdaçowt’iwn
@@ -13035,7 +13035,7 @@
 # sent_id = fiction-000S-00200286
 # text = Նոյն վայրկենին այդ մեղկ մարմնոյն ամբողջ ծանրութիւնը թուլօրէն իր վրայ հակեցաւ, լանջքը բաբախուն, շրթունքները կիսաբաց, աչքերը կիսախուփ, սպասելով տարփանքի համբոյրին։
 # translit = Noyn vayrkenin ayd meġk marmnoyn amboġǰ çanrowt’iwnë t’owlòrēn ir vray hakec’aw, lanǰk’ë babaxown, šrt’ownk’nerë kisabac’, ačk’erë kisaxowp’, spaselov tarp’ank’i hamboyrin.
-1	Նոյն	նոյն	DET	_	PronType=Dem	2	det	_	Translit=Noyn|LTranslit=noyn
+1	Նոյն	նոյն	DET	_	Deixis=Remt|PronType=Dem	2	det	_	Translit=Noyn|LTranslit=noyn
 2	վայրկենին	վայրկեն|վայրկեան	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	11	obl	_	Translit=vayrkenin|LTranslit=vayrken|vayrkean
 3	այդ	այդ	DET	_	Deixis=Med|PronType=Dem	5	det	_	Translit=ayd|LTranslit=ayd
 4	մեղկ	մեղկ	ADJ	_	Degree=Pos	5	amod	_	Translit=meġk|LTranslit=meġk
@@ -13208,8 +13208,8 @@
 25	նայուածքը	նայուածք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	22	conj	_	Translit=nayowaçk’ë|LTranslit=nayowaçk’
 26	մոլորուն	մոլորուն	ADJ	_	_	25	acl	_	Translit=molorown|LTranslit=molorown|SpaceAfter=No
 27	՝	՝	PUNCT	_	_	31	punct	_	Translit=,|LTranslit=,
-28	դէպ	դէպ	ADP	_	AdpType=Post	30	case	_	Translit=dēp|LTranslit=dēp
-29	ի	ի	ADP	_	AdpType=Prep|ExtPos=ADP	28	fixed	_	Translit=i|LTranslit=i
+28	դէպ	դէպ	ADP	_	AdpType=Prep|ExtPos=ADP	30	case	_	Translit=dēp|LTranslit=dēp
+29	ի	ի	ADP	_	AdpType=Prep	28	fixed	_	Translit=i|LTranslit=i
 30	դուռը	դուռ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	31	obl	_	Translit=dowṙë|LTranslit=dowṙ
 31	վազեց	վազել	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Past|VerbForm=Fin|Voice=Mid	10	conj	_	Translit=vazec’|LTranslit=vazel|SpaceAfter=No
 32	,	,	PUNCT	_	_	33	punct	_	Translit=,|LTranslit=,
@@ -13436,12 +13436,12 @@
 2	կը	կը	AUX	_	Aspect=Imp|Mood=Ind	3	aux	_	Translit=kë|LTranslit=kë
 3	թռչէր	թռչիլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Imp|VerbForm=Fin|Voice=Mid	0	root	_	Translit=t’ṙčēr|LTranslit=t’ṙčil
 4	միշտ	միշտ	ADV	_	_	3	advmod	_	Translit=mišt|LTranslit=mišt
-5	դէպ	դէպ	ADP	_	AdpType=Post	7	case	_	Translit=dēp|LTranslit=dēp
-6	ի	ի	ADP	_	AdpType=Prep|ExtPos=ADP	5	fixed	_	Translit=i|LTranslit=i
+5	դէպ	դէպ	ADP	_	AdpType=Prep|ExtPos=ADP	7	case	_	Translit=dēp|LTranslit=dēp
+6	ի	ի	ADP	_	AdpType=Prep	5	fixed	_	Translit=i|LTranslit=i
 7	հոն	հոն	PRON	_	Deixis=Remt|PronType=Dem	3	obl	_	Translit=hon|LTranslit=hon|SpaceAfter=No
 8	,	,	PUNCT	_	_	13	punct	_	Translit=,|LTranslit=,
-9	դէպ	դէպ	ADP	_	AdpType=Post	13	case	_	Translit=dēp|LTranslit=dēp
-10	ի	ի	ADP	_	AdpType=Prep|ExtPos=ADP	9	fixed	_	Translit=i|LTranslit=i
+9	դէպ	դէպ	ADP	_	AdpType=Prep|ExtPos=ADP	13	case	_	Translit=dēp|LTranslit=dēp
+10	ի	ի	ADP	_	AdpType=Prep	9	fixed	_	Translit=i|LTranslit=i
 11	այն	այն	DET	_	Deixis=Remt|PronType=Dem	13	det	_	Translit=ayn|LTranslit=ayn
 12	հեռաւոր	հեռաւոր	ADJ	_	Degree=Pos	13	amod	_	Translit=heṙawor|LTranslit=heṙawor
 13	հորիզոնը	հորիզոն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	7	conj	_	Translit=horizonë|LTranslit=horizon|SpaceAfter=No
@@ -14052,7 +14052,7 @@
 # sent_id = fiction-000B-000700HN
 # text = Նոյն պահուն Գինան Փողերէն հերկուոր մըն ալ հերկը ձգեց, ան ալ լեռն ի վեր վազեց ու հասաւ միւսներուն:
 # translit = Noyn pahown Ginan P’oġerēn herkowor mën al herkë jgec’, an al leṙn i ver vazec’ ow hasaw miwsnerown.
-1	Նոյն	նոյն	DET	_	PronType=Dem	2	det	_	Translit=Noyn|LTranslit=noyn
+1	Նոյն	նոյն	DET	_	Deixis=Remt|PronType=Dem	2	det	_	Translit=Noyn|LTranslit=noyn
 2	պահուն	պահ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	9	obl	_	Translit=pahown|LTranslit=pah
 3	Գինան	գինան	ADJ	_	Foreign=Yes	4	amod	_	Translit=Ginan|LTranslit=ginan
 4	Փողերէն	փող	NOUN	_	Animacy=Nhum|Case=Abl|Definite=Def|Number=Plur	5	nmod:npmod	_	Translit=P’oġerēn|LTranslit=p’oġ
@@ -14911,7 +14911,7 @@
 29	պոյպեկիի	պոյպեկի	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Sing|Style=Vrnc	32	obl	_	Translit=poypekii|LTranslit=poypeki
 30	պէս	պէս	ADP	_	AdpType=Post	29	case	_	Translit=pēs|LTranslit=pēs
 31	կը	կը	AUX	_	Aspect=Imp|Mood=Ind	32	aux	_	Translit=kë|LTranslit=kë
-32	պտտիք	պտտիլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=2|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	16	conj	_	Translit=pttik’|LTranslit=pttil
+32	պտտիք	պտըտիլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=2|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	16	conj	_	Translit=pttik’|LTranslit=ptëtil
 33	գիւղը	գիւղ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	32	obl	_	Translit=giwġë|LTranslit=giwġ|SpaceAfter=No
 34	:	:	PUNCT	_	Foreign=Yes	8	punct	_	Translit=.|LTranslit=.
 
@@ -15853,7 +15853,7 @@
 2	,	,	PUNCT	_	_	16	punct	_	Translit=,|LTranslit=,
 3	որ	որ	SCONJ	_	_	16	mark	_	Translit=or|LTranslit=or
 4	հայ	հայ	ADJ	_	_	8	amod	_	Translit=hay|LTranslit=hay
-5	նոյն	նոյն	DET	_	ExtPos=ADV|PronType=Dem	7	advmod	_	Translit=noyn|LTranslit=noyn
+5	նոյն	նոյն	DET	_	Deixis=Remt|ExtPos=ADV|PronType=Dem	7	advmod	_	Translit=noyn|LTranslit=noyn
 6	իսկ	իսկ	ADV	_	_	5	fixed	_	Translit=isk|LTranslit=isk
 7	քաղաքական	քաղաքական	ADJ	_	_	8	amod	_	Translit=k’aġak’akan|LTranslit=k’aġak’akan
 8	միտքը	միտք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Coll	16	nsubj	_	Translit=mitk’ë|LTranslit=mitk’
