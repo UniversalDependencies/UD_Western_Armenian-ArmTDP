@@ -879,10 +879,10 @@
 # sent_id = blog-003A-000A06U3
 # text = Մեր եկամուտին համեմատ մեր ծախսածը անհամեմատ մեծ է:
 # translit = Mer ekamowtin hamemat mer çaxsaçë anhamemat meç ē.
-1	Մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	Translit=Mer|LTranslit=menk’
+1	Մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	Translit=Mer|LTranslit=mer
 2	եկամուտին	եկամուտ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	7	obl	_	Translit=ekamowtin|LTranslit=ekamowt
 3	համեմատ	համեմատ	ADP	_	AdpType=Ambi	2	case	_	Translit=hamemat|LTranslit=hamemat
-4	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	Translit=mer|LTranslit=menk’
+4	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	Translit=mer|LTranslit=mer
 5	ծախսածը	ծախսած	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	7	nsubj	_	Translit=çaxsaçë|LTranslit=çaxsaç
 6	անհամեմատ	անհամեմատ	ADV	_	_	7	advmod	_	Translit=anhamemat|LTranslit=anhamemat
 7	մեծ	մեծ	ADJ	_	Degree=Pos	0	root	_	Translit=meç|LTranslit=meç
@@ -942,7 +942,7 @@
 7	մէջ	մէջ	ADP	_	AdpType=Post	6	case	_	Translit=mēǰ|LTranslit=mēǰ
 8	չէ	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	cop	_	Translit=čē|LTranslit=em
 9	եւ	եւ	CCONJ	_	_	15	cc	_	Translit=ew|LTranslit=ew
-10	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	det:poss	_	Translit=mer|LTranslit=menk’
+10	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	det:poss	_	Translit=mer|LTranslit=mer
 11	տղաքն	տղայ	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Number=Plur	15	nsubj	_	Translit=tġak’n|LTranslit=tġay
 12	ու	ու	CCONJ	_	_	13	cc	_	Translit=ow|LTranslit=ow
 13	աղջիկները	աղջիկ	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Number=Plur	11	conj	_	Translit=aġǰiknerë|LTranslit=aġǰik
@@ -957,7 +957,7 @@
 22	դեր	դեր	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	24	nsubj:pass	_	Translit=der|LTranslit=der
 23	կը	կը	AUX	_	Aspect=Imp|Mood=Ind	24	aux	_	Translit=kë|LTranslit=kë
 24	վերապահուի	վերապահել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Pass	6	parataxis	_	Translit=verapahowi|LTranslit=verapahel
-25	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	26	det:poss	_	Translit=mer|LTranslit=menk’
+25	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	26	det:poss	_	Translit=mer|LTranslit=mer
 26	միութիւններուն	միութիւն	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Plur	24	iobj	_	Translit=miowt’iwnnerown|LTranslit=miowt’iwn|SpaceAfter=No
 27	,	,	PUNCT	_	_	29	punct	_	Translit=,|LTranslit=,
 28	շատ	շատ	ADV	_	_	29	advmod	_	Translit=šat|LTranslit=šat
@@ -965,12 +965,12 @@
 30	է	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	29	cop	_	Translit=ē|LTranslit=em|SpaceAfter=No
 31	,	,	PUNCT	_	_	37	punct	_	Translit=,|LTranslit=,
 32	որ	որ	SCONJ	_	_	37	mark	_	Translit=or|LTranslit=or
-33	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	34	det:poss	_	Translit=mer|LTranslit=menk’
+33	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	34	det:poss	_	Translit=mer|LTranslit=mer
 34	միութիւնները	միութիւն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Plur	37	nsubj	_	Translit=miowt’iwnnerë|LTranslit=miowt’iwn
 35	անհրաժեշտ	անհրաժեշտ	ADJ	_	Degree=Pos	36	amod	_	Translit=anhražešt|LTranslit=anhražešt
 36	դասընթացքներ	դասընթացք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Plur	37	obj	_	Translit=dasënt’ac’k’ner|LTranslit=dasënt’ac’k’
 37	կազմակերպեն	կազմակերպել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	29	csubj	_	Translit=kazmakerpen|LTranslit=kazmakerpel
-38	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	39	det:poss	_	Translit=mer|LTranslit=menk’
+38	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	39	det:poss	_	Translit=mer|LTranslit=mer
 39	երիտասարդներուն	երիտասարդ	NOUN	_	Animacy=Hum|Case=Dat|Definite=Def|Number=Plur	37	obl	_	Translit=eritasardnerown|LTranslit=eritasard
 40	համար	համար	ADP	_	AdpType=Post	39	case	_	Translit=hamar|LTranslit=hamar|SpaceAfter=No
 41	,	,	PUNCT	_	_	47	punct	_	Translit=,|LTranslit=,
@@ -987,7 +987,7 @@
 # sent_id = blog-003A-000A06U7
 # text = Մեր տղոցմէ շատեր դեռ սորվիլ չեն գիտեր, ի՞նչ պէտք է սորվին չեն գիտեր, անոնց սորվիլ պէտք է սորվեցնել, եւ այս գործը անպայման պէտք է վստահիլ իրենց երիտասարդ ընկերներուն:
 # translit = Mer tġoc’mē šater deṙ sorvil čen giter, i?nč pētk’ ē sorvin čen giter, anonc’ sorvil pētk’ ē sorvec’nel, ew ays gorçë anpayman pētk’ ē vstahil irenc’ eritasard ënkernerown.
-1	Մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	Translit=Mer|LTranslit=menk’
+1	Մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	Translit=Mer|LTranslit=mer
 2	տղոցմէ	տղայ	NOUN	_	Animacy=Hum|Case=Abl|Definite=Ind|Number=Plur|Style=Coll	3	nmod:npmod	_	Translit=tġoc’mē|LTranslit=tġay
 3	շատեր	շատ	NOUN	_	Animacy=Hum|Case=Nom|Definite=Ind|Number=Plur	7	nsubj	_	Translit=šater|LTranslit=šat
 4	դեռ	դեռ	ADV	_	_	7	advmod	_	Translit=deṙ|LTranslit=deṙ
@@ -1056,7 +1056,7 @@
 9	ուզենք	ուզել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=1|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	Translit=owzenk’|LTranslit=owzel|SpaceAfter=No
 10	,	,	PUNCT	_	_	15	punct	_	Translit=,|LTranslit=,
 11	որ	որ	SCONJ	_	_	15	mark	_	Translit=or|LTranslit=or
-12	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	det:poss	_	Translit=mer|LTranslit=menk’
+12	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	det:poss	_	Translit=mer|LTranslit=mer
 13	երիտասարդները	երիտասարդ	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Number=Plur	15	nsubj	_	Translit=eritasardnerë|LTranslit=eritasard
 14	հոս	հոս	ADV	_	Deixis=Prox|PronType=Dem	15	advmod	_	Translit=hos|LTranslit=hos
 15	մնան	մնալ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	9	ccomp	_	Translit=mnan|LTranslit=mnal|SpaceAfter=No
@@ -1168,7 +1168,7 @@
 # translit = Irawownk’ čownink’ mer neġ šrǰanaknerë aṙaǰnayin nkatelow čap’ šṙayl ëllal.
 1	Իրաւունք	իրաւունք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Sing	2	compound:lvc	_	Translit=Irawownk’|LTranslit=irawownk’
 2	չունինք	ունիմ	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=čownink’|LTranslit=ownim
-3	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	Translit=mer|LTranslit=menk’
+3	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	Translit=mer|LTranslit=mer
 4	նեղ	նեղ	ADJ	_	Degree=Pos	5	amod	_	Translit=neġ|LTranslit=neġ
 5	շրջանակները	շրջանակ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Plur	7	obj	_	Translit=šrǰanaknerë|LTranslit=šrǰanak
 6	առաջնային	առաջնային	ADJ	_	_	7	xcomp	_	Translit=aṙaǰnayin|LTranslit=aṙaǰnayin
@@ -1214,7 +1214,7 @@
 2	Եղեռնէն	Եղեռն	PROPN	_	Animacy=Nhum|Case=Abl|Definite=Def|NameType=Oth|Number=Sing	11	obl	_	Translit=Eġeṙnēn|LTranslit=Eġeṙn
 3	ետք	ետք	ADP	_	AdpType=Post	2	case	_	Translit=etk’|LTranslit=etk’|SpaceAfter=No
 4	,	,	PUNCT	_	_	11	punct	_	Translit=,|LTranslit=,
-5	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	Translit=mer|LTranslit=menk’
+5	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	Translit=mer|LTranslit=mer
 6	այդ	այդ	DET	_	Deixis=Med|PronType=Dem	7	det	_	Translit=ayd|LTranslit=ayd
 7	օրերու	օր	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Plur	8	nmod:poss	_	Translit=òrerow|LTranslit=òr
 8	ղեկավարները	ղեկավար	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Number=Plur	11	nsubj	_	Translit=ġekavarnerë|LTranslit=ġekavar
@@ -1226,7 +1226,7 @@
 14	,	,	PUNCT	_	_	24	punct	_	Translit=,|LTranslit=,
 15	այդ	այդ	DET	_	Deixis=Med|PronType=Dem	16	det	_	Translit=ayd|LTranslit=ayd
 16	օրերուն	օր	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Plur	21	obl	_	Translit=òrerown|LTranslit=òr
-17	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	19	det:poss	_	Translit=mer|LTranslit=menk’
+17	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	19	det:poss	_	Translit=mer|LTranslit=mer
 18	պատանի	պատանի	NOUN	_	Animacy=Hum|Case=Nom|Definite=Ind|Number=Sing	19	amod	_	Translit=patani|LTranslit=patani
 19	որբերուն	որբ	NOUN	_	Animacy=Hum|Case=Dat|Definite=Def|Number=Plur	21	iobj	_	Translit=orberown|LTranslit=orb
 20	արհեստներ	արհեստ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Ind|Number=Plur	21	obj	_	Translit=arhestner|LTranslit=arhest
@@ -1255,7 +1255,7 @@
 # text = Այսօրուան մեր երիտասարդները գիտակից են, տէր են իրենց պատկանելիութեան, պարզապէս կ՚ակնկալեն որ մեծերը իրենց ուղեցոյց դառնան՝ իրենց օրինակելի վարքով:
 # translit = Aysòrowan mer eritasardnerë gitakic’ en, tēr en irenc’ patkaneliowt’ean, parzapēs k,aknkalen or meçerë irenc’ owġec’oyc’ daṙnan, irenc’ òrinakeli vark’ov.
 1	Այսօրուան	այսօր	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Coll	3	nmod:poss	_	Translit=Aysòrowan|LTranslit=aysòr
-2	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	Translit=mer|LTranslit=menk’
+2	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	Translit=mer|LTranslit=mer
 3	երիտասարդները	երիտասարդ	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Number=Plur	4	nsubj	_	Translit=eritasardnerë|LTranslit=eritasard
 4	գիտակից	գիտակից	ADJ	_	Degree=Pos	0	root	_	Translit=gitakic’|LTranslit=gitakic’
 5	են	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	cop	_	Translit=en|LTranslit=em|SpaceAfter=No
@@ -2951,7 +2951,7 @@
 1	Բայց	բայց	CCONJ	_	_	7	cc	_	Translit=Bayc’|LTranslit=bayc’
 2	այդ	այդ	DET	_	Deixis=Med|PronType=Dem	3	dep	_	Translit=ayd|LTranslit=ayd
 3	արեւները	արեւ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Plur	7	nsubj	_	Translit=arewnerë|LTranslit=arew
-4	քու	քու	DET	_	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	5	det:poss	_	Translit=k’ow|LTranslit=k’ow
+4	քու	քու	DET	_	Number=Sing|Person=2|Poss=Yes|PronType=Prs	5	det:poss	_	Translit=k’ow|LTranslit=k’ow
 5	լեզուդ	լեզու	NOUN	_	Animacy=Nhum|Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	7	obj	_	Translit=lezowd|LTranslit=lezow
 6	ալ	ալ	ADV	_	_	5	advmod:emph	_	Translit=al|LTranslit=al
 7	խանձեցին	խանձել	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=xanjec’in|LTranslit=xanjel|SpaceAfter=No
@@ -3082,7 +3082,7 @@
 1	Եւ	եւ	CCONJ	_	_	3	cc	_	Translit=EW|LTranslit=ew
 2	ան	ան	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Translit=an|LTranslit=an
 3	վկայեց	վկայել	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Translit=vkayec’|LTranslit=vkayel
-4	քու	քու	DET	_	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	5	det:poss	_	Translit=k’ow|LTranslit=k’ow
+4	քու	քու	DET	_	Number=Sing|Person=2|Poss=Yes|PronType=Prs	5	det:poss	_	Translit=k’ow|LTranslit=k’ow
 5	գոյութիւնդ	գոյութիւն	NOUN	_	Animacy=Nhum|Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	3	obj	_	Translit=goyowt’iwnd|LTranslit=goyowt’iwn|SpaceAfter=No
 6	:	:	PUNCT	_	Foreign=Yes	3	punct	_	Translit=.|LTranslit=.
 
@@ -3231,7 +3231,7 @@
 5	էին	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Imp|VerbForm=Fin	4	aux	_	Translit=ēin|LTranslit=em|SpaceAfter=No
 6	,	,	PUNCT	_	_	12	punct	_	Translit=,|LTranslit=,
 7	որպէսզի	որպէսզի	SCONJ	_	_	12	mark	_	Translit=orpēszi|LTranslit=orpēszi
-8	քու	քու	DET	_	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	11	det:poss	_	Translit=k’ow|LTranslit=k’ow
+8	քու	քու	DET	_	Number=Sing|Person=2|Poss=Yes|PronType=Prs	11	det:poss	_	Translit=k’ow|LTranslit=k’ow
 9	ալ	ալ	ADV	_	_	8	advmod:emph	_	Translit=al|LTranslit=al
 10	մեծ	մեծ	ADJ	_	Degree=Pos	11	amod	_	Translit=meç|LTranslit=meç
 11	ծնողքդ	ծնողք	NOUN	_	Animacy=Hum|Case=Nom|Number=Coll|Number[psor]=Sing|Person[psor]=2	12	nsubj	_	Translit=çnoġk’d|LTranslit=çnoġk’
@@ -3733,7 +3733,7 @@
 2	նայիս	նայիլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=2|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Translit=nayis|LTranslit=nayil
 3	աչքերուն	աչք	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Plur	2	obj	_	Translit=ačk’erown|LTranslit=ačk’|SpaceAfter=No
 4	.	.	PUNCT	_	_	7	punct	_	Translit=.|LTranslit=.
-5	կարծես	կարծել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=2|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	7	discourse	_	Translit=karçes|LTranslit=karçel
+5	կարծես	կարծել	VERB	_	Aspect=Prosp|ExtPos=PART|Mood=Sub|Number=Sing|Person=2|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	7	discourse	_	Translit=karçes|LTranslit=karçel
 6	ոչինչ	ոչինչ	PRON	_	Case=Nom|Definite=Ind|PronType=Neg	7	nsubj	_	Translit=očinč|LTranslit=očinč
 7	փոխուած	փոխուիլ	VERB	_	Aspect=Perf|Polarity=Pos|Subcat=Intr|VerbForm=Part|Voice=Mid	2	conj	_	Translit=p’oxowaç|LTranslit=p’oxowil
 8	է	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	aux	_	Translit=ē|LTranslit=em|SpaceAfter=No
@@ -3932,7 +3932,7 @@
 # translit = Ardeòk’ k’o?w townd owr ēr.
 1	Արդեօք	արդեօք	PART	_	_	5	discourse	_	Translit=Ardeòk’|LTranslit=ardeòk’
 2-3	քո՞ւ	_	_	_	_	_	_	_	Translit=k’o?w
-2	քու	քու	DET	_	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	4	det:poss	_	Translit=k’ow|LTranslit=k’ow
+2	քու	քու	DET	_	Number=Sing|Person=2|Poss=Yes|PronType=Prs	4	det:poss	_	Translit=k’ow|LTranslit=k’ow
 3	՞	՞	PUNCT	_	_	2	punct	_	Translit=?|LTranslit=?
 4	տունդ	տուն	NOUN	_	Animacy=Nhum|Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	5	nsubj	_	Translit=townd|LTranslit=town
 5	ուր	ուր	ADV	_	PronType=Int	0	root	_	Translit=owr|LTranslit=owr
@@ -4598,7 +4598,7 @@
 # text = Ստորեւ մեր ընթերցողներուն կը ներկայացնենք Փրոֆ. Ազիզ Եաղանի «Ակօս»ի համար գրի առած յօդուածը։
 # translit = Storew mer ënt’erc’oġnerown kë nerkayac’nenk’ P’rof. Aziz Eaġani «Akòs»i hamar gri aṙaç yòdowaçë.
 1	Ստորեւ	ստորեւ	ADV	_	_	5	advmod	_	Translit=Storew|LTranslit=storew
-2	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	Translit=mer|LTranslit=menk’
+2	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	Translit=mer|LTranslit=mer
 3	ընթերցողներուն	ընթերցող	NOUN	_	Animacy=Hum|Case=Dat|Definite=Def|Number=Plur	5	iobj	_	Translit=ënt’erc’oġnerown|LTranslit=ënt’erc’oġ
 4	կը	կը	AUX	_	Aspect=Imp|Mood=Ind	5	aux	_	Translit=kë|LTranslit=kë
 5	ներկայացնենք	ներկայացնել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=1|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=nerkayac’nenk’|LTranslit=nerkayac’nel
@@ -4620,7 +4620,7 @@
 # sent_id = news-0015-000302R6
 # text = Մեր երկրի մէջ աւանդուած չարախօսութիւններ են հայոց վերագրուած «ասեղնաւոր օրօրոցը» եւ Ղըզըլպաշ Քիւրտերուն վերագրուած «խաւարում»ը։
 # translit = Mer erkri mēǰ awandowaç čaraxòsowt’iwnner en hayoc’ veragrowaç «aseġnawor òròroc’ë» ew Ġëzëlpaš K’iwrterown veragrowaç «xawarowm»ë.
-1	Մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	Translit=Mer|LTranslit=menk’
+1	Մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	Translit=Mer|LTranslit=mer
 2	երկրի	երկիր	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Sing	4	obl	_	Translit=erkri|LTranslit=erkir
 3	մէջ	մէջ	ADP	_	AdpType=Post	2	case	_	Translit=mēǰ|LTranslit=mēǰ
 4	աւանդուած	աւանդել	VERB	_	Aspect=Perf|Polarity=Pos|Subcat=Intr|VerbForm=Part|Voice=Pass	5	acl	_	Translit=awandowaç|LTranslit=awandel
@@ -5846,7 +5846,7 @@
 60	կնճռումները	կնճռում	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Plur	48	obj	_	Translit=knč̣ṙowmnerë|LTranslit=knč̣ṙowm|SpaceAfter=No
 61	,	,	PUNCT	_	_	69	punct	_	Translit=,|LTranslit=,
 62	որոնք	որ	PRON	_	Case=Nom|Number=Plur|PronType=Rel	69	nsubj	_	Translit=oronk’|LTranslit=or
-63	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	64	det:poss	_	Translit=mer|LTranslit=menk’
+63	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	64	det:poss	_	Translit=mer|LTranslit=mer
 64	դէմքին	դէմք	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	66	nmod:poss	_	Translit=dēmk’in|LTranslit=dēmk’
 65	սովորական	սովորական	ADJ	_	Degree=Pos	66	amod	_	Translit=sovorakan|LTranslit=sovorakan
 66	միակերպութեան	միակերպութիւն	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Coll	69	obl	_	Translit=miakerpowt’ean|LTranslit=miakerpowt’iwn
@@ -5862,7 +5862,7 @@
 76	շեշտն	շեշտ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	73	obj	_	Translit=šeštn|LTranslit=šešt
 77	ու	ու	CCONJ	_	_	78	cc	_	Translit=ow|LTranslit=ow
 78	կտրուածքը	կտրուածք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	76	conj	_	Translit=ktrowaçk’ë|LTranslit=ktrowaçk’
-79	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	83	det:poss	_	Translit=mer|LTranslit=menk’
+79	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	83	det:poss	_	Translit=mer|LTranslit=mer
 80	մնայուն	մնայուն	ADJ	_	Degree=Pos	83	amod	_	Translit=mnayown|LTranslit=mnayown|SpaceAfter=No
 81	,	,	PUNCT	_	_	82	punct	_	Translit=,|LTranslit=,
 82	անկորուստ	անկորուստ	ADJ	_	_	80	conj	_	Translit=ankorowst|LTranslit=ankorowst
@@ -5908,7 +5908,7 @@
 10	մէկն	մէկ	PRON	_	Case=Nom|Definite=Def|PronType=Ind	0	root	_	Translit=mēkn|LTranslit=mēk
 11	է	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	cop	_	Translit=ē|LTranslit=em|SpaceAfter=No
 12	,	,	PUNCT	_	_	18	punct	_	Translit=,|LTranslit=,
-13	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	Translit=mer|LTranslit=menk’
+13	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	Translit=mer|LTranslit=mer
 14	դէմքը	դէմք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	18	obj	_	Translit=dēmk’ë|LTranslit=dēmk’
 15	իր	իր	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Emp|Reflex=Yes	17	det:poss	_	Translit=ir|LTranslit=ir
 16	վաւերական	վաւերական	ADJ	_	_	17	amod	_	Translit=vawerakan|LTranslit=vawerakan
@@ -6027,7 +6027,7 @@
 18	են	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	16	aux	_	Translit=en|LTranslit=em
 19	այդ	այդ	DET	_	Deixis=Med|PronType=Dem	20	det	_	Translit=ayd|LTranslit=ayd
 20	ներքնազգեստը	ներքնազգեստ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	16	obj	_	Translit=nerk’nazgestë|LTranslit=nerk’nazgest
-21	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	22	det:poss	_	Translit=mer|LTranslit=menk’
+21	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	22	det:poss	_	Translit=mer|LTranslit=mer
 22	հոգիին	հոգի	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	16	obl	_	Translit=hogiin|LTranslit=hogi
 23	համար	համար	ADP	_	AdpType=Post	22	case	_	Translit=hamar|LTranslit=hamar|SpaceAfter=No
 24	։	։	PUNCT	_	_	7	punct	_	Translit=.|LTranslit=.
@@ -6111,12 +6111,12 @@
 12	,	,	PUNCT	_	_	14	punct	_	Translit=,|LTranslit=,
 13	կը	կը	AUX	_	Aspect=Imp|Mood=Ind	14	aux	_	Translit=kë|LTranslit=kë
 14	բացուի	բացուիլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	5	acl	_	Translit=bac’owi|LTranslit=bac’owil
-15	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	det:poss	_	Translit=mer|LTranslit=menk’
+15	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	det:poss	_	Translit=mer|LTranslit=mer
 16	ներսը	ներս	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	14	obl	_	Translit=nersë|LTranslit=ners|SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	Translit=,|LTranslit=,
 18	լուալու	լուալ	VERB	_	Case=Dat|Definite=Ind|Polarity=Pos|Subcat=Tran|VerbForm=Inf|Voice=Act	14	obl	_	Translit=lowalow|LTranslit=lowal
 19	համար	համար	ADP	_	AdpType=Post	18	case	_	Translit=hamar|LTranslit=hamar
-20	կարծես	կարծել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=2|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	18	discourse	_	Translit=karçes|LTranslit=karçel
+20	կարծես	կարծել	VERB	_	Aspect=Prosp|ExtPos=PART|Mood=Sub|Number=Sing|Person=2|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	18	discourse	_	Translit=karçes|LTranslit=karçel
 21	ժանտ	ժանտ	ADJ	_	_	24	amod	_	Translit=žant|LTranslit=žant
 22	ու	ու	CCONJ	_	_	23	cc	_	Translit=ow|LTranslit=ow
 23	սեւ	սեւ	ADJ	_	Degree=Pos	21	conj	_	Translit=sew|LTranslit=sew
@@ -7254,7 +7254,7 @@
 26	համար	համար	ADP	_	AdpType=Post	25	case	_	Translit=hamar|LTranslit=hamar
 27	-	-	PUNCT	_	_	42	punct	_	Translit=-|LTranslit=-|SpaceAfter=No
 28	,	,	PUNCT	_	_	42	punct	_	Translit=,|LTranslit=,
-29	կարծես	կարծել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=2|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	30	discourse	_	Translit=karçes|LTranslit=karçel
+29	կարծես	կարծել	VERB	_	Aspect=Prosp|ExtPos=PART|Mood=Sub|Number=Sing|Person=2|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	30	discourse	_	Translit=karçes|LTranslit=karçel
 30	ազատուած	ազատուիլ	VERB	_	Aspect=Perf|Polarity=Pos|Subcat=Intr|VerbForm=Part|Voice=Mid	42	advcl	_	Translit=azatowaç|LTranslit=azatowil
 31	ընդմիշտ	ընդմիշտ	ADV	_	_	30	advmod	_	Translit=ëndmišt|LTranslit=ëndmišt
 32	թուրքին	թուրք	NOUN	_	Animacy=Hum|Case=Dat|Definite=Def|Number=Sing	33	nmod:poss	_	Translit=t’owrk’in|LTranslit=t’owrk’
@@ -7922,7 +7922,7 @@
 32	մը	մը	DET	_	PronType=Art	31	det	_	Translit=më|LTranslit=më
 33	կը	կը	AUX	_	Aspect=Imp|Mood=Ind	34	aux	_	Translit=kë|LTranslit=kë
 34	զատուի	զատուիլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	28	acl:relcl	_	Translit=zatowi|LTranslit=zatowil
-35	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	36	det:poss	_	Translit=mer|LTranslit=menk’
+35	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	36	det:poss	_	Translit=mer|LTranslit=mer
 36	մտքին	միտք	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	34	obl	_	Translit=mtk’in|LTranslit=mitk’
 37	մէջ	մէջ	ADP	_	AdpType=Post	36	case	_	Translit=mēǰ|LTranslit=mēǰ
 38	ու	ու	CCONJ	_	_	40	cc	_	Translit=ow|LTranslit=ow
@@ -9670,7 +9670,7 @@
 47	որով	որ	PRON	_	Case=Ins|Definite=Ind|Number=Sing|PronType=Rel	49	obl	_	Translit=orov|LTranslit=or
 48	կը	կը	AUX	_	Aspect=Imp|Mood=Ind	49	aux	_	Translit=kë|LTranslit=kë
 49	պարուրուի	պարուրուիլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	45	acl:relcl	_	Translit=parowrowi|LTranslit=parowrowil
-50	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	52	det:poss	_	Translit=mer|LTranslit=menk’
+50	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	52	det:poss	_	Translit=mer|LTranslit=mer
 51	ուշացած	ուշանալ	VERB	_	Aspect=Perf|Polarity=Pos|Subcat=Intr|VerbForm=Part|Voice=Mid	52	acl	_	Translit=owšac’aç|LTranslit=owšanal
 52	պատանութիւնը	պատանութիւն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Coll	49	nsubj	_	Translit=patanowt’iwnë|LTranslit=patanowt’iwn|SpaceAfter=No
 53	,	,	PUNCT	_	_	54	punct	_	Translit=,|LTranslit=,
@@ -10209,7 +10209,7 @@
 5	-	-	PUNCT	_	_	6	punct	_	Translit=-|LTranslit=-
 6	պաշտպանութեան	պաշտպանութիւն	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Coll	11	obl	_	Translit=paštpanowt’ean|LTranslit=paštpanowt’iwn
 7	տակ	տակ	ADP	_	AdpType=Post	6	case	_	Translit=tak|LTranslit=tak
-8	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	Translit=mer|LTranslit=menk’
+8	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	Translit=mer|LTranslit=mer
 9	աչքերը	աչք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Plur	11	nsubj	_	Translit=ačk’erë|LTranslit=ačk’
 10	աւելի	աւելի	ADV	_	Degree=Cmp	11	advmod	_	Translit=aweli|LTranslit=aweli
 11	քաջ	քաջ	ADJ	_	Degree=Pos	0	root	_	Translit=k’aǰ|LTranslit=k’aǰ
@@ -10330,7 +10330,7 @@
 13	անուշ	անուշ	ADJ	_	Degree=Pos	14	amod	_	Translit=anowš|LTranslit=anowš
 14	բուրումէն	բուրում	NOUN	_	Animacy=Nhum|Case=Abl|Definite=Def|Number=Sing	15	obl	_	Translit=bowrowmēn|LTranslit=bowrowm
 15	արբեցած	արբենալ	VERB	_	Aspect=Perf|Polarity=Pos|Subcat=Intr|VerbForm=Part|Voice=Mid	26	advcl	_	Translit=arbec’aç|LTranslit=arbenal
-16	կարծես	կարծել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=2|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	15	discourse	_	Translit=karçes|LTranslit=karçel|SpaceAfter=No
+16	կարծես	կարծել	VERB	_	Aspect=Prosp|ExtPos=PART|Mood=Sub|Number=Sing|Person=2|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	15	discourse	_	Translit=karçes|LTranslit=karçel|SpaceAfter=No
 17	՝	՝	PUNCT	_	_	26	punct	_	Translit=,|LTranslit=,
 18	pensionnaire	pensionnaire	X	_	Foreign=Yes	26	nsubj	_	Translit=pensionnaire|LTranslit=pensionnaire|SpaceAfter=No
 19	ները	ը	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Hyph=Yes|Number=Plur	18	dep	_	Translit=nerë|LTranslit=ë
@@ -11419,7 +11419,7 @@
 28	կերպով	կերպ	NOUN	_	Animacy=Nhum|Case=Ins|Definite=Ind|Number=Sing	29	obl	_	Translit=kerpov|LTranslit=kerp
 29	հագնուած	հագնիլ	VERB	_	Aspect=Perf|Polarity=Pos|Subcat=Intr|VerbForm=Part|Voice=Pass	25	conj	_	Translit=hagnowaç|LTranslit=hagnil|SpaceAfter=No
 30	՝	՝	PUNCT	_	_	34	punct	_	Translit=,|LTranslit=,
-31	կարծես	կարծել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=2|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	34	discourse	_	Translit=karçes|LTranslit=karçel
+31	կարծես	կարծել	VERB	_	Aspect=Prosp|ExtPos=PART|Mood=Sub|Number=Sing|Person=2|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	34	discourse	_	Translit=karçes|LTranslit=karçel
 32	այցելուի	այցելու	NOUN	_	Animacy=Hum|Case=Dat|Definite=Ind|Number=Sing	34	obj	_	Translit=ayc’elowi|LTranslit=ayc’elow
 33	մը	մը	DET	_	PronType=Art	32	det	_	Translit=më|LTranslit=më
 34	սպասելով	սպասել	VERB	_	Case=Ins|Definite=Ind|Polarity=Pos|Subcat=Tran|VerbForm=Inf|Voice=Act	29	advcl	_	Translit=spaselov|LTranslit=spasel|SpaceAfter=No
@@ -11455,7 +11455,7 @@
 24	կը	կը	AUX	_	Aspect=Imp|Mood=Ind	25	aux	_	Translit=kë|LTranslit=kë
 25	տեսնեմ	տեսնել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=1|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	Translit=tesnem|LTranslit=tesnel
 26	որ	որ	SCONJ	_	_	30	mark	_	Translit=or|LTranslit=or
-27	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	28	det:poss	_	Translit=mer|LTranslit=menk’
+27	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	28	det:poss	_	Translit=mer|LTranslit=mer
 28	ճաշակները	ճաշակ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Plur	30	nsubj	_	Translit=č̣ašaknerë|LTranslit=č̣ašak
 29	կը	կը	AUX	_	Aspect=Imp|Mood=Ind	30	aux	_	Translit=kë|LTranslit=kë
 30	յարմարին	յարմարիլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	25	ccomp	_	Translit=yarmarin|LTranslit=yarmaril
@@ -12437,7 +12437,7 @@
 7	ալ	ալ	PART	_	_	6	fixed	_	Translit=al|LTranslit=al
 8	տաղտկալի	տաղտկալի	ADJ	_	Degree=Pos	0	root	_	Translit=taġtkali|LTranslit=taġtkali
 9	չէ	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	8	cop	_	Translit=čē|LTranslit=em
-10	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	det:poss	_	Translit=mer|LTranslit=menk’
+10	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	det:poss	_	Translit=mer|LTranslit=mer
 11	կեանքը	կեանք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	8	nsubj	_	Translit=keank’ë|LTranslit=keank’|SpaceAfter=No
 12	,	,	PUNCT	_	_	16	punct	_	Translit=,|LTranslit=,
 13	որքան	որքան	ADV	_	ExtPos=ADV|PronType=Rel	16	advmod	_	Translit=ork’an|LTranslit=ork’an
@@ -14792,7 +14792,7 @@
 23	՝	՝	PUNCT	_	_	28	punct	_	Translit=,|LTranslit=,
 24	կուժը	կուժ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	28	obl	_	Translit=kowžë|LTranslit=kowž
 25	շալակը	շալակ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	24	nmod:npmod	_	Translit=šalakë|LTranslit=šalak
-26	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	27	det:poss	_	Translit=mer|LTranslit=menk’
+26	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	27	det:poss	_	Translit=mer|LTranslit=mer
 27	դռնէն	դուռ	NOUN	_	Animacy=Nhum|Case=Abl|Definite=Def|Number=Sing	28	obl	_	Translit=dṙnēn|LTranslit=dowṙ
 28	անցաւ	անցնիլ	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Past|VerbForm=Fin|Voice=Mid	21	advcl	_	Translit=anc’aw|LTranslit=anc’nil|SpaceAfter=No
 29	…	…	PUNCT	_	_	30	punct	_	Translit=…|LTranslit=…
@@ -15293,7 +15293,7 @@
 # text = «Մեր բոլոր աղէտներուն պատճառները ուրիշներն են»։
 # translit = «Mer bolor aġētnerown patč̣aṙnerë owrišnern en».
 1	«	«	PUNCT	_	_	6	punct	_	Translit=«|LTranslit=«|SpaceAfter=No
-2	Մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	Translit=Mer|LTranslit=menk’
+2	Մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	Translit=Mer|LTranslit=mer
 3	բոլոր	բոլոր	DET	_	PronType=Tot	4	det	_	Translit=bolor|LTranslit=bolor
 4	աղէտներուն	աղէտ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Plur	5	nmod:poss	_	Translit=aġētnerown|LTranslit=aġēt
 5	պատճառները	պատճառ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Plur	6	nsubj	_	Translit=patč̣aṙnerë|LTranslit=patč̣aṙ
@@ -15476,7 +15476,7 @@
 # text = Բայց մեր խմբագիրները, ճառախօսները, գործիչները այնքան շատ են կրկներ այս պատմութիւնները, որ Հայ ժողովուրդը, կուսակցական շարքերը, եւ իրենք իսկ քարոզիչները՝ կամ անգիտօրէն կամ գիտակցօրէն այլեւս չեն հարցներ.—
 # translit = Bayc’ mer xmbagirnerë, č̣aṙaxòsnerë, gorçičnerë aynk’an šat en krkner ays patmowt’iwnnerë, or Hay žoġovowrdë, kowsakc’akan šark’erë, ew irenk’ isk k’arozičnerë, kam angitòrēn kam gitakc’òrēn aylews čen harc’ner.—
 1	Բայց	բայց	CCONJ	_	_	11	cc	_	Translit=Bayc’|LTranslit=bayc’
-2	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	Translit=mer|LTranslit=menk’
+2	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	Translit=mer|LTranslit=mer
 3	խմբագիրները	խմբագիր	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Number=Plur	11	nsubj	_	Translit=xmbagirnerë|LTranslit=xmbagir|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	Translit=,|LTranslit=,
 5	ճառախօսները	ճառախօս	NOUN	_	Animacy=Hum|Case=Nom|Definite=Def|Number=Plur	3	conj	_	Translit=č̣aṙaxòsnerë|LTranslit=č̣aṙaxòs|SpaceAfter=No
@@ -15524,7 +15524,7 @@
 7-8	չունի՞նք	_	_	_	_	_	_	_	Translit=čowni?nk’
 7	չունինք	ունիմ	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Translit=čownink’|LTranslit=ownim
 8	՞	՞	PUNCT	_	_	7	punct	_	Translit=?|LTranslit=?
-9	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	Translit=mer|LTranslit=menk’
+9	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	Translit=mer|LTranslit=mer
 10	աղէտներուն	աղէտ	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Plur	7	obl	_	Translit=aġētnerown|LTranslit=aġēt
 11	մէջ	մէջ	ADP	_	AdpType=Post	10	case	_	Translit=mēǰ|LTranslit=mēǰ|SpaceAfter=No
 12	։	։	PUNCT	_	_	7	punct	_	Translit=.|LTranslit=.
@@ -15534,7 +15534,7 @@
 # text = Եւ մեր վայբերանութիւնը միշտ ուրիշներու մասին եւ առանց ինքնանդրադարձումի եղած է, մեր կարծիքով, հայ ժողովուրդի աղէտներուն մեծագոյնը։
 # translit = EW mer vayberanowt’iwnë mišt owrišnerow masin ew aṙanc’ ink’nandradarjowmi eġaç ē, mer karçik’ov, hay žoġovowrdi aġētnerown meçagoynë.
 1	Եւ	եւ	CCONJ	_	_	10	cc	_	Translit=EW|LTranslit=ew
-2	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	Translit=mer|LTranslit=menk’
+2	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	Translit=mer|LTranslit=mer
 3	վայբերանութիւնը	վայբերանութիւն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	10	nsubj	_	Translit=vayberanowt’iwnë|LTranslit=vayberanowt’iwn
 4	միշտ	միշտ	ADV	_	_	5	advmod:emph	_	Translit=mišt|LTranslit=mišt
 5	ուրիշներու	ուրիշ	PRON	_	Case=Dat|Definite=Ind|Number=Plur|PronType=Ind	3	nmod:npmod	_	Translit=owrišnerow|LTranslit=owriš
@@ -15545,7 +15545,7 @@
 10	եղած	ըլլալ	VERB	_	Aspect=Perf|Polarity=Pos|Subcat=Intr|VerbForm=Part|Voice=Mid	0	root	_	Translit=eġaç|LTranslit=ëllal
 11	է	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	aux	_	Translit=ē|LTranslit=em|SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	Translit=,|LTranslit=,
-13	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	Translit=mer|LTranslit=menk’
+13	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	Translit=mer|LTranslit=mer
 14	կարծիքով	կարծիք	NOUN	_	Animacy=Nhum|Case=Ins|Definite=Ind|Number=Sing	10	parataxis	_	Translit=karçik’ov|LTranslit=karçik’|SpaceAfter=No
 15	,	,	PUNCT	_	_	19	punct	_	Translit=,|LTranslit=,
 16	հայ	Հայ	NOUN	_	Animacy=Hum|Case=Nom|Definite=Ind|Number=Sing	17	nmod	_	Translit=hay|LTranslit=Hay
@@ -15749,7 +15749,7 @@
 19	արձանագրութիւններուն	արձանագրութիւն	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Plur	21	obl	_	Translit=arjanagrowt’iwnnerown|LTranslit=arjanagrowt’iwn
 20	մէջ	մէջ	ADP	_	AdpType=Post	19	case	_	Translit=mēǰ|LTranslit=mēǰ
 21	կան	կամ	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	12	ccomp	_	Translit=kan|LTranslit=kam
-22	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	24	det:poss	_	Translit=mer|LTranslit=menk’
+22	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	24	det:poss	_	Translit=mer|LTranslit=mer
 23	ենթակայական	ենթակայական	ADJ	_	_	24	amod	_	Translit=ent’akayakan|LTranslit=ent’akayakan
 24	բաղձանքները	բաղձանք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Plur	21	nsubj	_	Translit=baġjank’nerë|LTranslit=baġjank’|SpaceAfter=No
 25	։	։	PUNCT	_	_	11	punct	_	Translit=.|LTranslit=.
@@ -15976,7 +15976,7 @@
 18	խոտոր	խոտոր	ADJ	_	Degree=Pos	20	xcomp	_	Translit=xotor|LTranslit=xotor
 19	կը	կը	AUX	_	Aspect=Imp|Mood=Ind	20	aux	_	Translit=kë|LTranslit=kë
 20	համեմատի	համեմատիլ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	9	advcl	_	Translit=hamemati|LTranslit=hamematil
-21	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	22	obl	_	Translit=mer|LTranslit=menk’
+21	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	22	det:poss	_	Translit=mer|LTranslit=mer
 22	կեանքին	կեանք	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	20	obl	_	Translit=keank’in|LTranslit=keank’|SpaceAfter=No
 23	։	։	PUNCT	_	_	10	punct	_	Translit=.|LTranslit=.
 
@@ -16099,13 +16099,13 @@
 # text = Եւ մեր կարծիքով, ահա առաջին ակը մեր բոլոր դժբախտութիւններուն։
 # translit = EW mer karçik’ov, aha aṙaǰin akë mer bolor džbaxtowt’iwnnerown.
 1	Եւ	եւ	CCONJ	_	_	3	cc	_	Translit=EW|LTranslit=ew
-2	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	Translit=mer|LTranslit=menk’
+2	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	Translit=mer|LTranslit=mer
 3	կարծիքով	կարծիք	NOUN	_	Animacy=Nhum|Case=Ins|Definite=Ind|Number=Sing	7	parataxis	_	Translit=karçik’ov|LTranslit=karçik’|SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	Translit=,|LTranslit=,
 5	ահա	ահա	PART	_	_	7	discourse	_	Translit=aha|LTranslit=aha
 6	առաջին	առաջին	ADJ	_	Degree=Pos|NumForm=Word|NumType=Ord	7	amod	_	Translit=aṙaǰin|LTranslit=aṙaǰin
 7	ակը	ակ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	0	root	_	Translit=akë|LTranslit=ak
-8	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	Translit=mer|LTranslit=menk’
+8	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	Translit=mer|LTranslit=mer
 9	բոլոր	բոլոր	DET	_	PronType=Tot	10	det	_	Translit=bolor|LTranslit=bolor
 10	դժբախտութիւններուն	դժբախտութիւն	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Plur	7	nmod:poss	_	Translit=džbaxtowt’iwnnerown|LTranslit=džbaxtowt’iwn|SpaceAfter=No
 11	։	։	PUNCT	_	_	7	punct	_	Translit=.|LTranslit=.
@@ -16218,7 +16218,7 @@
 1	Կարելի	կարելի	ADJ	_	_	0	root	_	Translit=Kareli|LTranslit=kareli
 2	է	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	cop	_	Translit=ē|LTranslit=em
 3	երեւակայել	երեւակայել	VERB	_	Polarity=Pos|Subcat=Tran|VerbForm=Inf|Voice=Act	1	csubj	_	Translit=erewakayel|LTranslit=erewakayel
-4	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	Translit=mer|LTranslit=menk’
+4	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	Translit=mer|LTranslit=mer
 5	կուրութեան	կուրութիւն	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Sing	6	nmod:poss	_	Translit=kowrowt’ean|LTranslit=kowrowt’iwn
 6	չափը	չափ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	3	obj	_	Translit=čap’ë|LTranslit=čap’|SpaceAfter=No
 7	,	,	PUNCT	_	_	17	punct	_	Translit=,|LTranslit=,
@@ -16253,7 +16253,7 @@
 # sent_id = nonfiction-0009-000U00E8
 # text = Մեր նպատակն է վերգնահատումով մը դիտել շարք մը փաստեր, մէկդի դնելով այն ակնոցը, որ մեր բաղձանքներուն գոյնն ունի, եւ հակառակ մեր արդար եւ աննահանջ ատելութեան ու վրէժին, որ ունինք դէպի թրքութիւնը՝ ցոյց տալ, թէ ինչպիսի առաւելութիւններ ունին անոնք մեր վրայ։
 # translit = Mer npatakn ē vergnahatowmov më ditel šark’ më p’aster, mēkdi dnelov ayn aknoc’ë, or mer baġjank’nerown goynn owni, ew hakaṙak mer ardar ew annahanǰ atelowt’ean ow vrēžin, or ownink’ dēpi t’rk’owt’iwnë, c’oyc’ tal, t’ē inčpisi aṙawelowt’iwnner ownin anonk’ mer vray.
-1	Մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	Translit=Mer|LTranslit=menk’
+1	Մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	Translit=Mer|LTranslit=mer
 2	նպատակն	նպատակ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	0	root	_	Translit=npatakn|LTranslit=npatak
 3	է	եմ	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	cop	_	Translit=ē|LTranslit=em
 4	վերգնահատումով	վերգնահատում	NOUN	_	Animacy=Nhum|Case=Ins|Definite=Ind|Number=Sing	6	obl	_	Translit=vergnahatowmov|LTranslit=vergnahatowm
@@ -16269,14 +16269,14 @@
 14	ակնոցը	ակնոց	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	12	obj	_	Translit=aknoc’ë|LTranslit=aknoc’|SpaceAfter=No
 15	,	,	PUNCT	_	_	20	punct	_	Translit=,|LTranslit=,
 16	որ	որ	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Rel	20	nsubj	_	Translit=or|LTranslit=or
-17	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	det:poss	_	Translit=mer|LTranslit=menk’
+17	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	det:poss	_	Translit=mer|LTranslit=mer
 18	բաղձանքներուն	բաղձանք	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Plur	19	nmod:poss	_	Translit=baġjank’nerown|LTranslit=baġjank’
 19	գոյնն	գոյն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	20	obj	_	Translit=goynn|LTranslit=goyn
 20	ունի	ունիմ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl:relcl	_	Translit=owni|LTranslit=ownim|SpaceAfter=No
 21	,	,	PUNCT	_	_	38	punct	_	Translit=,|LTranslit=,
 22	եւ	եւ	CCONJ	_	_	38	cc	_	Translit=ew|LTranslit=ew
 23	հակառակ	հակառակ	ADP	_	AdpType=Ambi	28	case	_	Translit=hakaṙak|LTranslit=hakaṙak
-24	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	28	det:poss	_	Translit=mer|LTranslit=menk’
+24	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	28	det:poss	_	Translit=mer|LTranslit=mer
 25	արդար	արդար	ADJ	_	Degree=Pos	28	amod	_	Translit=ardar|LTranslit=ardar
 26	եւ	եւ	CCONJ	_	_	27	cc	_	Translit=ew|LTranslit=ew
 27	աննահանջ	աննահանջ	ADJ	_	_	25	conj	_	Translit=annahanǰ|LTranslit=annahanǰ
@@ -16305,7 +16305,7 @@
 # text = Որովհետեւ մեր պարտութիւններուն գլխաւոր պատճառը թշնամիին ուժերու առաւելութիւնը չճանչնալուն մէջ կը գտնուի։
 # translit = Orovhetew mer partowt’iwnnerown glxawor patč̣aṙë t’šnamiin owžerow aṙawelowt’iwnë čč̣ančnalown mēǰ kë gtnowi.
 1	Որովհետեւ	որովհետեւ	SCONJ	_	_	12	mark	_	Translit=Orovhetew|LTranslit=orovhetew
-2	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	Translit=mer|LTranslit=menk’
+2	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	Translit=mer|LTranslit=mer
 3	պարտութիւններուն	պարտութիւն	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	5	nmod:poss	_	Translit=partowt’iwnnerown|LTranslit=partowt’iwn
 4	գլխաւոր	գլխաւոր	ADJ	_	Degree=Pos	5	amod	_	Translit=glxawor|LTranslit=glxawor
 5	պատճառը	պատճառ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	12	nsubj	_	Translit=patč̣aṙë|LTranslit=patč̣aṙ
@@ -16366,7 +16366,7 @@
 30	որ	որ	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Rel	37	nsubj	_	Translit=or|LTranslit=or
 31	բլուրին	բլուր	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Sing	37	obl	_	Translit=blowrin|LTranslit=blowr
 32	ետեւ	ետեւ	ADP	_	AdpType=Post	31	case	_	Translit=etew|LTranslit=etew
-33	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	34	det:poss	_	Translit=mer|LTranslit=menk’
+33	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	34	det:poss	_	Translit=mer|LTranslit=mer
 34	դիրքը	դիրք	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	35	obj	_	Translit=dirk’ë|LTranslit=dirk’
 35	ճշդած	ճշդել	VERB	_	Aspect=Perf|Polarity=Pos|Subcat=Tran|VerbForm=Part|Voice=Act	37	advcl	_	Translit=č̣šdaç|LTranslit=č̣šdel|SpaceAfter=No
 36	՝	՝	PUNCT	_	_	37	punct	_	Translit=,|LTranslit=,
@@ -16383,14 +16383,14 @@
 3	ճակատագրօրէն	ճակատագրօրէն	ADV	_	_	5	advmod	_	Translit=č̣akatagròrēn|LTranslit=č̣akatagròrēn
 4	պիտի	պիտի	AUX	_	Aspect=Prosp|Mood=Ind|Polarity=Pos	5	aux	_	Translit=piti|LTranslit=piti
 5	ըլլար	ըլլալ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Imp|VerbForm=Fin|Voice=Mid	0	root	_	Translit=ëllar|LTranslit=ëllal
-6	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	Translit=mer|LTranslit=menk’
+6	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	Translit=mer|LTranslit=mer
 7	պարտութիւնը	պարտութիւն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	5	xcomp	_	Translit=partowt’iwnë|LTranslit=partowt’iwn|SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	Translit=,|LTranslit=,
 9	որքան	որքան	ADV	_	PronType=Rel	12	advmod	_	Translit=ork’an|LTranslit=ork’an
 10	ալ	ալ	ADV	_	_	9	advmod	_	Translit=al|LTranslit=al
 11	հերոսական	հերոսական	ADJ	_	Degree=Pos	12	xcomp	_	Translit=herosakan|LTranslit=herosakan
 12	ըլլային	ըլլալ	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Imp|VerbForm=Fin|Voice=Mid	5	advcl	_	Translit=ëllayin|LTranslit=ëllal
-13	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	Translit=mer|LTranslit=menk’
+13	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	Translit=mer|LTranslit=mer
 14	ճիգերը	ճիգ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Plur	12	nsubj	_	Translit=č̣igerë|LTranslit=č̣ig|SpaceAfter=No
 15	։	։	PUNCT	_	_	5	punct	_	Translit=.|LTranslit=.
 
@@ -16527,7 +16527,7 @@
 1	Այդ	այդ	DET	_	Deixis=Med|PronType=Dem	2	det	_	Translit=Ayd|LTranslit=ayd
 2	պատճառով	պատճառ	NOUN	_	Animacy=Nhum|Case=Ins|Definite=Ind|Number=Sing	6	obl	_	Translit=patč̣aṙov|LTranslit=patč̣aṙ
 3	ալ	ալ	ADV	_	_	2	advmod:emph	_	Translit=al|LTranslit=al
-4	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	Translit=mer|LTranslit=menk’
+4	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	Translit=mer|LTranslit=mer
 5	քննութիւնը	քննութիւն	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	6	nsubj	_	Translit=k’nnowt’iwnë|LTranslit=k’nnowt’iwn
 6	հեռու	հեռու	ADJ	_	Degree=Pos	0	root	_	Translit=heṙow|LTranslit=heṙow
 7	պիտի	պիտի	AUX	_	Aspect=Prosp|Mood=Ind|Polarity=Pos	6	aux	_	Translit=piti|LTranslit=piti
@@ -16554,7 +16554,7 @@
 11	մենք	մենք	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	Translit=menk’|LTranslit=menk’
 12	պիտի	պիտի	AUX	_	Aspect=Prosp|Mood=Ind|Polarity=Pos	13	aux	_	Translit=piti|LTranslit=piti
 13	թիավարենք	թիավարել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Plur|Person=1|Polarity=Pos|Subcat=Tran|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	Translit=t’iavarenk’|LTranslit=t’iavarel
-14	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	15	det:poss	_	Translit=mer|LTranslit=menk’
+14	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	15	det:poss	_	Translit=mer|LTranslit=mer
 15	արիւնի	արիւն	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Ind|Number=Coll	16	nmod:poss	_	Translit=ariwni|LTranslit=ariwn
 16	ալիքներուն	ալիք	NOUN	_	Animacy=Nhum|Case=Dat|Definite=Def|Number=Plur	13	obl	_	Translit=alik’nerown|LTranslit=alik’
 17	վրայ	վրայ	ADP	_	AdpType=Post	16	case	_	Translit=vray|LTranslit=vray
@@ -16602,7 +16602,7 @@
 3	կը	կը	AUX	_	Aspect=Imp|Mood=Ind	4	aux	_	Translit=kë|LTranslit=kë
 4	վայելէ	վայելել	VERB	_	Aspect=Prosp|Mood=Sub|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	Translit=vayelē|LTranslit=vayelel|SpaceAfter=No
 5	,	,	PUNCT	_	_	13	punct	_	Translit=,|LTranslit=,
-6	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	Translit=mer|LTranslit=menk’
+6	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	Translit=mer|LTranslit=mer
 7	տեղը	տեղ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	13	nsubj	_	Translit=teġë|LTranslit=teġ|SpaceAfter=No
 8	՝	՝	PUNCT	_	_	13	punct	_	Translit=,|LTranslit=,
 9	գմբէթը	գմբէթ	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Sing	10	nsubj:pass	_	Translit=gmbēt’ë|LTranslit=gmbēt’
@@ -16641,7 +16641,7 @@
 # text = Վկայ մեր ոսկորները։
 # translit = Vkay mer oskornerë.
 1	Վկայ	վկայ	NOUN	_	Animacy=Hum|Case=Nom|Definite=Ind|Number=Sing	0	root	_	Translit=Vkay|LTranslit=vkay
-2	մեր	մենք	DET	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	Translit=mer|LTranslit=menk’
+2	մեր	մեր	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	Translit=mer|LTranslit=mer
 3	ոսկորները	ոսկոր	NOUN	_	Animacy=Nhum|Case=Nom|Definite=Def|Number=Plur	1	orphan	_	Translit=oskornerë|LTranslit=oskor|SpaceAfter=No
 4	։	։	PUNCT	_	_	1	punct	_	Translit=.|LTranslit=.
 
