@@ -36,6 +36,10 @@ UD_Western_Armenian-ArmTDP data conforms to [CoNLL-U](http://universaldependenci
 
 # Changelog
 
+* 2025-11-15 v2.17
+   * Specified `fixed`.
+   * Introduced `ExtPos`.
+
 * 2023-11-15 v2.13
    * Fixed annotation errors and inconsistencies.
 
@@ -59,6 +63,7 @@ UD_Western_Armenian-ArmTDP data conforms to [CoNLL-U](http://universaldependenci
 Data available since: UD v2.8
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: blog fiction news nonfiction reviews social spoken web wiki
 Lemmas: manual native
 UPOS: manual native
@@ -67,7 +72,7 @@ Features: manual native
 Relations: manual native
 Contributors: Yavrumyan, Marat M.
 Contributing: elsewhere
-Contact: marat.yavrumyan@plus.ac.at
+Contact: marat.yavrumyan@ysu.am
 ===============================================================================
 Documentation contributors: Marat M. Yavrumyan, Anna S. Danielyan, Setrag H.M. Hovsepian
 https://github.com/armtreebank
