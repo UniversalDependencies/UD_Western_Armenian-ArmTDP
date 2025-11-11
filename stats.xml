@@ -5,201 +5,210 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>6656</sentences><tokens>121583</tokens><words>122907</words><fused>1323</fused></total>
-    <train><sentences>5282</sentences><tokens>94893</tokens><words>95921</words><fused>1027</fused></train>
-    <dev><sentences>694</sentences><tokens>13261</tokens><words>13438</words><fused>177</fused></dev>
-    <test><sentences>680</sentences><tokens>13429</tokens><words>13548</words><fused>119</fused></test>
+    <total><sentences>6644</sentences><tokens>121432</tokens><words>122752</words><fused>1319</fused></total>
+    <train><sentences>5274</sentences><tokens>94795</tokens><words>95823</words><fused>1027</fused></train>
+    <dev><sentences>693</sentences><tokens>13253</tokens><words>13430</words><fused>177</fused></dev>
+    <test><sentences>677</sentences><tokens>13384</tokens><words>13499</words><fused>115</fused></test>
   </size>
-  <lemmas unique="11865" /><!-- ,, եմ, ։, կը, եւ, :, որ, մը, ՝, ու, մէջ, ., ինք, «, » -->
-  <forms unique="25140" /><!-- ,, ։, կը, եւ, :, մը, է, որ, ՝, ու, ., մէջ, կ՚, իր, էր -->
-  <fusions unique="536" /><!-- ի՞նչ, ո՛չ, ինչո՞ւ, ի՛նչ, ո՞վ, թէ՛, ա՛լ, ինչպէ՞ս, ո՞ւր, չէ՞, այո՛, ո՞ր, ի՜նչ, մի՛, ի՞նչպէս -->
+  <lemmas unique="11860" /><!-- ,, եմ, ։, կը, եւ, :, որ, մը, ՝, ու, մէջ, ., իր, «, » -->
+  <forms unique="25120" /><!-- ,, ։, կը, եւ, :, մը, է, ՝, որ, ու, ., մէջ, կ՚, իր, էր -->
+  <fusions unique="536" /><!-- ի՞նչ, ո՛չ, ինչո՞ւ, ի՛նչ, ո՞վ, թէ՛, ա՛լ, ինչպէ՞ս, ո՞ւր, չէ՞, այո՛, ո՞ր, ի՜նչ, մի՛, ե՞րբ -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">9629</tag><!-- մեծ, նոր, առաջին, կարելի, վերջին, ազգային, հայ, տարբեր, կարեւոր, քաղաքական -->
-    <tag name="ADP">5306</tag><!-- մէջ, համար, վրայ, հետ, ի, մասին, ետք, տակ, դէպի, մինչեւ -->
-    <tag name="ADV">5780</tag><!-- ալ, աւելի, միայն, երբ, շատ, ուր, արդէն, հիմա, միշտ, նոյնիսկ -->
-    <tag name="AUX">8966</tag><!-- եմ, կը, պիտի, ըլլալ, պէտք, տալ, կոր, ունիմ, կամ -->
-    <tag name="CCONJ">5091</tag><!-- եւ, ու, բայց, կամ, նաեւ, իսկ, սակայն, թէ, այլ, ոչ -->
-    <tag name="DET">6698</tag><!-- մը, ինք, այս, այդ, մենք, իրենք, ամէն, այն, բոլոր, ան -->
-    <tag name="INTJ">261</tag><!-- այո, ոչ, չէ, ծօ, է, լաւ, հը, ահ, բարեւ, վայ -->
-    <tag name="NOUN">30282</tag><!-- ը, օր, տարի, հայ, մարդ, բան, տուն, հայր, կեանք, գործ -->
+    <tag name="ADJ">9604</tag><!-- մեծ, նոր, առաջին, կարելի, վերջին, ազգային, հայ, տարբեր, կարեւոր, քաղաքական -->
+    <tag name="ADP">5303</tag><!-- մէջ, համար, վրայ, հետ, ի, մասին, ետք, մինչեւ, տակ, դէպի -->
+    <tag name="ADV">5848</tag><!-- ալ, աւելի, միայն, երբ, ինչպէս, շատ, ուր, արդէն, հիմա, միշտ -->
+    <tag name="AUX">8953</tag><!-- եմ, կը, պիտի, ըլլալ, պէտք, տալ, կոր, ունիմ, կամ -->
+    <tag name="CCONJ">5061</tag><!-- եւ, ու, բայց, կամ, նաեւ, իսկ, սակայն, թէ, այլ, ոչ -->
+    <tag name="DET">6686</tag><!-- մը, իր, այս, այդ, մեր, իրենց, ամէն, այն, բոլոր, քանի -->
+    <tag name="INTJ">258</tag><!-- այո, ոչ, չէ, ծօ, է, լաւ, հը, ահ, ա, բարեւ -->
+    <tag name="NOUN">30233</tag><!-- ը, օր, տարի, հայ, մարդ, բան, տուն, հայր, կեանք, գործ -->
     <tag name="NUM">1082</tag><!-- երկու, մէկ, երեք, 2021, չորս, հինգ, 2, 15, 5, կէս -->
-    <tag name="PART">925</tag><!-- ոչ, որ, թէ, անշուշտ, ահա, սակայն, ուրեմն, թերեւս, գոնէ, մի -->
-    <tag name="PRON">4042</tag><!-- որ, ինք, ան, ես, մենք, ինչ, անոնք, անիկա, մէկ, իրենք -->
-    <tag name="PROPN">4415</tag><!-- Հայաստան, Թուրքիա, Պոլիս, Խրիսթինա, Արցախ, Լիբանան, Միքքի, Երեւան, Յակոբ, Հալէպ -->
-    <tag name="PUNCT">22576</tag><!-- ,, ։, :, ՝, ., «, », ՞, -, ՛ -->
-    <tag name="SCONJ">1889</tag><!-- որ, թէ, եթէ, որովհետեւ, որպէսզի, ինչպէս, քանի, երբ, թէեւ, մինչ -->
+    <tag name="PART">983</tag><!-- որ, ոչ, թէ, անշուշտ, ահա, ալ, ուրեմն, թերեւս, սակայն, մի -->
+    <tag name="PRON">4041</tag><!-- որ, ինք, ան, ես, մենք, ինչ, անոնք, անիկա, մէկ, իրենք -->
+    <tag name="PROPN">4410</tag><!-- Հայաստան, Թուրքիա, Պոլիս, Խրիսթինա, Արցախ, Լիբանան, Միքքի, Երեւան, Յակոբ, Հալէպ -->
+    <tag name="PUNCT">22546</tag><!-- ,, ։, :, ՝, ., «, », ՞, -, ՛ -->
+    <tag name="SCONJ">1802</tag><!-- որ, թէ, եթէ, որովհետեւ, որպէսզի, քանի, երբ, թէեւ, մինչ, հետեւաբար -->
     <tag name="SYM">18</tag><!-- +, =, %, C, F, https://us02web.zoom.us/j/87386495798, www.yertik.com, zndoog.com -->
-    <tag name="VERB">15491</tag><!-- ըսել, ըլլալ, ունիմ, կրնալ, գալ, ունենալ, կամ, ընել, տալ, ուզել -->
-    <tag name="X">456</tag><!-- նկատի, մտիկ, հակա, Ապու, la, ERVAB, de, of, et, օղլու -->
+    <tag name="VERB">15471</tag><!-- ըլլալ, ըսել, ունիմ, կրնալ, գալ, ունենալ, կամ, ընել, տալ, առնել -->
+    <tag name="X">453</tag><!-- նկատի, մտիկ, հակա, Ապու, la, ERVAB, de, of, et, օղլու -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="107">
+  <feats unique="116">
     <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,DET,NOUN,PRON,PROPN,X">512</feat><!-- Ս, Տ, պրն, Ամեն, արք, վրդ, ԱՄՆ, Պր, ա, ծ -->
     <feat name="AdpType" value="Ambi" upos="ADP">146</feat><!-- հանդէպ, հակառակ, շնորհիւ, համաձայն, համեմատ, փոխանակ, Բաց, անկախ, համապատասխան -->
-    <feat name="AdpType" value="Post" upos="ADP">4303</feat><!-- մէջ, համար, վրայ, հետ, մասին, ետք, տակ, կողմէ, ընթացքին, դէմ -->
-    <feat name="AdpType" value="Prep" upos="ADP">857</feat><!-- ի, դէպի, մինչեւ, իբրեւ, առանց, որպէս, ըստ, քան, առ, ինչպէս -->
-    <feat name="Animacy" value="Hum" upos="NOUN,PRON,PROPN">8654</feat><!-- ես, հայ, մենք, մարդ, մեզի, պատրիարք, մարդիկ, ինծի, հայրս, մայրս -->
-    <feat name="Animacy" value="Nhum" upos="NOUN,PROPN">26725</feat><!-- բան, ի, ին, օր, Հայաստանի, Թուրքիոյ, տարի, անգամ, ատեն, ժամանակ -->
+    <feat name="AdpType" value="Post" upos="ADP">4310</feat><!-- մէջ, համար, վրայ, հետ, մասին, ետք, տակ, կողմէ, ընթացքին, դէմ -->
+    <feat name="AdpType" value="Prep" upos="ADP">844</feat><!-- ի, մինչեւ, դէպի, իբրեւ, առանց, որպէս, ըստ, քան, առ, բացի -->
+    <feat name="Animacy" value="Hum" upos="NOUN,PRON,PROPN">8063</feat><!-- հայ, մարդ, պատրիարք, մարդիկ, հայրս, մայրս, մարդոց, Տ, հայոց, ով -->
+    <feat name="Animacy" value="Nhum" upos="NOUN,PROPN">26679</feat><!-- բան, ի, ին, օր, Հայաստանի, Թուրքիոյ, տարի, անգամ, ատեն, ժամանակ -->
     <feat name="Aspect" value="Dur" upos="VERB">397</feat><!-- գտնուող, ունեցող, ապրող, դարձող, տիրող, անցնող, գործող, եկող, գացող, եղող -->
     <feat name="Aspect" value="Dur,Iter" upos="VERB">2</feat><!-- տապլտկող, փայլփլող -->
-    <feat name="Aspect" value="Imp" upos="AUX,VERB">9457</feat><!-- կը, է, կ՚, էր, են, էին, չէ, եմ, կու, չէր -->
+    <feat name="Aspect" value="Imp" upos="AUX,VERB">9443</feat><!-- կը, է, կ՚, էր, են, էին, չէ, եմ, կու, չէր -->
     <feat name="Aspect" value="Iter" upos="VERB">2</feat><!-- ձգձգել, տապլտկելով -->
     <feat name="Aspect" value="Iter,Perf" upos="VERB">6</feat><!-- կծկտած, կծկտեր, կոտրտուեցան, ջղայնոտած, փորփրած -->
     <feat name="Aspect" value="Iter,Prosp" upos="VERB">2</feat><!-- պատռտեմ, ցատկռտէ -->
-    <feat name="Aspect" value="Perf" upos="AUX,VERB">5230</feat><!-- եղած, ըսաւ, ունեցած, սկսած, եղաւ, եկած, ունեցաւ, եղեր, դարձած, ըրած -->
+    <feat name="Aspect" value="Perf" upos="AUX,VERB">5224</feat><!-- եղած, ըսաւ, ունեցած, սկսած, եղաւ, եկած, ունեցաւ, եղեր, դարձած, ըրած -->
     <feat name="Aspect" value="Prog" upos="AUX">23</feat><!-- կոր -->
-    <feat name="Aspect" value="Prosp" upos="AUX,VERB">5993</feat><!-- պիտի, պէտք, ըլլայ, ըսէ, ըսեմ, ըլլար, կարծես, գայ, ուզեմ, ըլլան -->
-    <feat name="Case" value="Abl" upos="ADP,NOUN,PRON,PROPN,VERB">2026</feat><!-- ամէնէն, անկէ, էն, մէջէն, կողմէ, ամենէն, ատկէ, իրմէ, անոնցմէ, տունէն -->
-    <feat name="Case" value="Acc" upos="NOUN,PRON">392</feat><!-- զայն, մեզ, զիս, զինքը, զոր, զինք, զանոնք, իրար, ձեզ, քեզ -->
-    <feat name="Case" value="Dat" upos="ADP,AUX,NOUN,PRON,PROPN,VERB">14114</feat><!-- ի, ին, որուն, Հայաստանի, անոր, Թուրքիոյ, իրեն, իրենց, որոնց, մեզի -->
-    <feat name="Case" value="Gen" upos="DET,NOUN,PRON,PROPN">2109</feat><!-- իր, մեր, իրենց, անոր, անոնց, իմ, եկեղեցւոյ, հայոց, ձեր, քու -->
-    <feat name="Case" value="Ins" upos="ADP,AUX,NOUN,PRON,PROPN,VERB">2351</feat><!-- կերպով, ըլլալով, ձեւով, առումով, խօսքով, ուղղութեամբ, պատճառով, իմաստով, աչքերով, որով -->
-    <feat name="Case" value="Loc" upos="NOUN,PRON">9</feat><!-- Յամենայն, ինչումն, դաշտումը, թուումն, կեանքում, որում, քորիդորում -->
-    <feat name="Case" value="Nom" upos="ADP,NOUN,PRON,PROPN,VERB">21263</feat><!-- որ, ինչ, որոնք, ան, բան, օր, ես, անոնք, տարի, հայ -->
-    <feat name="ConjType" value="Comp" upos="CCONJ">108</feat><!-- այլ, ինչպէս, այլեւ, այդպէս -->
-    <feat name="Connegative" value="Yes" upos="AUX,VERB">390</feat><!-- գիտեր, կրնար, ուզեր, յիշեր, ըներ, հասկնար, ճանչնար, ունենար, բաւեր, ըլլար -->
-    <feat name="Definite" value="Def" upos="ADP,NOUN,PRON,PROPN,VERB">14416</feat><!-- ին, որուն, մէկը, ը, կեանքը, հայրը, երկրին, օրը, օրերուն, անունը -->
-    <feat name="Definite" value="Ind" upos="ADP,AUX,NOUN,PRON,PROPN,VERB">22618</feat><!-- որ, ինչ, բան, ի, օր, Հայաստանի, Թուրքիոյ, տարի, հայ, անգամ -->
+    <feat name="Aspect" value="Prosp" upos="AUX,VERB">5982</feat><!-- պիտի, պէտք, ըլլայ, ըսէ, ըսեմ, ըլլար, կարծես, գայ, ուզեմ, ըլլան -->
+    <feat name="Case" value="Abl" upos="ADP,NOUN,PRON,PROPN,VERB">2025</feat><!-- ամէնէն, անկէ, էն, մէջէն, կողմէ, ամենէն, ատկէ, իրմէ, անոնցմէ, տունէն -->
+    <feat name="Case" value="Acc" upos="NOUN,PRON">391</feat><!-- զայն, մեզ, զինքը, զիս, զոր, զինք, զանոնք, իրար, ձեզ, քեզ -->
+    <feat name="Case" value="Dat" upos="ADP,AUX,NOUN,PRON,PROPN,VERB">14103</feat><!-- ի, ին, որուն, Հայաստանի, անոր, Թուրքիոյ, իրեն, իրենց, որոնց, մեզի -->
+    <feat name="Case" value="Gen" upos="DET,NOUN,PRON,PROPN">397</feat><!-- իր, եկեղեցւոյ, հայոց, անոնց, մեր, նորին, վերջոյ, իմ, ձեր, Աստուծոյ -->
+    <feat name="Case" value="Ins" upos="ADP,AUX,NOUN,PRON,PROPN,VERB">2349</feat><!-- կերպով, ըլլալով, ձեւով, առումով, խօսքով, ուղղութեամբ, պատճառով, իմաստով, աչքերով, որով -->
+    <feat name="Case" value="Loc" upos="DET,NOUN,PRON">9</feat><!-- Յամենայն, ինչումն, դաշտումը, թուումն, կեանքում, որում, քորիդորում -->
+    <feat name="Case" value="Nom" upos="ADP,NOUN,PRON,PROPN,VERB">21226</feat><!-- որ, ինչ, որոնք, ան, բան, ես, օր, անոնք, տարի, հայ -->
+    <feat name="ConjType" value="Comp" upos="CCONJ">84</feat><!-- այլ, այլեւ, եւ -->
+    <feat name="Connegative" value="Yes" upos="AUX,VERB">389</feat><!-- գիտեր, կրնար, ուզեր, յիշեր, ըներ, հասկնար, ճանչնար, ունենար, բաւեր, ըլլար -->
+    <feat name="Definite" value="Def" upos="ADP,NOUN,PRON,PROPN,VERB">14351</feat><!-- ին, որուն, մէկը, ը, կեանքը, հայրը, երկրին, օրը, օրերուն, անունը -->
+    <feat name="Definite" value="Ind" upos="ADP,AUX,NOUN,PRON,PROPN,VERB">22585</feat><!-- որ, ինչ, բան, ի, օր, Հայաստանի, Թուրքիոյ, տարի, հայ, անգամ -->
     <feat name="Degree" value="Abs" upos="ADJ">3</feat><!-- գերզգայուն, գերզօր, գերհզօր -->
     <feat name="Degree" value="Cmp" upos="ADV">260</feat><!-- աւելի, պակաս, նուազ -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV">4211</feat><!-- մեծ, նոր, առաջին, վերջին, տարբեր, կարեւոր, շատ, երկար, աղուոր, պարզ -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV">4197</feat><!-- մեծ, նոր, առաջին, վերջին, տարբեր, կարեւոր, շատ, երկար, աղուոր, պարզ -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">105</feat><!-- մեծագոյն, լաւագոյն, կարեւորագոյն, նուազագոյն, առաւելագոյն, հնագոյն, ամենաբարձր, բարձրագոյն, նորագոյն, նուազագոյնը -->
-    <feat name="Deixis" value="Med" upos="ADV,DET,PRON">777</feat><!-- այդ, այդպէս, այդքան, ատկէ, այդպիսի, ատիկա, ատոր, ատ, ատանկ, ատոնք -->
-    <feat name="Deixis" value="Prox" upos="ADV,DET,PRON">1141</feat><!-- այս, հոս, այսպէս, սա, այստեղ, ասիկա, աս, այսքան, ասոր, այսպիսի -->
-    <feat name="Deixis" value="Remt" upos="ADV,DET,PRON">776</feat><!-- այն, հոն, այնքան, զայն, անիկա, անոր, այնպէս, ան, անկէ, նորին -->
-    <feat name="Deixis[psor]" value="Prox" upos="NOUN">60</feat><!-- վերջերս, ներկայիս, թերթիս, օրս, մարդուս, աշխարհիս, քաղաքիս, Աթոռոյս, աշխարհքս, երկրիս -->
+    <feat name="Deixis" value="Med" upos="ADV,DET,PRON">778</feat><!-- այդ, այդպէս, այդքան, ատկէ, այդպիսի, ատիկա, ատոր, ատ, ատանկ, ատոնք -->
+    <feat name="Deixis" value="Prox" upos="ADV,DET,NOUN,PRON">1153</feat><!-- այս, հոս, այսպէս, սա, այստեղ, ասիկա, աս, այսքան, ասոր, այսպիսի -->
+    <feat name="Deixis" value="Remt" upos="ADV,DET,PRON">862</feat><!-- այն, նոյն, հոն, այնքան, զայն, անիկա, անոր, այնպէս, ան, անկէ -->
+    <feat name="Deixis[psor]" value="Prox" upos="NOUN">47</feat><!-- վերջերս, թերթիս, օրս, մարդուս, աշխարհիս, ներկայիս, քաղաքիս, Աթոռոյս, աշխարհքս, երկրիս -->
     <feat name="Echo" value="Ech" upos="ADJ,ADV,NOUN,NUM">25</feat><!-- մէյ, միս, կապուստ, կապուստը, կապուստի, կապուստով, կափ, ձուն, մունր, շիփ -->
-    <feat name="Foreign" value="Yes" upos="ADJ,PROPN,PUNCT,X">2484</feat><!-- :, `, Ապու, la, ERVAB, de, of, et, օղլու, Disaster -->
+    <feat name="ExtPos" value="ADJ" upos="ADJ">16</feat><!-- շատ, խել, քչիկ -->
+    <feat name="ExtPos" value="ADP" upos="ADP,ADV,NOUN">168</feat><!-- ի, քան, հիման, դէմ, դէպ, զրկումը, նախ -->
+    <feat name="ExtPos" value="ADV" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,PART">213</feat><!-- քիչ, ի, ինչպէս, ներկայիս, աւելի, երբ, այնքան, ոչ, առ, իբր -->
+    <feat name="ExtPos" value="CCONJ" upos="ADV,CCONJ,PART,SCONJ">139</feat><!-- ոչ, ինչպէս, բայց, այլ, եթէ, եւ, կամ, այդպէս, այնպէս, թէ -->
+    <feat name="ExtPos" value="DET" upos="DET,PART,PRON,X">372</feat><!-- ամէն, քանի, ոչ, մի, ո, մէկ, ինչ, այս, լէ, ինքն -->
+    <feat name="ExtPos" value="INTJ" upos="INTJ">3</feat><!-- ափսոս, է, հը -->
+    <feat name="ExtPos" value="PART" upos="ADP,ADV,DET,NOUN,PART,PRON,SCONJ,VERB">129</feat><!-- կարծես, ի, չէ, կարծեմ, ինչ, անշուշտ, իբրեւ, իբր, նախ, Ինչպէս -->
+    <feat name="ExtPos" value="PRON" upos="DET,PART,PRON">117</feat><!-- ինչ, ամէն, ոչ, ինքն, իրենք, մէկ, մի -->
+    <feat name="ExtPos" value="PROPN" upos="X">2</feat><!-- Camilla -->
+    <feat name="ExtPos" value="SCONJ" upos="ADJ,ADP,ADV,PART,SCONJ,VERB">135</feat><!-- ինչպէս, քանի, մինչեւ, վասն, այնպէս, թէ, հակառակ, որպէս, չէ, չնայած -->
+    <feat name="Foreign" value="Yes" upos="ADJ,PROPN,PUNCT,X">2481</feat><!-- :, `, Ապու, la, ERVAB, de, of, et, օղլու, Disaster -->
     <feat name="Hyph" value="Yes" upos="ADJ,NOUN,X">464</feat><!-- ի, ին, ը, էն, ն, հակա, ները, ու, յի, ով -->
-    <feat name="LangId" value="Hy" upos="ADJ,ADP,ADV,AUX,DET,NOUN,PART,PRON,PROPN,VERB,X">118</feat><!-- էլ, երեւի, դու, ուզում, նա, քեզ, գժուել, ոնց, Ախպէր, անում -->
+    <feat name="LangId" value="Hy" upos="ADJ,ADP,ADV,AUX,DET,NOUN,PART,PRON,PROPN,VERB,X">123</feat><!-- էլ, երեւի, դու, ձեզ, ուզում, նա, քեզ, գժուել, ոնց, Ախպէր -->
     <feat name="Mood" value="Cnd" upos="VERB">2</feat><!-- իցէ -->
-    <feat name="Mood" value="Imp" upos="VERB">142</feat><!-- եկուր, եկէք, ըսէ, առէք, գացէք, ըրէ, տես, առ, կեցիր, հաւատացէք -->
-    <feat name="Mood" value="Ind" upos="AUX,VERB">11726</feat><!-- կը, է, կ՚, էր, պիտի, են, էին, չէ, եմ, կու -->
+    <feat name="Mood" value="Imp" upos="VERB">141</feat><!-- եկուր, եկէք, ըսէ, առէք, գացէք, տես, առ, ըրէ, կեցիր, հաւատացէք -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">11712</feat><!-- կը, է, կ՚, էր, պիտի, են, էին, չէ, եմ, կու -->
     <feat name="Mood" value="Nec" upos="AUX">1</feat><!-- պիտի -->
-    <feat name="Mood" value="Sub" upos="AUX,VERB">5218</feat><!-- ըլլայ, ըսէ, ըսեմ, ըլլար, կարծես, գայ, ուզեմ, ըլլան, ունենայ, տայ -->
+    <feat name="Mood" value="Sub" upos="AUX,VERB">5208</feat><!-- ըլլայ, ըսէ, ըսեմ, ըլլար, կարծես, գայ, ուզեմ, ըլլան, ունենայ, տայ -->
     <feat name="NameType" value="Com" upos="ADJ,PROPN">185</feat><!-- Մխիթարեան, ՀՅԴ, Մունիր, Սահակեան, ԼԵՄ, Ուիքիմետիա, ՀԱՊԿ, Հայկազեան, ՄԱԿ, Մխիթարեանի -->
     <feat name="NameType" value="Geo" upos="ADJ,NOUN,PROPN">1724</feat><!-- Հայաստանի, Թուրքիոյ, Արցախի, Հայաստան, Պոլսոյ, Լիբանանի, Թուրքիան, Պոլիս, ամերիկեան, եւրոպական -->
-    <feat name="NameType" value="Giv" upos="NOUN,PROPN">1430</feat><!-- Յակոբ, Սահակ, Միքքին, Խրիսթինա, Նուրհան, Արամ, Գրիգոր, Գալուստ, Գարեգին, Խրիսթինային -->
+    <feat name="NameType" value="Giv" upos="NOUN,PROPN">1428</feat><!-- Յակոբ, Սահակ, Միքքին, Խրիսթինա, Նուրհան, Արամ, Գրիգոր, Գալուստ, Գարեգին, Խրիսթինային -->
     <feat name="NameType" value="Oth" upos="NOUN,PROPN">39</feat><!-- Զատկի, Ծնունդի, կաղանդի, Եղեռնի, Ռավեննա, Վարդավառ, կաղանդը, Դաուհիտ, Եղեռնէն, Եղեռնին -->
     <feat name="NameType" value="Pro" upos="NOUN,PROPN">179</feat><!-- ԺԱՄԱՆԱԿ, Ուիքիփետիան, Ակօս, Երդիք, Ուիքիփետիա, Աստուածաշունչի, Զնտուկը, Աստուածաշունչ, Աստուածաշունչը, Կտակարան -->
-    <feat name="NameType" value="Prs" upos="NOUN,PROPN">214</feat><!-- Լուսաւորիչ, Աստուածածին, Օշականի, Վարուժանի, Սապահէտտին, Սապահէտտինի, Սողոմենց, Տեմուրճենց, Կոմիտաս, Սեւակի -->
-    <feat name="NameType" value="Sur" upos="ADJ,NOUN,PROPN">880</feat><!-- Տիգրանեան, Կիւլպէնկեան, Վիլանի, Մաշալեան, Շահինեանի, Տամատեան, Քառլիէ, Նազարիկեան, Նոպէլ, Գովանի -->
-    <feat name="Number" value="Coll" upos="NOUN,PROPN">3083</feat><!-- այսօր, խաղաղութեան, հայերէնի, հայութեան, մամուլի, տարեկան, ազատութեան, անցեալին, հանդէս, հարկ -->
-    <feat name="Number" value="Plur" upos="AUX,DET,NOUN,PRON,PROPN,VERB">12070</feat><!-- են, իրենց, մեր, էին, որոնք, անոնց, անոնք, չեն, մենք, ենք -->
+    <feat name="NameType" value="Prs" upos="NOUN,PROPN">213</feat><!-- Լուսաւորիչ, Աստուածածին, Օշականի, Վարուժանի, Սապահէտտին, Սապահէտտինի, Սողոմենց, Տեմուրճենց, Կոմիտաս, Սեւակի -->
+    <feat name="NameType" value="Sur" upos="ADJ,NOUN,PROPN">879</feat><!-- Տիգրանեան, Կիւլպէնկեան, Վիլանի, Մաշալեան, Շահինեանի, Տամատեան, Քառլիէ, Նազարիկեան, Նոպէլ, Գովանի -->
+    <feat name="Number" value="Coll" upos="NOUN,PROPN">3080</feat><!-- այսօր, խաղաղութեան, հայերէնի, հայութեան, մամուլի, տարեկան, ազատութեան, անցեալին, հանդէս, հարկ -->
+    <feat name="Number" value="Plur" upos="AUX,DET,NOUN,PRON,PROPN,VERB">12047</feat><!-- են, իրենց, մեր, էին, որոնք, անոնց, անոնք, չեն, մենք, ենք -->
     <feat name="Number" value="Ptan" upos="NOUN,PROPN">41</feat><!-- Սողոմենց, Տեմուրճենց, Դպրենց, Մանուկանց, Մարուկենց, Նալպանտենց, Պեկիշենց, Արխնենց, Բարիկանց, Կոչենց -->
-    <feat name="Number" value="Sing" upos="AUX,DET,NOUN,PRON,PROPN,VERB">37197</feat><!-- է, իր, էր, որ, անոր, չէ, ան, բան, ի, ես -->
+    <feat name="Number" value="Sing" upos="AUX,DET,NOUN,PRON,PROPN,VERB">37217</feat><!-- է, իր, էր, որ, անոր, չէ, ինչ, ան, բան, ի -->
     <feat name="Number[psor]" value="Plur" upos="ADP,AUX,NOUN,PRON,VERB">56</feat><!-- գլուխնին, երեսնին, ըլլալնուս, հետերնին, Ամենքնիս, Աչքերնին, Ժողվըւելնուն, Մերիններուն, Տուներնին, Տրամադրութիւննիս -->
-    <feat name="Number[psor]" value="Sing" upos="ADP,NOUN,PROPN,VERB">723</feat><!-- հայրս, մայրս, հօրս, մօրս, պապս, սիրտս, գլուխս, քովս, հետս, մամաս -->
+    <feat name="Number[psor]" value="Sing" upos="ADP,NOUN,PROPN,VERB">730</feat><!-- հայրս, մայրս, հօրս, մօրս, պապս, քովէն, սիրտս, գլուխս, քովս, հետս -->
     <feat name="NumForm" value="Armenian" upos="ADJ,NUM">75</feat><!-- բ, ա, գ, ԺԹ, Ե, Դ, Զ, Ը, ի, Է -->
     <feat name="NumForm" value="Combi" upos="ADJ">50</feat><!-- 44-օրեայ, 113-րդ, 20-րդ, 106-րդ, 12-րդ, 21-րդ, 44օրեայ, 100-րդ, 12-ամեայ, 12րդ -->
-    <feat name="NumForm" value="Digit" upos="NUM">606</feat><!-- 2021, 2, 15, 5, 12, 2020, 30, 10, 6, 7 -->
-    <feat name="NumForm" value="Word" upos="ADJ,NUM">633</feat><!-- երկու, առաջին, մէկ, երեք, չորս, երկրորդ, հինգ, կէս, վեց, տասը -->
+    <feat name="NumForm" value="Digit" upos="NUM">605</feat><!-- 2021, 2, 15, 5, 12, 2020, 30, 10, 6, 7 -->
+    <feat name="NumForm" value="Word" upos="ADJ,NUM">634</feat><!-- երկու, առաջին, մէկ, երեք, չորս, երկրորդ, հինգ, կէս, վեց, տասը -->
     <feat name="NumType" value="Card" upos="ADJ,NUM">1045</feat><!-- երկու, մէկ, երեք, 2021, չորս, հինգ, 2, 15, 5, վեց -->
     <feat name="NumType" value="Dist" upos="ADJ,NUM">12</feat><!-- 8, մէկական, մէյմէկ -->
     <feat name="NumType" value="Frac" upos="NUM">31</feat><!-- կէս, երկուքուկէս, քառորդ, մէկուկէս, 1,3, 1,5, 1,62, 12,5, 203,2, 5,5 -->
     <feat name="NumType" value="Ord" upos="ADJ">265</feat><!-- առաջին, երկրորդ, Բ, Ա, երրորդ, առջի, Գ, ԺԹ, չորրորդ, 113-րդ -->
-    <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">2776</feat><!-- մեր, եմ, ես, չեմ, մենք, ենք, իմ, մեզի, ըսեմ, ինծի -->
-    <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">901</feat><!-- կարծես, դուն, ես, ձեր, դուք, էք, չես, քու, քեզի, քեզ -->
-    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">12225</feat><!-- է, իր, էր, են, իրենց, էին, չէ, անոր, ան, անոնց -->
-    <feat name="Person[psor]" value="1" upos="ADP,AUX,NOUN,PRON,PROPN,VERB">638</feat><!-- հայրս, մայրս, հօրս, մօրս, պապս, սիրտս, գլուխս, քովս, բոլորիս, բոլորս -->
+    <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">2774</feat><!-- մեր, եմ, ես, չեմ, մենք, ենք, իմ, մեզի, ըսեմ, ինծի -->
+    <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">898</feat><!-- կարծես, դուն, ես, ձեր, դուք, էք, չես, քու, քեզի, քեզ -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">12200</feat><!-- է, իր, էր, են, իրենց, էին, չէ, անոր, ան, անոնց -->
+    <feat name="Person[psor]" value="1" upos="ADP,AUX,NOUN,PRON,PROPN,VERB">637</feat><!-- հայրս, մայրս, հօրս, մօրս, պապս, սիրտս, գլուխս, քովս, բոլորիս, բոլորս -->
     <feat name="Person[psor]" value="2" upos="ADP,NOUN,PRON,VERB">140</feat><!-- աչքդ, լեզուդ, բերնիդ, գլուխդ, հետդ, մամադ, մասիդ, Ականջդ, անունդ, բարեկամդ -->
-    <feat name="Person[psor]" value="3" upos="ADP,NOUN,PRON,VERB">207</feat><!-- զինքը, ինքն, ետքը, ինքը, վրան, հետը, քովը, մէջն, ինքզինքը, ետեւը -->
-    <feat name="Polarity" value="Neg" upos="AUX,PART,VERB">1549</feat><!-- չէ, ոչ, չէր, չի, չեմ, չեն, չկայ, չենք, չունի, չէին -->
-    <feat name="Polarity" value="Pos" upos="AUX,VERB">18444</feat><!-- է, էր, պիտի, են, էին, եմ, պէտք, ըլլայ, եղած, կայ -->
+    <feat name="Person[psor]" value="3" upos="ADP,NOUN,PRON,VERB">217</feat><!-- զինքը, ինքն, ետքը, ինքը, վրան, հետը, քովէն, քովը, մէջն, ինքզինքը -->
+    <feat name="Polarity" value="Neg" upos="AUX,PART,VERB">1545</feat><!-- չէ, ոչ, չէր, չի, չեմ, չեն, չկայ, չենք, չունի, չէին -->
+    <feat name="Polarity" value="Pos" upos="AUX,VERB">18423</feat><!-- է, էր, պիտի, են, էին, եմ, պէտք, ըլլայ, եղած, կայ -->
     <feat name="Polite" value="Form" upos="AUX,DET,PRON,VERB">127</feat><!-- էք, ձեզ, դուք, ձեր, չէք, ձեզի, գիտէք, ըսէք, խօսիք, կարծէք -->
-    <feat name="Poss" value="Yes" upos="ADJ,DET,NOUN,PRON">1770</feat><!-- իր, մեր, իրենց, անոր, անոնց, իմ, ձեր, քու, Հայաստանեայց, իրենը -->
-    <feat name="PronType" value="Art" upos="DET">2032</feat><!-- մը, մըն, մի, մէկ -->
-    <feat name="PronType" value="Dem" upos="ADV,DET,PRON">2924</feat><!-- այս, այդ, այն, հոս, նոյն, հոն, այսպէս, այնքան, միւս, զայն -->
-    <feat name="PronType" value="Emp" upos="DET,PRON">1594</feat><!-- իր, իրենց, իրեն, ինք, զինքը, զինք, ինքն, իրենք, ինքը, զիրենք -->
-    <feat name="PronType" value="Exc" upos="ADV,DET,PRON">56</feat><!-- ինչ, որքան, ինչեր, ինչպիսի, քանի, ինչքան, որ, ով -->
-    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">782</feat><!-- քանի, մէկ, ուրիշ, մէկը, այլ, ինչ, որոշ, որեւէ, մէկն, այլն -->
-    <feat name="PronType" value="Int" upos="ADV,DET,PRON">460</feat><!-- ինչ, ինչու, ինչպէս, ով, ուր, որ, երբ, որքան, քանի, ուրկէ -->
+    <feat name="Poss" value="Yes" upos="ADJ,DET,NOUN,PRON">1766</feat><!-- իր, մեր, իրենց, անոր, անոնց, իմ, ձեր, քու, Հայաստանեայց, իրենը -->
+    <feat name="PronType" value="Art" upos="DET">2028</feat><!-- մը, մըն, մի, մէկ -->
+    <feat name="PronType" value="Dem" upos="ADV,DET,PRON">2947</feat><!-- այս, այդ, այն, հոս, նոյն, հոն, այսպէս, այնքան, միւս, զայն -->
+    <feat name="PronType" value="Emp" upos="DET,PRON">1591</feat><!-- իր, իրենց, իրեն, ինք, զինքը, զինք, ինքն, իրենք, ինքը, զիրենք -->
+    <feat name="PronType" value="Exc" upos="ADV,DET,PRON">55</feat><!-- ինչ, որքան, ինչեր, ինչպիսի, քանի, ինչքան, որ, ով -->
+    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">658</feat><!-- մէկ, ուրիշ, մէկը, այլ, ինչ, որոշ, որեւէ, մէկն, այլն, մէկուն -->
+    <feat name="PronType" value="Int" upos="ADV,DET,PRON">571</feat><!-- ինչ, քանի, ինչու, ինչպէս, ով, ուր, որ, երբ, որքան, ուրկէ -->
     <feat name="PronType" value="Neg" upos="PRON">21</feat><!-- ոչինչ, ոչինչով -->
-    <feat name="PronType" value="Prs" upos="DET,PRON">1728</feat><!-- մեր, անոր, ան, անոնց, ես, անոնք, մենք, իմ, մեզի, ինծի -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">1726</feat><!-- մեր, անոր, ան, անոնց, ես, անոնք, մենք, իմ, մեզի, ինծի -->
     <feat name="PronType" value="Rcp" upos="PRON">83</feat><!-- իրարու, իրար, իրարմէ, զիրար, մէկ, մէկզմէկու, մէկու -->
-    <feat name="PronType" value="Rel" upos="ADV,DET,PRON">1322</feat><!-- որ, որոնք, երբ, որուն, ուր, որոնց, ինչ, որու, զոր, ինչպէս -->
-    <feat name="PronType" value="Tot" upos="DET,PRON">785</feat><!-- ամէն, բոլոր, ամբողջ, ամէնէն, բոլորը, բոլորին, ամեն, իւրաքանչիւր, ամենէն, բոլորն -->
-    <feat name="Reflex" value="Yes" upos="DET,PRON,VERB">908</feat><!-- իր, իրենց, իրեն, ինքզինք, ինքն, իրենք, ինքզինքը, ինքնիրեն, հագուած, ինքզինքին -->
-    <feat name="Style" value="Arch" upos="ADJ,ADP,ADV,DET,NOUN,PRON,PROPN,VERB">453</feat><!-- եկեղեցւոյ, տեղի, հայոց, նորին, վերջոյ, յառաջ, Աստուծոյ, հասարակաց, այլոց, նպաստ -->
-    <feat name="Style" value="Coll" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PRON,PROPN,VERB">310</feat><!-- կոր, տղոց, ասանկ, էն, անանկ, ինձ, առի, բոլորի, սանկ, զաւկին -->
-    <feat name="Style" value="Expr" upos="ADJ,ADP,ADV,NOUN,PRON,PROPN,VERB">69</feat><!-- Խաչօն, քիչիկ, Մարուշ, անուշիկ, Խաչօ, կտիկ, մարդուկը, քոյրիկս, քչիկ, Ակոն -->
+    <feat name="PronType" value="Rel" upos="ADV,DET,PRON">1439</feat><!-- որ, որոնք, երբ, ինչպէս, որուն, ուր, որոնց, ինչ, որու, զոր -->
+    <feat name="PronType" value="Tot" upos="DET,PRON">782</feat><!-- ամէն, բոլոր, ամբողջ, ամէնէն, բոլորը, բոլորին, ամեն, իւրաքանչիւր, ամենէն, բոլորն -->
+    <feat name="Reflex" value="Yes" upos="DET,PRON,VERB">905</feat><!-- իր, իրենց, իրեն, ինքզինք, ինքն, իրենք, ինքզինքը, ինքնիրեն, հագուած, ինքզինքին -->
+    <feat name="Style" value="Arch" upos="ADJ,ADP,ADV,DET,INTJ,NOUN,PRON,PROPN,VERB">460</feat><!-- եկեղեցւոյ, տեղի, հայոց, նորին, վերջոյ, յառաջ, Աստուծոյ, հասարակաց, այլոց, նպաստ -->
+    <feat name="Style" value="Coll" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PRON,PROPN,VERB">310</feat><!-- կոր, տղոց, ասանկ, էն, անանկ, ինձ, առի, բոլորի, սանկ, վերջը -->
+    <feat name="Style" value="Expr" upos="ADJ,ADP,ADV,INTJ,NOUN,PRON,PROPN,VERB">74</feat><!-- Խաչօն, Մարուշ, անուշիկ, Խաչօ, կտիկ, մարդուկը, քոյրիկս, քչիկ, Աաա, Ակոն -->
     <feat name="Style" value="Rare" upos="ADJ,ADP,ADV,AUX,NOUN,NUM,PRON,PROPN,VERB">63</feat><!-- կանգ, խնդրոյ, սանուց, Բաց, աստի, դէպ, յանկարծակիի, Երկնաց, Լուրջի, Խանասորայ -->
-    <feat name="Style" value="Slng" upos="NOUN">2</feat><!-- հօտը, պտտիկ -->
-    <feat name="Style" value="Vrnc" upos="ADJ,ADV,INTJ,NOUN,PRON,PROPN,VERB">104</feat><!-- Ուսէփ, մին, առջի, Ամմօ, տուտու, Գազազ, աղբար, Ուսէփին, եազմա, եզնիքը -->
-    <feat name="Subcat" value="Intr" upos="VERB">7586</feat><!-- կայ, կրնայ, եղած, ըլլայ, կրնար, ըլլալ, կրնան, եկած, կան, կար -->
-    <feat name="Subcat" value="Tran" upos="VERB">7901</feat><!-- ըսէ, ըսաւ, ունի, ունեցած, գիտեր, ըսեմ, կարծես, ըսել, ունէր, ունին -->
-    <feat name="Tense" value="Imp" upos="AUX,VERB">2921</feat><!-- էր, էին, չէր, էի, ըլլար, կար, ունէր, չէին, ըսէր, չկար -->
-    <feat name="Tense" value="Past" upos="AUX,VERB">2087</feat><!-- ըսաւ, եղաւ, ունեցաւ, եկաւ, սկսաւ, յայտնեց, ըսի, ելաւ, ըրաւ, պատասխանեց -->
-    <feat name="Tense" value="Pres" upos="AUX,VERB">7524</feat><!-- է, են, չէ, եմ, ըլլայ, չեմ, չեն, կայ, ըսէ, չի -->
+    <feat name="Style" value="Slng" upos="NOUN">3</feat><!-- Եումուրթա, հօտը, պտտիկ -->
+    <feat name="Style" value="Vrnc" upos="ADJ,ADV,INTJ,NOUN,PRON,PROPN,VERB">103</feat><!-- Ուսէփ, մին, առջի, Ամմօ, տուտու, Գազազ, աղբար, Ուսէփին, եազմա, եզնիքը -->
+    <feat name="Subcat" value="Intr" upos="VERB">7579</feat><!-- կայ, կրնայ, եղած, ըլլայ, կրնար, ըլլալ, կրնան, եկած, կան, կար -->
+    <feat name="Subcat" value="Tran" upos="VERB">7888</feat><!-- ըսէ, ըսաւ, ունի, ունեցած, գիտեր, ըսեմ, կարծես, ըսել, ունէր, ունին -->
+    <feat name="Tense" value="Imp" upos="AUX,VERB">2916</feat><!-- էր, էին, չէր, էի, ըլլար, կար, ունէր, չէին, ըսէր, չկար -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">2083</feat><!-- ըսաւ, եղաւ, ունեցաւ, եկաւ, սկսաւ, յայտնեց, ըսի, ելաւ, ըրաւ, պատասխանեց -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">7514</feat><!-- է, են, չէ, եմ, ըլլայ, չեմ, չեն, կայ, ըսէ, չի -->
     <feat name="Typo" value="Yes" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB">187</feat><!-- ամէնէն, ամեն, ամէնուն, միսմինակ, արդեն, ամենքը, եթե, երբէք, ամենը, թագուն -->
-    <feat name="VerbForm" value="Conv" upos="VERB">1</feat><!-- պաշտպանուեցաւ -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">12681</feat><!-- է, էր, են, էին, չէ, եմ, չէր, ըլլայ, չեմ, չեն -->
-    <feat name="VerbForm" value="Inf" upos="AUX,VERB">3336</feat><!-- ըլլալ, ըսել, ըլլալով, ըլլալու, տալ, ընել, ունենալ, տալու, ընելու, առնելու -->
-    <feat name="VerbForm" value="Part" upos="AUX,VERB">4025</feat><!-- եղած, ունեցած, գիտեր, կրնար, սկսած, եկած, եղեր, դարձած, ըրած, հասած -->
-    <feat name="Voice" value="Act" upos="VERB">7879</feat><!-- ըսէ, ըսաւ, ունի, ունեցած, գիտեր, ըսեմ, կարծես, ըսել, ունէր, ունին -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">12660</feat><!-- է, էր, են, էին, չէ, եմ, չէր, ըլլայ, չեմ, չեն -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">3339</feat><!-- ըլլալ, ըսել, ըլլալով, ըլլալու, տալ, ընել, ունենալ, տալու, ընելու, առնելու -->
+    <feat name="VerbForm" value="Part" upos="AUX,VERB">4019</feat><!-- եղած, ունեցած, գիտեր, կրնար, սկսած, եկած, եղեր, դարձած, ըրած, հասած -->
+    <feat name="Voice" value="Act" upos="VERB">7866</feat><!-- ըսէ, ըսաւ, ունի, ունեցած, գիտեր, ըսեմ, կարծես, ըսել, ունէր, ունին -->
     <feat name="Voice" value="Cau" upos="AUX,VERB">43</feat><!-- տալ, տայ, տուաւ, տար, տուեր, տուի, բուսցնել, զգացնէ, զգացունէին, զգացուցած -->
-    <feat name="Voice" value="Mid" upos="VERB">6554</feat><!-- կայ, կրնայ, եղած, ըլլայ, կրնար, ըլլալ, կրնան, եկած, կան, կար -->
-    <feat name="Voice" value="Pass" upos="VERB">1032</feat><!-- կատարուած, ստեղծուած, պատրաստուած, գրուած, նախատեսուած, տրուած, դրուած, ուղղուած, արգիլուած, ենթարկուած -->
+    <feat name="Voice" value="Mid" upos="VERB">6548</feat><!-- կայ, կրնայ, եղած, ըլլայ, կրնար, ըլլալ, կրնան, եկած, կան, կար -->
+    <feat name="Voice" value="Pass" upos="VERB">1031</feat><!-- կատարուած, ստեղծուած, պատրաստուած, գրուած, նախատեսուած, տրուած, դրուած, ուղղուած, արգիլուած, ենթարկուած -->
     <feat name="Voice" value="Rcp" upos="VERB">7</feat><!-- պայմանաւորուեցանք, պսակուեցան, պսակուին, պսակուող, սիրահարուելով, փոխանակուեցան, փոխանակուէին -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="56">
-    <dep name="acl">1782</dep>
-    <dep name="acl:relcl">1017</dep>
-    <dep name="advcl">1430</dep>
-    <dep name="advcl:relcl">154</dep>
-    <dep name="advmod">3936</dep>
-    <dep name="advmod:emph">1153</dep>
-    <dep name="amod">7225</dep>
-    <dep name="appos">690</dep>
-    <dep name="aux">6758</dep>
+    <dep name="acl">1775</dep>
+    <dep name="acl:relcl">1018</dep>
+    <dep name="advcl">1412</dep>
+    <dep name="advcl:relcl">173</dep>
+    <dep name="advmod">4004</dep>
+    <dep name="advmod:emph">1159</dep>
+    <dep name="amod">7204</dep>
+    <dep name="appos">677</dep>
+    <dep name="aux">6745</dep>
     <dep name="aux:caus">26</dep>
     <dep name="aux:ex">11</dep>
-    <dep name="case">5057</dep>
+    <dep name="case">5026</dep>
     <dep name="case:loc">83</dep>
-    <dep name="cc">5037</dep>
-    <dep name="ccomp">650</dep>
-    <dep name="compound">170</dep>
-    <dep name="compound:lvc">1051</dep>
+    <dep name="cc">5048</dep>
+    <dep name="ccomp">652</dep>
+    <dep name="compound">174</dep>
+    <dep name="compound:lvc">1052</dep>
     <dep name="compound:redup">156</dep>
     <dep name="compound:svc">40</dep>
-    <dep name="conj">7538</dep>
-    <dep name="cop">2140</dep>
+    <dep name="conj">7522</dep>
+    <dep name="cop">2137</dep>
     <dep name="csubj">460</dep>
-    <dep name="csubj:pass">27</dep>
+    <dep name="csubj:pass">26</dep>
     <dep name="dep">458</dep>
-    <dep name="det">4745</dep>
-    <dep name="det:poss">1723</dep>
-    <dep name="discourse">799</dep>
-    <dep name="dislocated">108</dep>
+    <dep name="det">4674</dep>
+    <dep name="det:poss">1721</dep>
+    <dep name="discourse">802</dep>
+    <dep name="dislocated">102</dep>
     <dep name="expl">11</dep>
-    <dep name="fixed">970</dep>
-    <dep name="flat">420</dep>
+    <dep name="fixed">1013</dep>
+    <dep name="flat">418</dep>
     <dep name="flat:dist">3</dep>
     <dep name="flat:frac">6</dep>
-    <dep name="flat:name">965</dep>
+    <dep name="flat:name">964</dep>
     <dep name="flat:range">69</dep>
-    <dep name="iobj">427</dep>
+    <dep name="iobj">442</dep>
     <dep name="iobj:agent">10</dep>
-    <dep name="list">28</dep>
-    <dep name="mark">1860</dep>
-    <dep name="nmod">1611</dep>
-    <dep name="nmod:npmod">937</dep>
-    <dep name="nmod:poss">6257</dep>
-    <dep name="nsubj">6734</dep>
+    <dep name="list">30</dep>
+    <dep name="mark">1851</dep>
+    <dep name="nmod">1610</dep>
+    <dep name="nmod:npmod">939</dep>
+    <dep name="nmod:poss">6251</dep>
+    <dep name="nsubj">6731</dep>
     <dep name="nsubj:caus">11</dep>
-    <dep name="nsubj:pass">439</dep>
-    <dep name="nummod">628</dep>
-    <dep name="obj">5736</dep>
-    <dep name="obl">8677</dep>
-    <dep name="obl:agent">102</dep>
-    <dep name="orphan">189</dep>
-    <dep name="parataxis">1064</dep>
-    <dep name="punct">22576</dep>
+    <dep name="nsubj:pass">440</dep>
+    <dep name="nummod">623</dep>
+    <dep name="obj">5708</dep>
+    <dep name="obl">8630</dep>
+    <dep name="obl:agent">103</dep>
+    <dep name="orphan">182</dep>
+    <dep name="parataxis">1088</dep>
+    <dep name="punct">22546</dep>
     <dep name="reparandum">2</dep>
-    <dep name="root">6656</dep>
-    <dep name="vocative">86</dep>
-    <dep name="xcomp">2009</dep>
+    <dep name="root">6644</dep>
+    <dep name="vocative">85</dep>
+    <dep name="xcomp">2005</dep>
   </deps>
 </treebank>
